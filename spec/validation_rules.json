@@ -1,0 +1,79 @@
+{
+  "source": "datasets/uberstrike_scale_and_player.json",
+  "derived_map_metrics": {
+    "note": "All values in Unity units (= meters). Each cites the player metric it comes from. 'min/max' = hard engine limit; 'recommended' = comfortable design value.",
+    "min_ceiling_clearance_standing_u": {
+      "value": 2.0,
+      "recommended": 2.2,
+      "from": "crouch.stand_up_clearance_check.implied_standing_headroom_u (CheckSphere 1.4+0.6). Below 2.0u the player is forced to stay crouched."
+    },
+    "min_crouch_tunnel_height_u": {
+      "value": 1.0,
+      "recommended": 1.1,
+      "from": "crouch.ducked_controller_height_u = 0.9 + skin/margin. A tunnel 1.0-1.1u tall is passable only while crouched (and correctly blocks standing since it is < 2.0u)."
+    },
+    "door_passage_height_u": {
+      "value": 2.0,
+      "recommended": 2.2,
+      "from": "same 2.0u standing clearance. Doorways/arches you can run through standing must be >= 2.0u tall."
+    },
+    "door_passage_width_u": {
+      "value": 1.05,
+      "recommended": 1.4,
+      "from": "player.controller_diameter_u = 1.0 (2 x radius 0.5) + 2 x skin 0.2. Absolute minimum opening ~1.0-1.1u; use >=1.4u so players don't snag."
+    },
+    "min_corridor_width_u": {
+      "value": 1.1,
+      "recommended": 2.0,
+      "from": "player diameter 1.0u. 1.1u = single-file squeeze; ~2.0u lets a player strafe/dodge; 3-4u for main routes where two players cross."
+    },
+    "max_step_up_ledge_u": {
+      "value": 0.415,
+      "recommended": 0.4,
+      "from": "player.step_offset_u = 0.415. Ledges/stairs up to ~0.41u are auto-climbed by walking; anything taller needs a jump. Keep individual stair risers <= 0.4u."
+    },
+    "max_walkable_ramp_angle_deg": {
+      "value": 70,
+      "recommended": 45,
+      "from": "player.slope_limit_deg = 70. Ramps <= 70 deg are walkable; steeper faces block/slide. Use <= 45 deg for comfortable run-up ramps."
+    },
+    "max_jumpable_gap_flat_u": {
+      "value": 4.2,
+      "recommended": 4.0,
+      "from": "jump.run_jump_horizontal_reach_u. Gaps at equal floor height should be <= ~4.0u to be run-jumpable; make intentionally impassable gaps >= ~5u."
+    },
+    "max_jumpable_step_up_u": {
+      "value": 2.25,
+      "recommended": 2.0,
+      "from": "jump.jump_height_u = 2.25. A ledge/platform up to ~2.25u above the floor can be reached with a standing jump (feet clear it); make climbable platforms <= 2.0u of vertical rise, or stagger them."
+    },
+    "crouch_cover_height_u": {
+      "value": 1.0,
+      "recommended": 1.1,
+      "from": "crouched capsule top ~1.0u above floor (crouch.ducked geometry) vs standing head ~1.6u. Cover ~1.0-1.1u tall hides a CROUCHED player but a STANDING player can shoot over it. Classic 'crouch behind, peek by standing' cover."
+    },
+    "chest_high_cover_height_u": {
+      "value": 1.2,
+      "recommended": 1.2,
+      "from": "between crouch head (~1.0u) and standing eye (~1.55u). ~1.1-1.3u cover blocks a standing player's torso while leaving the head exposed to peek/shoot over."
+    },
+    "stand_cover_height_u": {
+      "value": 1.6,
+      "recommended": 2.0,
+      "from": "standing capsule top ~1.6u / eye ~1.55u (player geometry). Cover must be >= ~1.6u to fully conceal a standing player; use 1.8-2.0u walls for reliable full cover."
+    }
+  },
+  "seed_triangles": 15372,
+  "seed_materials": 34,
+  "seed_tags": 23,
+  "tolerance_m": 0.0002,
+  "geometry_budget": {
+    "target_visible_triangles": [
+      75000,
+      195000
+    ],
+    "renderer_target_max": 300
+  },
+  "locked_layout": true,
+  "full_navigation_validation": "pending collision gate"
+}

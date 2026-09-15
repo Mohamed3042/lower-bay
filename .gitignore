@@ -1,0 +1,22 @@
+# Blender
+*.blend1
+*.blend2
+blender/checkpoints/
+
+# Unity (if the package is imported into a project here)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+*.csproj
+*.sln
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Heavy intermediate data dumps (not part of the handoff)
+export/preview/*.json
+local_copy_backups/

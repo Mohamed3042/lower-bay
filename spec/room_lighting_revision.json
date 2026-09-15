@@ -1,0 +1,12 @@
+{
+  "revision": "ad_room_wall_cages_r1",
+  "reason": "Verified ad-room capture and probe coefficients are black; no seed fixture emitters cover z below -8.5.",
+  "confidence": "Measured room envelope; authored fixture placement and photometry, not video-derived precision.",
+  "wallInteriorZ": -12.0,
+  "fixtureY": 2.65,
+  "positionsX": [-3.4, 3.4],
+  "intensity": 2.2,
+  "range": 7.0,
+  "colour": "#fff1d4",
+  "constraints": "No footprint, routes, existing triangle positions or colliders changed; non-colliding wall-mounted detail above player clearance. Caged fixture family is corroborated by footage."
+}

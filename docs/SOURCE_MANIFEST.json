@@ -1,0 +1,62 @@
+[
+  {
+    "file": "reference/seed/11_LowerBay.obj",
+    "source": "11_LowerBay.obj",
+    "sha256": "ce9bfcec7b09b7db904a6dc46b03b5cd4f517121b1cc116e8179fd17e463e505",
+    "bytes": 539341
+  },
+  {
+    "file": "reference/seed/11_LowerBay.mtl",
+    "source": "11_LowerBay.mtl",
+    "sha256": "e173be6c21eb6df888fa1a8dde54de2c89c396d7e10d231f95d2fb88b7fce783",
+    "bytes": 3771
+  },
+  {
+    "file": "reference/seed/11_LowerBay.forge.json",
+    "source": "11_LowerBay.forge.json",
+    "sha256": "f41c71c7d15bd27c6403dde4e928c4f5394f8652e523c6ea461419131e0c0442",
+    "bytes": 874932
+  },
+  {
+    "file": "reference/LOWER_BAY_CANONICAL_FACTS.md",
+    "source": "LOWER_BAY_CANONICAL_FACTS.md",
+    "sha256": "3f7bcba641eeb7b8606d2013474010b3ce730e00f3f8e43284e3edf626399d6a",
+    "bytes": 11947
+  },
+  {
+    "file": "datasets\\README.md",
+    "sha256": "acaa39c221c1ffc44f546623b7338c8cfd6609bb10d2a40eaf85269cf2b16abd"
+  },
+  {
+    "file": "datasets\\uberstrike_export_pipeline.md",
+    "sha256": "2861bb4d9624095d5beb9fc291e8a1a66933def53e44f236d554d103a0edd22d"
+  },
+  {
+    "file": "datasets\\uberstrike_gameplay_objects.json",
+    "sha256": "2ffdc9dc0913afbb417b72271da123bbd19ad4f49309bd9789540d36f299bfa1"
+  },
+  {
+    "file": "datasets\\uberstrike_map_geometry_benchmark.json",
+    "sha256": "d4e4c2575653fb63ced111a533185e2764cb3d1be36066e2c5a410c144c03ce5"
+  },
+  {
+    "file": "datasets\\uberstrike_map_scene_contract.json",
+    "sha256": "60903445af656d536c083aeb17bb40cde6150cb92f9dca234703934b2d73ae29"
+  },
+  {
+    "file": "datasets\\uberstrike_mapgen_failure_ledger.json",
+    "sha256": "705a72b39c8ba9440b19bf032378a9852e8b9cba450d106065e7c4b943175a05"
+  },
+  {
+    "file": "datasets\\uberstrike_materials_shaders.json",
+    "sha256": "38c780e1d1aa85a581e522e34c0df0f894eb47f2dfed233d37e232e24b860849"
+  },
+  {
+    "file": "datasets\\uberstrike_reference_maps.json",
+    "sha256": "d8d8ae095fd1f625773c786bc7e072dbb28f6744a5cf7c5ff858a14e487f18e0"
+  },
+  {
+    "file": "datasets\\uberstrike_scale_and_player.json",
+    "sha256": "d33d027729c690033279c5559f63c85949355eed2f7e9a1d46a3174bce83f67f"
+  }
+]

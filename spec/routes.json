@@ -1,0 +1,175 @@
+{
+  "coordinate_convention": {
+    "units": "metres",
+    "source_obj": "right-handed Y-up",
+    "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+    "construction": "Blender right-handed Z-up",
+    "obj_to_blender": "[x,-z,y]",
+    "unity_to_blender": "[-x,-z,y]",
+    "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+    "confidence": "high; entire triangle multiset and oriented winding checked"
+  },
+  "routes": [
+    {
+      "name": "concourse",
+      "points": [
+        {
+          "x": 31.0,
+          "y": 0.1,
+          "z": 10.5
+        },
+        {
+          "x": 16.0,
+          "y": 0.1,
+          "z": 11.0
+        },
+        {
+          "x": -0.0,
+          "y": 0.1,
+          "z": 10.5
+        },
+        {
+          "x": -16.0,
+          "y": 0.1,
+          "z": 11.0
+        },
+        {
+          "x": -31.0,
+          "y": 0.1,
+          "z": 10.5
+        }
+      ]
+    },
+    {
+      "name": "north_platform",
+      "points": [
+        {
+          "x": 33.0,
+          "y": 0.1,
+          "z": 4.0
+        },
+        {
+          "x": -0.0,
+          "y": 0.1,
+          "z": 4.0
+        },
+        {
+          "x": -33.0,
+          "y": 0.1,
+          "z": 4.0
+        }
+      ]
+    },
+    {
+      "name": "south_platform",
+      "points": [
+        {
+          "x": 33.0,
+          "y": 0.1,
+          "z": -4.0
+        },
+        {
+          "x": -0.0,
+          "y": 0.1,
+          "z": -4.0
+        },
+        {
+          "x": -33.0,
+          "y": 0.1,
+          "z": -4.0
+        }
+      ]
+    },
+    {
+      "name": "corridor",
+      "points": [
+        {
+          "x": 32.0,
+          "y": 0.1,
+          "z": -7.0
+        },
+        {
+          "x": 8.0,
+          "y": 0.1,
+          "z": -7.0
+        },
+        {
+          "x": -13.0,
+          "y": 0.1,
+          "z": -10.0
+        },
+        {
+          "x": -32.0,
+          "y": 0.1,
+          "z": -7.0
+        }
+      ]
+    },
+    {
+      "name": "catwalk_w",
+      "points": [
+        {
+          "x": 34.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 20.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 9.0,
+          "y": 3.1,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "name": "catwalk_e",
+      "points": [
+        {
+          "x": -34.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": -20.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": -9.0,
+          "y": 3.1,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "name": "track",
+      "points": [
+        {
+          "x": 36.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        {
+          "x": -0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        {
+          "x": -36.0,
+          "y": -1.0,
+          "z": 0.0
+        }
+      ]
+    }
+  ],
+  "confidence": "locked reconstruction; polylines are intent, not pathfinding proof",
+  "unresolved": [
+    "corridor waypoint (-13,-10) versus old ad-room envelope",
+    "rev4 catwalk tips versus rev3 narrative",
+    "track polyline crosses train"
+  ]
+}

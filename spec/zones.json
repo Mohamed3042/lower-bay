@@ -1,0 +1,118 @@
+{
+  "zones": [
+    {
+      "id": "H1",
+      "name": "MAIN STATION HALL",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "role": "Central spine, single track + train blocks the middle",
+      "range": "long"
+    },
+    {
+      "id": "T1",
+      "name": "TRACK TRENCH",
+      "level": "L-1",
+      "floorY": -1.1,
+      "position": {
+        "x": -0.0,
+        "y": -1.1,
+        "z": 0.0
+      },
+      "role": "Low flank down the single track",
+      "range": "long"
+    },
+    {
+      "id": "C1",
+      "name": "CONCOURSE / UNDERCROFT",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "role": "Primary wide arena, glass wall to the hall",
+      "range": "mid"
+    },
+    {
+      "id": "R1",
+      "name": "CORRIDOR RING",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -7.0
+      },
+      "role": "Tight flank behind the solid wall",
+      "range": "close"
+    },
+    {
+      "id": "V1",
+      "name": "AD & VENDING ROOM",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -10.0
+      },
+      "role": "Central CQC alcove (heavy armour)",
+      "range": "close"
+    },
+    {
+      "id": "K1",
+      "name": "CATWALKS",
+      "level": "L1",
+      "floorY": 3.0,
+      "position": {
+        "x": -0.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "role": "Two dead-end gantries over the track from the spawns",
+      "range": "long"
+    },
+    {
+      "id": "SW",
+      "name": "WEST SPAWN (mezzanine)",
+      "level": "L1",
+      "floorY": 3.0,
+      "position": {
+        "x": 36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "role": "Elevated blue spawn, ramp down + catwalk",
+      "range": "close"
+    },
+    {
+      "id": "SE",
+      "name": "EAST SPAWN (mezzanine)",
+      "level": "L1",
+      "floorY": 3.0,
+      "position": {
+        "x": -36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "role": "Elevated red spawn, ramp down + catwalk",
+      "range": "close"
+    }
+  ],
+  "coordinate_convention": {
+    "units": "metres",
+    "source_obj": "right-handed Y-up",
+    "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+    "construction": "Blender right-handed Z-up",
+    "obj_to_blender": "[x,-z,y]",
+    "unity_to_blender": "[-x,-z,y]",
+    "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+    "confidence": "high; entire triangle multiset and oriented winding checked"
+  }
+}

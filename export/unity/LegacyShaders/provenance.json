@@ -1,0 +1,35 @@
+{
+  "revision": "legacy_materials_r1",
+  "donors_modified": false,
+  "excluded": "Normal-Glossy.shader: un-restored DummyShaderTextExporter Lambert stub",
+  "files": [
+    {
+      "file": "Normal-BumpSpec.shader",
+      "source": "UberStrike client / Assets/Normal-BumpSpec.shader",
+      "sha256": "4CBB29341BF21ED1B934E1402975473CB328DF4B52888F2E1D99780D54C0D4FD",
+      "role": "opaque normal-mapped Blinn-Phong",
+      "provenance": "donor restored source, not byte-exact original binary"
+    },
+    {
+      "file": "Illumin-Diffuse.shader",
+      "source": "UberStrike client / Assets/Illumin-Diffuse.shader",
+      "sha256": "FDC23346B0CEE0AD95118DDC8CF19CCFD575A81C0DAF73373EEEC9B530EF12F2",
+      "role": "Lambert self-illumination",
+      "provenance": "donor restored source, not byte-exact original binary"
+    },
+    {
+      "file": "Normal-DiffuseDetail.shader",
+      "source": "UberStrike client / Assets/Normal-DiffuseDetail.shader",
+      "sha256": "1FEC2550ABF8DA680BFFA05ED8B297C715FB939DD841D473BAB9A29AFCB69302",
+      "role": "Lambert detail overlay",
+      "provenance": "donor restored source, not byte-exact original binary"
+    },
+    {
+      "file": "Particle Alpha Blend Cull Back.shader",
+      "source": "UberStrike client / Assets/Particle Alpha Blend Cull Back.shader",
+      "sha256": "307D2FFBE6AC5EBAC5D811CA27E544674088C33C6EF400BF004093413DCCBEB5",
+      "role": "glass",
+      "provenance": "migrated first-party source with UnityObjectToClipPos upgrade"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "levels": [
+    {
+      "name": "trench",
+      "z_m": -1.2
+    },
+    {
+      "name": "platform",
+      "z_m": 0
+    },
+    {
+      "name": "train_roof",
+      "z_m": 2.2
+    },
+    {
+      "name": "catwalk",
+      "z_m": 3
+    },
+    {
+      "name": "spawn_deck",
+      "z_m": 3.4
+    }
+  ],
+  "uncertainties": [
+    "zone T1 marker floorY=-1.1 differs from -1.2 physical trench floor"
+  ]
+}

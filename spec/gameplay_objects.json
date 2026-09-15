@@ -1,0 +1,150 @@
+{
+  "coordinate_convention": {
+    "units": "metres",
+    "source_obj": "right-handed Y-up",
+    "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+    "construction": "Blender right-handed Z-up",
+    "obj_to_blender": "[x,-z,y]",
+    "unity_to_blender": "[-x,-z,y]",
+    "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+    "confidence": "high; entire triangle multiset and oriented winding checked"
+  },
+  "spawns": [
+    {
+      "team": "A",
+      "name": "COBALT",
+      "position": {
+        "x": 36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "color": "#3f7fe2"
+    },
+    {
+      "team": "B",
+      "name": "VERMILION",
+      "position": {
+        "x": -36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "color": "#e2603f"
+    }
+  ],
+  "pickups": [
+    {
+      "kind": "power",
+      "label": "SNIPER",
+      "position": {
+        "x": -0.0,
+        "y": 2.2,
+        "z": 0.0
+      }
+    },
+    {
+      "kind": "armour",
+      "label": "HEAVY ARMOUR",
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -10.0
+      }
+    },
+    {
+      "kind": "armour",
+      "label": "ARMOUR",
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 11.0
+      }
+    },
+    {
+      "kind": "health",
+      "label": "HEALTH",
+      "position": {
+        "x": 28.0,
+        "y": 0.0,
+        "z": 8.0
+      }
+    },
+    {
+      "kind": "health",
+      "label": "HEALTH",
+      "position": {
+        "x": -28.0,
+        "y": 0.0,
+        "z": 8.0
+      }
+    },
+    {
+      "kind": "health",
+      "label": "HEALTH",
+      "position": {
+        "x": 25.0,
+        "y": -1.2,
+        "z": 0.0
+      }
+    },
+    {
+      "kind": "health",
+      "label": "HEALTH",
+      "position": {
+        "x": -25.0,
+        "y": -1.2,
+        "z": 0.0
+      }
+    },
+    {
+      "kind": "ammo",
+      "label": "AMMO",
+      "position": {
+        "x": 30.0,
+        "y": 0.0,
+        "z": -7.0
+      }
+    },
+    {
+      "kind": "ammo",
+      "label": "AMMO",
+      "position": {
+        "x": -30.0,
+        "y": 0.0,
+        "z": -7.0
+      }
+    },
+    {
+      "kind": "ammo",
+      "label": "AMMO",
+      "position": {
+        "x": 8.0,
+        "y": 0.0,
+        "z": 4.0
+      }
+    },
+    {
+      "kind": "ammo",
+      "label": "AMMO",
+      "position": {
+        "x": -8.0,
+        "y": 0.0,
+        "z": -4.0
+      }
+    }
+  ],
+  "metadata": {
+    "SceneName": "LevelLowerBay",
+    "MapId": null,
+    "GameModes": [
+      100,
+      101
+    ],
+    "MaxPlayers": null
+  },
+  "status": "anchors preserved; runtime components and precise pickup categories pending",
+  "unresolved": [
+    "spawn anchor y=3 versus canonical deck y=3.4",
+    "MapId owner allocation",
+    "health/ammo categories not invented"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "revision": "coplanar_surface_ownership_r1",
+  "evidence": "validation/measurements/coplanar_and_stairs.json",
+  "coordinate_space": "Unity metres",
+  "policy": "Clip only positively overlapping, same-facing, axis-aligned coplanar render faces. Preserve all collision meshes, bounds, normals and interpolated UVs. Never offset whole materials.",
+  "rules": [
+    {"under": "LB_SEED_wall_tile", "over": "LB_SEED_wall_tile_d", "reason": "The lower dado owns the shared surface, not two competing faces."},
+    {"under": "LB_SEED_wall_tile_d", "over": "LB_SEED_wall_tile_d", "reason": "First authored face owns overlapping dado corners."},
+    {"under": "LB_SEED_track_conc_d", "over": "LB_SEED_rail_rail", "axis": 1, "plane": -1.08, "reason": "Rail flange owns coincident sleeper-top patches."}
+  ],
+  "excluded": ["Train/rail contact: requires moving-train construction, not a stationary hole in rails.", "Opposing faces and non-axis-aligned faces are not modified."],
+  "confidence": "High for measured coplanarity; live-camera verification still required. Not a missing-floor or route fix."
+}

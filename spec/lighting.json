@@ -1,0 +1,1184 @@
+{
+  "lamps": [
+    {
+      "position": {
+        "x": -0.0,
+        "y": 5.1,
+        "z": 2.0
+      },
+      "color": "#ffefcb",
+      "intensity": 2.6,
+      "range": 20.0
+    },
+    {
+      "position": {
+        "x": 22.0,
+        "y": 5.1,
+        "z": 2.0
+      },
+      "color": "#ffefcb",
+      "intensity": 2.3,
+      "range": 17.0
+    },
+    {
+      "position": {
+        "x": -22.0,
+        "y": 5.1,
+        "z": 2.0
+      },
+      "color": "#ffefcb",
+      "intensity": 2.3,
+      "range": 17.0
+    },
+    {
+      "position": {
+        "x": -0.0,
+        "y": 3.6,
+        "z": 10.5
+      },
+      "color": "#fff1d4",
+      "intensity": 2.2,
+      "range": 16.0
+    },
+    {
+      "position": {
+        "x": 22.0,
+        "y": 3.6,
+        "z": 10.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.9,
+      "range": 14.0
+    },
+    {
+      "position": {
+        "x": -22.0,
+        "y": 3.6,
+        "z": 10.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.9,
+      "range": 14.0
+    },
+    {
+      "position": {
+        "x": -0.0,
+        "y": 3.2,
+        "z": -7.0
+      },
+      "color": "#f3f8ff",
+      "intensity": 1.9,
+      "range": 13.0
+    },
+    {
+      "position": {
+        "x": -13.0,
+        "y": 3.2,
+        "z": -10.0
+      },
+      "color": "#f3f8ff",
+      "intensity": 1.8,
+      "range": 12.0
+    },
+    {
+      "position": {
+        "x": 9.0,
+        "y": 1.6,
+        "z": 0.0
+      },
+      "color": "#ffdaaa",
+      "intensity": 1.8,
+      "range": 12.0
+    },
+    {
+      "position": {
+        "x": -9.0,
+        "y": 1.6,
+        "z": 0.0
+      },
+      "color": "#ffdaaa",
+      "intensity": 1.8,
+      "range": 12.0
+    },
+    {
+      "position": {
+        "x": 8.0,
+        "y": 2.0,
+        "z": -5.4
+      },
+      "color": "#ff9e95",
+      "intensity": 1.4,
+      "range": 10.0
+    },
+    {
+      "position": {
+        "x": -8.0,
+        "y": 2.0,
+        "z": -5.4
+      },
+      "color": "#ff9e95",
+      "intensity": 1.4,
+      "range": 10.0
+    },
+    {
+      "position": {
+        "x": 40.0,
+        "y": 0.4,
+        "z": 0.0
+      },
+      "color": "#a2c4ff",
+      "intensity": 2.2,
+      "range": 18.0
+    },
+    {
+      "position": {
+        "x": -40.0,
+        "y": 0.4,
+        "z": 0.0
+      },
+      "color": "#a2c4ff",
+      "intensity": 2.2,
+      "range": 18.0
+    },
+    {
+      "position": {
+        "x": 36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "color": "#edf3ff",
+      "intensity": 2.4,
+      "range": 18.0
+    },
+    {
+      "position": {
+        "x": -36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "color": "#edf3ff",
+      "intensity": 2.4,
+      "range": 18.0
+    }
+  ],
+  "sun": {
+    "direction": {
+      "x": 0.35,
+      "y": 0.42,
+      "z": 0.72
+    },
+    "color": "#dae2f9",
+    "intensity": 1.6
+  },
+  "sky": {
+    "zenith": "#353c52",
+    "horizon": "#656c7e",
+    "ground": "#303038"
+  },
+  "fog": {
+    "density": 0.34,
+    "start": 9.0,
+    "end": 64.0,
+    "color": "#454b59"
+  },
+  "povs": [
+    {
+      "index": 1,
+      "eye": {
+        "x": 34.0,
+        "y": 1.65,
+        "z": 4.0
+      },
+      "target": {
+        "x": -34.0,
+        "y": 2.0,
+        "z": 4.0
+      },
+      "fov": 58.0,
+      "caption": "NORTH PLATFORM \u2014 down the hall past the train, glass wall right"
+    },
+    {
+      "index": 2,
+      "eye": {
+        "x": 30.0,
+        "y": 4.65,
+        "z": 0.0
+      },
+      "target": {
+        "x": 6.0,
+        "y": 2.3,
+        "z": 0.0
+      },
+      "fov": 60.0,
+      "caption": "WEST CATWALK \u2014 diving board: it ends over the train roof (SNIPER drop)"
+    },
+    {
+      "index": 3,
+      "eye": {
+        "x": 6.0,
+        "y": -0.55,
+        "z": 0.0
+      },
+      "target": {
+        "x": 34.0,
+        "y": -0.3,
+        "z": 0.0
+      },
+      "fov": 56.0,
+      "caption": "TRACK TRENCH \u2014 the single track, catwalk overhead"
+    },
+    {
+      "index": 4,
+      "eye": {
+        "x": -0.0,
+        "y": 1.65,
+        "z": 7.5
+      },
+      "target": {
+        "x": -0.0,
+        "y": 1.9,
+        "z": 15.5
+      },
+      "fov": 66.0,
+      "caption": "CONCOURSE \u2014 fare gates, info booth, ticket machines"
+    },
+    {
+      "index": 5,
+      "eye": {
+        "x": -0.0,
+        "y": 1.65,
+        "z": -9.2
+      },
+      "target": {
+        "x": -0.0,
+        "y": 1.55,
+        "z": -11.9
+      },
+      "fov": 58.0,
+      "caption": "AD & VENDING ROOM \u2014 heavy-armour CQC (centre of the south bracket)"
+    },
+    {
+      "index": 6,
+      "eye": {
+        "x": 37.0,
+        "y": 4.65,
+        "z": 0.0
+      },
+      "target": {
+        "x": 20.0,
+        "y": 2.2,
+        "z": 6.0
+      },
+      "fov": 66.0,
+      "caption": "WEST SPAWN (mezzanine) \u2014 ramp down + catwalk mouth"
+    },
+    {
+      "index": 7,
+      "eye": {
+        "x": -0.0,
+        "y": 1.65,
+        "z": 4.0
+      },
+      "target": {
+        "x": 34.0,
+        "y": 2.0,
+        "z": 4.0
+      },
+      "fov": 58.0,
+      "caption": "NORTH PLATFORM mid \u2014 glass wall to concourse, train left"
+    },
+    {
+      "index": 8,
+      "eye": {
+        "x": -30.0,
+        "y": 1.65,
+        "z": -7.2
+      },
+      "target": {
+        "x": -6.0,
+        "y": 1.9,
+        "z": -7.0
+      },
+      "fov": 62.0,
+      "caption": "CORRIDOR RING \u2014 the tight tiled flank"
+    }
+  ],
+  "coordinate_convention": {
+    "units": "metres",
+    "source_obj": "right-handed Y-up",
+    "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+    "construction": "Blender right-handed Z-up",
+    "obj_to_blender": "[x,-z,y]",
+    "unity_to_blender": "[-x,-z,y]",
+    "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+    "confidence": "high; entire triangle multiset and oriented winding checked"
+  },
+  "bake": true,
+  "status": "seed rig; final bake pending",
+  "fog_warning": "Source density is not directly a Unity exponential fog value.",
+  "preview_fixture_lamps": [
+    {
+      "position": {
+        "x": 33.3,
+        "y": 5.08,
+        "z": 2.0
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 27.7,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 22.1,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 16.5,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 10.899999999999999,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 5.3,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -0.30000000000000004,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -5.9,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -11.5,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -17.1,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -22.7,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -28.3,
+        "y": 5.08,
+        "z": 0.45
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -33.900000000000006,
+        "y": 5.08,
+        "z": 2.0
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 32.9,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 26.5,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 20.1,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 13.7,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 7.300000000000001,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 0.9,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -5.5,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -11.9,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -18.299999999999997,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -24.700000000000003,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -31.1,
+        "y": 3.54,
+        "z": 11.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 33.0,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 27.4,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 21.8,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 16.2,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 10.6,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 5.0,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -0.6000000000000001,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -6.2,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -11.8,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -17.4,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -23.0,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -28.6,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -34.2,
+        "y": 3.1599999999999997,
+        "z": -6.8
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 30.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 30.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 20.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 20.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 10.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 10.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -0.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -0.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -10.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -10.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -20.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -20.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -30.0,
+        "y": 2.76,
+        "z": -5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -30.0,
+        "y": 2.76,
+        "z": 5.5
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 36.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 31.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 27.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 22.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 18.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 13.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 9.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 4.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -0.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -4.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -9.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -13.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -18.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -22.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -27.0,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -31.5,
+        "y": 2.62,
+        "z": 4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 36.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 31.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 27.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 22.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 18.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 13.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 9.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": 4.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -0.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -4.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -9.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -13.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -18.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -22.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -27.0,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    },
+    {
+      "position": {
+        "x": -31.5,
+        "y": 2.62,
+        "z": -4.1
+      },
+      "color": "#fff1d4",
+      "intensity": 1.15,
+      "range": 8.0
+    }
+  ],
+  "preview_fixture_lamps_note": "Authored preview intensities; positions measured 0.1m below actual visible fixture underside. Not final bake settings.",
+  "review_povs": [
+    {
+      "index": 9,
+      "eye": {
+        "x": 3,
+        "y": 1.65,
+        "z": 7.5
+      },
+      "target": {
+        "x": 3,
+        "y": 1.9,
+        "z": 15.5
+      },
+      "fov": 66,
+      "caption": "Offset concourse QA view: original POV4 remains preserved"
+    },
+    {
+      "index": 10,
+      "eye": {
+        "x": 18.8,
+        "y": 1.65,
+        "z": 3.9
+      },
+      "target": {
+        "x": 16,
+        "y": 1.0,
+        "z": 1.45
+      },
+      "fov": 58,
+      "caption": "Train door and fixture detail QA"
+    }
+  ]
+}

@@ -1,0 +1,1648 @@
+{
+  "coordinate_convention": {
+    "units": "metres",
+    "source_obj": "right-handed Y-up",
+    "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+    "construction": "Blender right-handed Z-up",
+    "obj_to_blender": "[x,-z,y]",
+    "unity_to_blender": "[-x,-z,y]",
+    "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+    "confidence": "high; entire triangle multiset and oriented winding checked"
+  },
+  "source": "reference/seed/11_LowerBay.obj",
+  "import_groups": [
+    {
+      "tag": "ad",
+      "material": "ad",
+      "triangles": 24,
+      "min_obj": [
+        -5.18,
+        1.02,
+        -11.71
+      ],
+      "max_obj": [
+        5.18,
+        3.18,
+        -11.602
+      ]
+    },
+    {
+      "tag": "ad",
+      "material": "ad_gf",
+      "triangles": 12,
+      "min_obj": [
+        -20.9,
+        0.7,
+        15.575
+      ],
+      "max_obj": [
+        -19.1,
+        2.9,
+        15.625
+      ]
+    },
+    {
+      "tag": "ad",
+      "material": "ad_ld",
+      "triangles": 48,
+      "min_obj": [
+        -25.1,
+        1.1,
+        15.555
+      ],
+      "max_obj": [
+        19.1,
+        2.7,
+        15.605
+      ]
+    },
+    {
+      "tag": "ad",
+      "material": "ad_ub",
+      "triangles": 48,
+      "min_obj": [
+        -23.0,
+        1.15,
+        -5.805
+      ],
+      "max_obj": [
+        21.0,
+        2.65,
+        -5.755
+      ]
+    },
+    {
+      "tag": "beam",
+      "material": "beam",
+      "triangles": 540,
+      "min_obj": [
+        -35.0,
+        4.9,
+        -6.0
+      ],
+      "max_obj": [
+        35.6,
+        5.5,
+        6.0
+      ]
+    },
+    {
+      "tag": "booth",
+      "material": "conc_d",
+      "triangles": 12,
+      "min_obj": [
+        5.3,
+        -1.3,
+        12.4
+      ],
+      "max_obj": [
+        8.7,
+        1.3,
+        14.8
+      ]
+    },
+    {
+      "tag": "booth",
+      "material": "sign_lt",
+      "triangles": 12,
+      "min_obj": [
+        5.1,
+        2.45,
+        12.2
+      ],
+      "max_obj": [
+        8.9,
+        2.75,
+        15.0
+      ]
+    },
+    {
+      "tag": "car",
+      "material": "car",
+      "triangles": 84,
+      "min_obj": [
+        -18.0,
+        -0.85,
+        -1.45
+      ],
+      "max_obj": [
+        19.1,
+        1.79,
+        1.45
+      ]
+    },
+    {
+      "tag": "car",
+      "material": "car_trim",
+      "triangles": 564,
+      "min_obj": [
+        -18.0,
+        -0.5,
+        -1.48
+      ],
+      "max_obj": [
+        19.2,
+        1.7,
+        1.5
+      ]
+    },
+    {
+      "tag": "car",
+      "material": "steel",
+      "triangles": 648,
+      "min_obj": [
+        -18.0,
+        -1.2463,
+        -1.3
+      ],
+      "max_obj": [
+        18.0,
+        -0.7137,
+        1.3
+      ]
+    },
+    {
+      "tag": "car",
+      "material": "winlt",
+      "triangles": 348,
+      "min_obj": [
+        -17.3,
+        0.3,
+        -1.48
+      ],
+      "max_obj": [
+        18.75,
+        1.25,
+        1.48
+      ]
+    },
+    {
+      "tag": "deck",
+      "material": "grate",
+      "triangles": 24,
+      "min_obj": [
+        -32.0,
+        3.0,
+        -1.3
+      ],
+      "max_obj": [
+        32.0,
+        3.14,
+        1.3
+      ]
+    },
+    {
+      "tag": "deck",
+      "material": "steel",
+      "triangles": 192,
+      "min_obj": [
+        -32.08,
+        -3.3,
+        -1.38
+      ],
+      "max_obj": [
+        30.08,
+        0.9,
+        1.38
+      ]
+    },
+    {
+      "tag": "floor",
+      "material": "concrete",
+      "triangles": 60,
+      "min_obj": [
+        -40.0,
+        -0.4,
+        -12.0
+      ],
+      "max_obj": [
+        40.0,
+        3.4,
+        16.0
+      ]
+    },
+    {
+      "tag": "gate",
+      "material": "conc_d",
+      "triangles": 24,
+      "min_obj": [
+        -13.5,
+        -1.05,
+        12.25
+      ],
+      "max_obj": [
+        13.5,
+        1.05,
+        12.75
+      ]
+    },
+    {
+      "tag": "gate",
+      "material": "sign_lt",
+      "triangles": 144,
+      "min_obj": [
+        -11.175,
+        0.99,
+        11.65
+      ],
+      "max_obj": [
+        11.175,
+        1.11,
+        13.35
+      ]
+    },
+    {
+      "tag": "gate",
+      "material": "steel",
+      "triangles": 144,
+      "min_obj": [
+        -11.175,
+        -0.525,
+        11.65
+      ],
+      "max_obj": [
+        11.175,
+        0.525,
+        13.35
+      ]
+    },
+    {
+      "tag": "glass",
+      "material": "daylight",
+      "triangles": 168,
+      "min_obj": [
+        -40.0,
+        0.6204,
+        -6.0
+      ],
+      "max_obj": [
+        40.0,
+        4.5796,
+        -6.0
+      ]
+    },
+    {
+      "tag": "glasswall",
+      "material": "conc_d",
+      "triangles": 72,
+      "min_obj": [
+        -38.09,
+        -2.75,
+        5.7
+      ],
+      "max_obj": [
+        38.09,
+        2.75,
+        6.3
+      ]
+    },
+    {
+      "tag": "glasswall",
+      "material": "glass",
+      "triangles": 132,
+      "min_obj": [
+        -38.0,
+        0.0,
+        5.7
+      ],
+      "max_obj": [
+        38.0,
+        5.5,
+        6.3
+      ]
+    },
+    {
+      "tag": "graf",
+      "material": "graf_p",
+      "triangles": 24,
+      "min_obj": [
+        16.3,
+        0.6,
+        -5.965
+      ],
+      "max_obj": [
+        27.3,
+        2.8,
+        -5.915
+      ]
+    },
+    {
+      "tag": "graf",
+      "material": "graf_r",
+      "triangles": 24,
+      "min_obj": [
+        4.9,
+        0.65,
+        5.915
+      ],
+      "max_obj": [
+        15.2,
+        2.9,
+        15.925
+      ]
+    },
+    {
+      "tag": "graf",
+      "material": "graf_x",
+      "triangles": 24,
+      "min_obj": [
+        -21.5,
+        0.5,
+        5.915
+      ],
+      "max_obj": [
+        -6.4,
+        2.9,
+        15.925
+      ]
+    },
+    {
+      "tag": "lamp",
+      "material": "lamp",
+      "triangles": 996,
+      "min_obj": [
+        -37.2,
+        2.72,
+        -7.25
+      ],
+      "max_obj": [
+        35.6,
+        5.44,
+        11.7
+      ]
+    },
+    {
+      "tag": "pier",
+      "material": "conc_d",
+      "triangles": 864,
+      "min_obj": [
+        -34.737,
+        -0.21,
+        -5.737
+      ],
+      "max_obj": [
+        34.737,
+        5.29,
+        5.737
+      ]
+    },
+    {
+      "tag": "pier",
+      "material": "concrete",
+      "triangles": 264,
+      "min_obj": [
+        -30.45,
+        -1.95,
+        8.55
+      ],
+      "max_obj": [
+        30.45,
+        1.95,
+        13.45
+      ]
+    },
+    {
+      "tag": "pier",
+      "material": "skirt",
+      "triangles": 432,
+      "min_obj": [
+        -34.5665,
+        -0.45,
+        -5.5665
+      ],
+      "max_obj": [
+        34.5665,
+        0.45,
+        5.5665
+      ]
+    },
+    {
+      "tag": "pier",
+      "material": "tile",
+      "triangles": 432,
+      "min_obj": [
+        -34.55,
+        -2.75,
+        -5.55
+      ],
+      "max_obj": [
+        34.55,
+        2.75,
+        5.55
+      ]
+    },
+    {
+      "tag": "pier",
+      "material": "tile_d",
+      "triangles": 5184,
+      "min_obj": [
+        -34.59,
+        -1.1,
+        -5.59
+      ],
+      "max_obj": [
+        34.59,
+        2.9,
+        5.59
+      ]
+    },
+    {
+      "tag": "platform",
+      "material": "concrete",
+      "triangles": 24,
+      "min_obj": [
+        -38.0,
+        -0.4,
+        -6.0
+      ],
+      "max_obj": [
+        38.0,
+        0.0,
+        6.0
+      ]
+    },
+    {
+      "tag": "platform",
+      "material": "sign_lt",
+      "triangles": 24,
+      "min_obj": [
+        -38.0,
+        0.0,
+        -2.35
+      ],
+      "max_obj": [
+        38.0,
+        0.03,
+        2.35
+      ]
+    },
+    {
+      "tag": "portal",
+      "material": "portal",
+      "triangles": 24,
+      "min_obj": [
+        -45.96,
+        -1.5,
+        -2.0
+      ],
+      "max_obj": [
+        45.96,
+        1.5,
+        2.0
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "bench",
+      "triangles": 132,
+      "min_obj": [
+        -31.0,
+        -0.25,
+        -9.4
+      ],
+      "max_obj": [
+        31.0,
+        0.25,
+        15.7
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "bin",
+      "triangles": 120,
+      "min_obj": [
+        -30.275,
+        -0.475,
+        -5.575
+      ],
+      "max_obj": [
+        30.275,
+        0.475,
+        5.575
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "car_trim",
+      "triangles": 132,
+      "min_obj": [
+        -25.25,
+        0.55,
+        -11.69
+      ],
+      "max_obj": [
+        21.15,
+        3.3,
+        15.78
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "conc_d",
+      "triangles": 60,
+      "min_obj": [
+        -37.5,
+        -1.1,
+        -9.28
+      ],
+      "max_obj": [
+        37.5,
+        1.55,
+        -5.57
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "grate",
+      "triangles": 24,
+      "min_obj": [
+        -16.45,
+        0.2,
+        -8.4
+      ],
+      "max_obj": [
+        16.45,
+        0.8,
+        -8.3
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "sign_lt",
+      "triangles": 60,
+      "min_obj": [
+        -12.2,
+        -1.19,
+        -3.75
+      ],
+      "max_obj": [
+        28.2,
+        0.03,
+        10.65
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "steel",
+      "triangles": 168,
+      "min_obj": [
+        -30.1,
+        -1.5,
+        -5.6
+      ],
+      "max_obj": [
+        30.1,
+        1.5,
+        5.6
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "tile_d",
+      "triangles": 24,
+      "min_obj": [
+        -38.0,
+        -1.3,
+        -10.1
+      ],
+      "max_obj": [
+        38.0,
+        1.3,
+        -8.3
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "vend",
+      "triangles": 48,
+      "min_obj": [
+        -21.525,
+        -0.95,
+        14.85
+      ],
+      "max_obj": [
+        -15.975,
+        0.95,
+        15.55
+      ]
+    },
+    {
+      "tag": "prop",
+      "material": "vend_bd",
+      "triangles": 24,
+      "min_obj": [
+        5.375,
+        -1.0,
+        -11.65
+      ],
+      "max_obj": [
+        6.225,
+        1.0,
+        -8.85
+      ]
+    },
+    {
+      "tag": "rail",
+      "material": "rail",
+      "triangles": 36,
+      "min_obj": [
+        -38.0,
+        -1.2,
+        -0.78
+      ],
+      "max_obj": [
+        38.0,
+        -0.94,
+        1.12
+      ]
+    },
+    {
+      "tag": "rail",
+      "material": "steel",
+      "triangles": 684,
+      "min_obj": [
+        -36.08,
+        -1.34,
+        -1.345
+      ],
+      "max_obj": [
+        36.08,
+        4.05,
+        12.045
+      ]
+    },
+    {
+      "tag": "roof",
+      "material": "canopy",
+      "triangles": 24,
+      "min_obj": [
+        -38.0,
+        2.85,
+        -5.8
+      ],
+      "max_obj": [
+        38.0,
+        3.03,
+        5.8
+      ]
+    },
+    {
+      "tag": "roof",
+      "material": "ceil",
+      "triangles": 24,
+      "min_obj": [
+        -38.0,
+        3.9,
+        -6.0
+      ],
+      "max_obj": [
+        38.0,
+        6.0,
+        16.0
+      ]
+    },
+    {
+      "tag": "roof",
+      "material": "conc_d",
+      "triangles": 48,
+      "min_obj": [
+        -40.0,
+        3.5,
+        -12.0
+      ],
+      "max_obj": [
+        40.0,
+        7.65,
+        4.0
+      ]
+    },
+    {
+      "tag": "shell",
+      "material": "conc_d",
+      "triangles": 24,
+      "min_obj": [
+        -46.0,
+        -1.6,
+        -2.4
+      ],
+      "max_obj": [
+        46.0,
+        1.6,
+        2.4
+      ]
+    },
+    {
+      "tag": "shell",
+      "material": "tile",
+      "triangles": 132,
+      "min_obj": [
+        -38.3,
+        0.0,
+        -6.3
+      ],
+      "max_obj": [
+        38.3,
+        5.5,
+        6.0
+      ]
+    },
+    {
+      "tag": "shell",
+      "material": "tile_d",
+      "triangles": 12,
+      "min_obj": [
+        -38.0,
+        0.0,
+        -6.315
+      ],
+      "max_obj": [
+        38.0,
+        0.9,
+        -5.685
+      ]
+    },
+    {
+      "tag": "sign",
+      "material": "sign_b",
+      "triangles": 120,
+      "min_obj": [
+        -27.3,
+        1.9,
+        -0.08
+      ],
+      "max_obj": [
+        30.0,
+        7.0,
+        13.97
+      ]
+    },
+    {
+      "tag": "sign",
+      "material": "sign_p",
+      "triangles": 12,
+      "min_obj": [
+        1.5,
+        2.65,
+        15.855
+      ],
+      "max_obj": [
+        6.5,
+        3.65,
+        15.905
+      ]
+    },
+    {
+      "tag": "sign",
+      "material": "sign_r",
+      "triangles": 84,
+      "min_obj": [
+        -38.0,
+        1.975,
+        -5.945
+      ],
+      "max_obj": [
+        27.3,
+        7.0,
+        3.74
+      ]
+    },
+    {
+      "tag": "sign",
+      "material": "steel",
+      "triangles": 24,
+      "min_obj": [
+        -20.03,
+        3.65,
+        -0.03
+      ],
+      "max_obj": [
+        8.03,
+        4.15,
+        0.03
+      ]
+    },
+    {
+      "tag": "stair",
+      "material": "concrete",
+      "triangles": 360,
+      "min_obj": [
+        -35.2,
+        -1.2,
+        -3.5
+      ],
+      "max_obj": [
+        35.2,
+        3.4,
+        12.0
+      ]
+    },
+    {
+      "tag": "track",
+      "material": "ballast",
+      "triangles": 12,
+      "min_obj": [
+        -38.0,
+        -1.6,
+        -2.0
+      ],
+      "max_obj": [
+        38.0,
+        -1.2,
+        2.0
+      ]
+    },
+    {
+      "tag": "track",
+      "material": "conc_d",
+      "triangles": 912,
+      "min_obj": [
+        -38.0,
+        -1.22,
+        -2.0
+      ],
+      "max_obj": [
+        38.0,
+        -0.1,
+        2.0
+      ]
+    },
+    {
+      "tag": "vend",
+      "material": "vend",
+      "triangles": 24,
+      "min_obj": [
+        5.33,
+        -0.65,
+        -11.525
+      ],
+      "max_obj": [
+        5.43,
+        0.95,
+        -8.975
+      ]
+    },
+    {
+      "tag": "wall",
+      "material": "tile",
+      "triangles": 252,
+      "min_obj": [
+        -40.3,
+        0.0,
+        -12.3
+      ],
+      "max_obj": [
+        40.3,
+        7.3,
+        16.3
+      ]
+    },
+    {
+      "tag": "wall",
+      "material": "tile_d",
+      "triangles": 180,
+      "min_obj": [
+        -40.315,
+        0.0,
+        -12.315
+      ],
+      "max_obj": [
+        40.315,
+        4.3,
+        16.315
+      ]
+    }
+  ],
+  "structure_refinement": {
+    "bevel_width_m": 0.025,
+    "bevel_segments": 3,
+    "angle_degrees": 35,
+    "tags": [
+      "pier",
+      "beam",
+      "stair",
+      "deck",
+      "glasswall",
+      "gate",
+      "booth"
+    ],
+    "confidence": "authored finish; inward bevel only, no route relocation"
+  },
+  "hero_train": {
+    "car_centres_obj_x": [
+      -9,
+      9
+    ],
+    "car_length_m": 18,
+    "width_m": 2.9,
+    "roof_y_m": 2.2,
+    "base_y_m": -0.85,
+    "confidence": "locked canonical seed",
+    "status": "detail pass pending"
+  },
+  "column_revision": {
+    "revision": 1,
+    "evidence": "clip1 storyboard; clip3 sheets26-29; canonical 5.5m hall height",
+    "correction": "Source column cores incorrectly centred at floor (y=-2.75..2.75); restore full-height support. Remove unsupported fluted decoration.",
+    "confidence": {
+      "centres": "high: measured seed",
+      "height": "high: canonical hall",
+      "square_profile": "high: footage",
+      "trim_dimensions": "authored inside existing plan envelope"
+    },
+    "coordinate_frame": "OBJ right-handed Y-up metres",
+    "centres_obj_xz": [
+      [
+        -34.0,
+        -5.0
+      ],
+      [
+        -34.0,
+        5.0
+      ],
+      [
+        -30.0,
+        -5.0
+      ],
+      [
+        -30.0,
+        5.0
+      ],
+      [
+        -26.0,
+        -5.0
+      ],
+      [
+        -26.0,
+        5.0
+      ],
+      [
+        -22.0,
+        -5.0
+      ],
+      [
+        -22.0,
+        5.0
+      ],
+      [
+        -18.0,
+        -5.0
+      ],
+      [
+        -18.0,
+        5.0
+      ],
+      [
+        -14.0,
+        -5.0
+      ],
+      [
+        -14.0,
+        5.0
+      ],
+      [
+        -10.0,
+        -5.0
+      ],
+      [
+        -10.0,
+        5.0
+      ],
+      [
+        -6.0,
+        -5.0
+      ],
+      [
+        -6.0,
+        5.0
+      ],
+      [
+        -2.0,
+        -5.0
+      ],
+      [
+        -2.0,
+        5.0
+      ],
+      [
+        2.0,
+        -5.0
+      ],
+      [
+        2.0,
+        5.0
+      ],
+      [
+        6.0,
+        -5.0
+      ],
+      [
+        6.0,
+        5.0
+      ],
+      [
+        10.0,
+        -5.0
+      ],
+      [
+        10.0,
+        5.0
+      ],
+      [
+        14.0,
+        -5.0
+      ],
+      [
+        14.0,
+        5.0
+      ],
+      [
+        18.0,
+        -5.0
+      ],
+      [
+        18.0,
+        5.0
+      ],
+      [
+        22.0,
+        -5.0
+      ],
+      [
+        22.0,
+        5.0
+      ],
+      [
+        26.0,
+        -5.0
+      ],
+      [
+        26.0,
+        5.0
+      ],
+      [
+        30.0,
+        -5.0
+      ],
+      [
+        30.0,
+        5.0
+      ],
+      [
+        34.0,
+        -5.0
+      ],
+      [
+        34.0,
+        5.0
+      ]
+    ],
+    "floor_y_m": 0.0,
+    "ceiling_y_m": 5.5,
+    "shaft_width_m": 1.1,
+    "dado_width_m": 1.13,
+    "dado_top_y_m": 0.9,
+    "foot_width_m": 1.43,
+    "foot_height_m": 0.12,
+    "capital_width_m": 1.43,
+    "capital_bottom_y_m": 5.28,
+    "collar_width_m": 1.16,
+    "collar_bottom_y_m": 5.12,
+    "bevel_width_m": 0.022,
+    "bevel_segments": 3,
+    "archive_source_names": [
+      "LB_SEED_pier_tile",
+      "LB_SEED_pier_tile_d",
+      "LB_SEED_pier_conc_d",
+      "LB_SEED_pier_skirt"
+    ],
+    "preserve_source_names": [
+      "LB_SEED_pier_concrete"
+    ],
+    "plan_envelope_width_max_m": 1.474,
+    "material_slots": [
+      "tile",
+      "skirt",
+      "conc_d"
+    ]
+  },
+  "train_revision": {
+    "revision": 2,
+    "centres_obj_x": [
+      -9,
+      9
+    ],
+    "car_length_m": 17.8,
+    "locked_envelope_obj": [
+      [
+        -18,
+        -1.2,
+        -1.5
+      ],
+      [
+        18,
+        2.2,
+        1.5
+      ]
+    ],
+    "roof_spring_y": 1.68,
+    "roof_crown_y": 2.2,
+    "half_width": 1.45,
+    "roof_segments": 20,
+    "floor_y": -0.62,
+    "floor_thickness": 0.12,
+    "side_bottom_y": -0.5,
+    "sill_y": 0.35,
+    "window_top_y": 1.6,
+    "side_thickness": 0.08,
+    "bay_count": 10,
+    "bay_margin": 0.16,
+    "door_bays": [
+      2,
+      7
+    ],
+    "post_width": 0.1,
+    "window_recess": 0.045,
+    "window_thickness": 0.018,
+    "door_frame_width": 0.08,
+    "door_glass_inset": 0.025,
+    "rib_heights_y": [
+      -0.36,
+      -0.22,
+      -0.08,
+      0.06,
+      0.2
+    ],
+    "rib_depth": 0.025,
+    "rib_height": 0.025,
+    "bogie_offsets_x": [
+      -5.8,
+      5.8
+    ],
+    "axle_offsets_x": [
+      -0.6,
+      0.6
+    ],
+    "wheel_y": -0.81,
+    "wheel_radius": 0.35,
+    "wheel_lateral": 1.04,
+    "wheel_width": 0.16,
+    "wheel_segments": 20,
+    "underframe_size": [
+      2.2,
+      0.2,
+      1.8
+    ],
+    "underframe_y": -0.72,
+    "cab_window_centres_z": [
+      -0.92,
+      0,
+      0.92
+    ],
+    "cab_window_width": 0.65,
+    "cab_window_bottom": 0.32,
+    "cab_window_top": 1.53,
+    "cab_plate_thickness": 0.03,
+    "cab_front_extra": 0.035,
+    "headlight_z": [
+      -0.92,
+      0.92
+    ],
+    "headlight_y": -0.12,
+    "headlight_radius": 0.09,
+    "headlight_depth": 0.035,
+    "headlight_segments": 16,
+    "bevel_m": 0.012,
+    "bevel_segments": 2,
+    "materials": [
+      "car",
+      "car_trim",
+      "steel",
+      "winlt",
+      "lamp"
+    ],
+    "source_archive_tag": "car",
+    "evidence": "clip3 sheets26-29 front windows, rounded car profile and wheel forms; clip1 bright side windows",
+    "confidence": "Locked overall two-car envelope; detail spacings authored from footage, not falsely measured."
+  },
+  "clearance_revision": {
+    "revision": 1,
+    "evidence": "dataset 2.0m hard standing clearance; canonical concourse 3.9m; measured rev4 component centres",
+    "concourse_centres_obj_xz": [
+      [
+        -30.0,
+        9.0
+      ],
+      [
+        -30.0,
+        13.0
+      ],
+      [
+        -24.0,
+        9.0
+      ],
+      [
+        -24.0,
+        13.0
+      ],
+      [
+        -18.0,
+        9.0
+      ],
+      [
+        -18.0,
+        13.0
+      ],
+      [
+        -12.0,
+        9.0
+      ],
+      [
+        -12.0,
+        13.0
+      ],
+      [
+        -6.0,
+        9.0
+      ],
+      [
+        -6.0,
+        13.0
+      ],
+      [
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        13.0
+      ],
+      [
+        6.0,
+        9.0
+      ],
+      [
+        6.0,
+        13.0
+      ],
+      [
+        12.0,
+        9.0
+      ],
+      [
+        12.0,
+        13.0
+      ],
+      [
+        18.0,
+        9.0
+      ],
+      [
+        18.0,
+        13.0
+      ],
+      [
+        24.0,
+        9.0
+      ],
+      [
+        24.0,
+        13.0
+      ],
+      [
+        30.0,
+        9.0
+      ],
+      [
+        30.0,
+        13.0
+      ]
+    ],
+    "concourse_width": 0.9,
+    "concourse_top": 3.9,
+    "dado_top": 0.9,
+    "capital_bottom": 3.68,
+    "beam_centres_x": [
+      -34.89,
+      -29.89,
+      -24.89,
+      -19.89,
+      -14.89,
+      -9.89,
+      -4.890000000000001,
+      0.11,
+      5.109999999999999,
+      10.11,
+      15.11,
+      20.11,
+      25.11,
+      30.11,
+      35.11
+    ],
+    "beam_span_z": [
+      -6,
+      6
+    ],
+    "passage_z": [
+      -1.5,
+      1.5
+    ],
+    "beam_width": 0.6,
+    "web_width": 0.22,
+    "beam_bottom_y": 4.9,
+    "beam_top_y": 5.5,
+    "flange_thickness": 0.12,
+    "central_clearance_bottom_y": 5.2,
+    "end_clearance_bottom_y": 5.42,
+    "end_threshold_x": 32,
+    "sign_side_z": 1.43,
+    "sign_gallery_x": 20,
+    "sign_bottom_y": 3.18,
+    "end_lamp_side_z": 2.0,
+    "bevel_m": 0.012,
+    "bevel_segments": 2,
+    "confidence": "source centres and fixed levels high; conservative clearance notches are authored construction detail",
+    "archive_names": [
+      "LB_SEED_pier_concrete",
+      "LB_SEED_beam_beam"
+    ]
+  },
+  "fixture_revision": {
+    "revision": 1,
+    "source_tag": "lamp",
+    "source_material": "lamp",
+    "frame_width_m": 0.045,
+    "back_fraction": 0.35,
+    "lens_inset_m": 0.018,
+    "cage_bars": 3,
+    "bar_width_m": 0.022,
+    "bevel_m": 0.008,
+    "bevel_segments": 2,
+    "materials": [
+      "steel",
+      "lamp"
+    ],
+    "batch_size": 8,
+    "evidence": "Footage strip housings and caged station lamps; existing measured fixture envelopes unchanged.",
+    "confidence": "High position/envelope confidence; cage spacing and metalwork profile authored."
+  },
+  "label_revision": {
+    "revision": 1,
+    "labels": [
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -25.1,
+          2.9,
+          2.35
+        ],
+        "max_obj": [
+          -22.9,
+          3.45,
+          2.45
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -1.1,
+          2.9,
+          2.35
+        ],
+        "max_obj": [
+          1.1,
+          3.45,
+          2.45
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          22.9,
+          2.9,
+          2.35
+        ],
+        "max_obj": [
+          25.1,
+          3.45,
+          2.45
+        ]
+      },
+      {
+        "text": "GIDEON'S TOWER",
+        "min_obj": [
+          24.0,
+          4.3999999999999995,
+          3.6
+        ],
+        "max_obj": [
+          30.0,
+          5.3,
+          3.74
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          23.1,
+          1.9,
+          13.83
+        ],
+        "max_obj": [
+          24.5,
+          2.4,
+          13.97
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -27.3,
+          1.975,
+          5.895
+        ],
+        "max_obj": [
+          -24.7,
+          3.125,
+          5.945
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -7.3,
+          1.975,
+          5.895
+        ],
+        "max_obj": [
+          -4.7,
+          3.125,
+          5.945
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          12.7,
+          1.975,
+          5.895
+        ],
+        "max_obj": [
+          15.3,
+          3.125,
+          5.945
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -21.2,
+          3.18,
+          -1.48
+        ],
+        "max_obj": [
+          -18.8,
+          4.23,
+          -1.38
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          18.8,
+          3.18,
+          1.38
+        ],
+        "max_obj": [
+          21.2,
+          4.23,
+          1.48
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          1.5,
+          2.65,
+          15.855
+        ],
+        "max_obj": [
+          6.5,
+          3.65,
+          15.905
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -25.1,
+          2.9,
+          -2.35
+        ],
+        "max_obj": [
+          -22.9,
+          3.45,
+          -2.25
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -1.1,
+          2.9,
+          -2.35
+        ],
+        "max_obj": [
+          1.1,
+          3.45,
+          -2.25
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          22.9,
+          2.9,
+          -2.35
+        ],
+        "max_obj": [
+          25.1,
+          3.45,
+          -2.25
+        ]
+      },
+      {
+        "text": "FORT WINTER",
+        "min_obj": [
+          -38.0,
+          6.1,
+          3.6
+        ],
+        "max_obj": [
+          -32.0,
+          7.0,
+          3.74
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          -15.3,
+          1.975,
+          -5.945
+        ],
+        "max_obj": [
+          -12.7,
+          3.125,
+          -5.895
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          4.7,
+          1.975,
+          -5.945
+        ],
+        "max_obj": [
+          7.3,
+          3.125,
+          -5.895
+        ]
+      },
+      {
+        "text": "LOWER BAY",
+        "min_obj": [
+          24.7,
+          1.975,
+          -5.945
+        ],
+        "max_obj": [
+          27.3,
+          3.125,
+          -5.895
+        ]
+      }
+    ],
+    "font_size_m": 0.3,
+    "extrude_m": 0.002,
+    "surface_gap_m": 0.008,
+    "blue_banner_source_range": [
+      [
+        24,
+        6.1,
+        3.6
+      ],
+      [
+        30,
+        7.0,
+        3.74
+      ]
+    ],
+    "blue_banner_lowering_m": 1.7,
+    "width_fraction": 0.86,
+    "height_fraction": 0.6,
+    "material": "sign_lt",
+    "evidence": "Lower Bay, Fort Winter and Gideons Tower text recorded in video notes.",
+    "confidence": "Names evidenced; typesetting authored, not a claim of recovered original texture art."
+  }
+}

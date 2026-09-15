@@ -1,0 +1,18 @@
+{
+  "revision": "legacy_materials_r1",
+  "textureSize": 512,
+  "tilesPerMetre": 2.5,
+  "shininess": 0.078125,
+  "specularColour": 0.35,
+  "metalGloss": 0.22,
+  "railGloss": 0.1,
+  "authority": "datasets/uberstrike_materials_shaders.json",
+  "source_manifest": "export/unity/LegacyShaders/provenance.json",
+  "default": "Normal-BumpSpec.shader: Lambert diffuse + Blinn-Phong specular, _Shininess=0.078125, _SpecColor=0.35",
+  "emission": "Illumin-Diffuse.shader: lamp, daylight, window light, signage lettering and existing emissive material roles",
+  "glass": "Particle Alpha Blend Cull Back.shader: migrated 4.3.8 source, transparent queue, ZWrite Off",
+  "texture_policy": {"size": 512, "mipmaps": true, "filter": "Trilinear", "anisotropy": 8, "normal_maps": "imported NormalMap", "tile_count_per_metre": 2.5, "metal_gloss_alpha": 0.22, "rail_gloss_alpha": 0.1},
+  "authoring": "LowerBayLegacyMaterials.Apply runs after material generation, and on existing saved scenes. Existing GUIDs are preserved; reruns derive textures from original donor inputs.",
+  "provenance_limit": "Restored donor legacy-family sources, NOT a claim of byte-identical recovered Lower Bay shaders. Normal-Glossy stub explicitly excluded.",
+  "target_validation": "Compile/capture/bake in Unity 2022 Built-in. Unity 4.6.5 export remains separately unverified."
+}

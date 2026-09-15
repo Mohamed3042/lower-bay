@@ -1,0 +1,2219 @@
+{
+  "map_name": "lowerbay",
+  "map_id": "MAP-11",
+  "title": "LOWER BAY",
+  "source_package": "Maps/11_lowerbay/",
+  "coordinate_convention": {
+    "units": "metres",
+    "source_obj": "right-handed Y-up",
+    "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+    "construction": "Blender right-handed Z-up",
+    "obj_to_blender": "[x,-z,y]",
+    "unity_to_blender": "[-x,-z,y]",
+    "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+    "confidence": "high; entire triangle multiset and oriented winding checked"
+  },
+  "units": {
+    "unity_unit_in_meters": 1,
+    "up_axis_unity": "Y",
+    "up_axis_blender": "Z"
+  },
+  "source_mesh": "../reference/seed/11_LowerBay.obj",
+  "source_bounds_unity": {
+    "min": {
+      "x": -46.0,
+      "y": -3.3,
+      "z": -12.315
+    },
+    "max": {
+      "x": 46.0,
+      "y": 7.6499999999999995,
+      "z": 16.315
+    }
+  },
+  "zones": [
+    {
+      "id": "H1",
+      "name": "MAIN STATION HALL",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "role": "Central spine, single track + train blocks the middle",
+      "range": "long"
+    },
+    {
+      "id": "T1",
+      "name": "TRACK TRENCH",
+      "level": "L-1",
+      "floorY": -1.1,
+      "position": {
+        "x": -0.0,
+        "y": -1.1,
+        "z": 0.0
+      },
+      "role": "Low flank down the single track",
+      "range": "long"
+    },
+    {
+      "id": "C1",
+      "name": "CONCOURSE / UNDERCROFT",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": 10.0
+      },
+      "role": "Primary wide arena, glass wall to the hall",
+      "range": "mid"
+    },
+    {
+      "id": "R1",
+      "name": "CORRIDOR RING",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -7.0
+      },
+      "role": "Tight flank behind the solid wall",
+      "range": "close"
+    },
+    {
+      "id": "V1",
+      "name": "AD & VENDING ROOM",
+      "level": "L0",
+      "floorY": 0.0,
+      "position": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -10.0
+      },
+      "role": "Central CQC alcove (heavy armour)",
+      "range": "close"
+    },
+    {
+      "id": "K1",
+      "name": "CATWALKS",
+      "level": "L1",
+      "floorY": 3.0,
+      "position": {
+        "x": -0.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "role": "Two dead-end gantries over the track from the spawns",
+      "range": "long"
+    },
+    {
+      "id": "SW",
+      "name": "WEST SPAWN (mezzanine)",
+      "level": "L1",
+      "floorY": 3.0,
+      "position": {
+        "x": 36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "role": "Elevated blue spawn, ramp down + catwalk",
+      "range": "close"
+    },
+    {
+      "id": "SE",
+      "name": "EAST SPAWN (mezzanine)",
+      "level": "L1",
+      "floorY": 3.0,
+      "position": {
+        "x": -36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "role": "Elevated red spawn, ramp down + catwalk",
+      "range": "close"
+    }
+  ],
+  "routes": [
+    {
+      "name": "concourse",
+      "points": [
+        {
+          "x": 31.0,
+          "y": 0.1,
+          "z": 10.5
+        },
+        {
+          "x": 16.0,
+          "y": 0.1,
+          "z": 11.0
+        },
+        {
+          "x": -0.0,
+          "y": 0.1,
+          "z": 10.5
+        },
+        {
+          "x": -16.0,
+          "y": 0.1,
+          "z": 11.0
+        },
+        {
+          "x": -31.0,
+          "y": 0.1,
+          "z": 10.5
+        }
+      ]
+    },
+    {
+      "name": "north_platform",
+      "points": [
+        {
+          "x": 33.0,
+          "y": 0.1,
+          "z": 4.0
+        },
+        {
+          "x": -0.0,
+          "y": 0.1,
+          "z": 4.0
+        },
+        {
+          "x": -33.0,
+          "y": 0.1,
+          "z": 4.0
+        }
+      ]
+    },
+    {
+      "name": "south_platform",
+      "points": [
+        {
+          "x": 33.0,
+          "y": 0.1,
+          "z": -4.0
+        },
+        {
+          "x": -0.0,
+          "y": 0.1,
+          "z": -4.0
+        },
+        {
+          "x": -33.0,
+          "y": 0.1,
+          "z": -4.0
+        }
+      ]
+    },
+    {
+      "name": "corridor",
+      "points": [
+        {
+          "x": 32.0,
+          "y": 0.1,
+          "z": -7.0
+        },
+        {
+          "x": 8.0,
+          "y": 0.1,
+          "z": -7.0
+        },
+        {
+          "x": -13.0,
+          "y": 0.1,
+          "z": -10.0
+        },
+        {
+          "x": -32.0,
+          "y": 0.1,
+          "z": -7.0
+        }
+      ]
+    },
+    {
+      "name": "catwalk_w",
+      "points": [
+        {
+          "x": 34.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 20.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": 9.0,
+          "y": 3.1,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "name": "catwalk_e",
+      "points": [
+        {
+          "x": -34.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": -20.0,
+          "y": 3.1,
+          "z": 0.0
+        },
+        {
+          "x": -9.0,
+          "y": 3.1,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "name": "track",
+      "points": [
+        {
+          "x": 36.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        {
+          "x": -0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        {
+          "x": -36.0,
+          "y": -1.0,
+          "z": 0.0
+        }
+      ]
+    }
+  ],
+  "spawns": [
+    {
+      "team": "A",
+      "name": "COBALT",
+      "position": {
+        "x": 36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "color": "#3f7fe2"
+    },
+    {
+      "team": "B",
+      "name": "VERMILION",
+      "position": {
+        "x": -36.0,
+        "y": 3.0,
+        "z": 0.0
+      },
+      "color": "#e2603f"
+    }
+  ],
+  "pickups": {
+    "items": [
+      {
+        "kind": "power",
+        "label": "SNIPER",
+        "position": {
+          "x": -0.0,
+          "y": 2.2,
+          "z": 0.0
+        }
+      },
+      {
+        "kind": "armour",
+        "label": "HEAVY ARMOUR",
+        "position": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": -10.0
+        }
+      },
+      {
+        "kind": "armour",
+        "label": "ARMOUR",
+        "position": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": 11.0
+        }
+      },
+      {
+        "kind": "health",
+        "label": "HEALTH",
+        "position": {
+          "x": 28.0,
+          "y": 0.0,
+          "z": 8.0
+        }
+      },
+      {
+        "kind": "health",
+        "label": "HEALTH",
+        "position": {
+          "x": -28.0,
+          "y": 0.0,
+          "z": 8.0
+        }
+      },
+      {
+        "kind": "health",
+        "label": "HEALTH",
+        "position": {
+          "x": 25.0,
+          "y": -1.2,
+          "z": 0.0
+        }
+      },
+      {
+        "kind": "health",
+        "label": "HEALTH",
+        "position": {
+          "x": -25.0,
+          "y": -1.2,
+          "z": 0.0
+        }
+      },
+      {
+        "kind": "ammo",
+        "label": "AMMO",
+        "position": {
+          "x": 30.0,
+          "y": 0.0,
+          "z": -7.0
+        }
+      },
+      {
+        "kind": "ammo",
+        "label": "AMMO",
+        "position": {
+          "x": -30.0,
+          "y": 0.0,
+          "z": -7.0
+        }
+      },
+      {
+        "kind": "ammo",
+        "label": "AMMO",
+        "position": {
+          "x": 8.0,
+          "y": 0.0,
+          "z": 4.0
+        }
+      },
+      {
+        "kind": "ammo",
+        "label": "AMMO",
+        "position": {
+          "x": -8.0,
+          "y": 0.0,
+          "z": -4.0
+        }
+      }
+    ]
+  },
+  "levels": [
+    {
+      "name": "trench",
+      "z_m": -1.2
+    },
+    {
+      "name": "platform",
+      "z_m": 0
+    },
+    {
+      "name": "train_roof",
+      "z_m": 2.2
+    },
+    {
+      "name": "catwalk",
+      "z_m": 3
+    },
+    {
+      "name": "spawn_deck",
+      "z_m": 3.4
+    }
+  ],
+  "modular_kit": {
+    "coordinate_convention": {
+      "units": "metres",
+      "source_obj": "right-handed Y-up",
+      "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+      "construction": "Blender right-handed Z-up",
+      "obj_to_blender": "[x,-z,y]",
+      "unity_to_blender": "[-x,-z,y]",
+      "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+      "confidence": "high; entire triangle multiset and oriented winding checked"
+    },
+    "source": "reference/seed/11_LowerBay.obj",
+    "import_groups": [
+      {
+        "tag": "ad",
+        "material": "ad",
+        "triangles": 24,
+        "min_obj": [
+          -5.18,
+          1.02,
+          -11.71
+        ],
+        "max_obj": [
+          5.18,
+          3.18,
+          -11.602
+        ]
+      },
+      {
+        "tag": "ad",
+        "material": "ad_gf",
+        "triangles": 12,
+        "min_obj": [
+          -20.9,
+          0.7,
+          15.575
+        ],
+        "max_obj": [
+          -19.1,
+          2.9,
+          15.625
+        ]
+      },
+      {
+        "tag": "ad",
+        "material": "ad_ld",
+        "triangles": 48,
+        "min_obj": [
+          -25.1,
+          1.1,
+          15.555
+        ],
+        "max_obj": [
+          19.1,
+          2.7,
+          15.605
+        ]
+      },
+      {
+        "tag": "ad",
+        "material": "ad_ub",
+        "triangles": 48,
+        "min_obj": [
+          -23.0,
+          1.15,
+          -5.805
+        ],
+        "max_obj": [
+          21.0,
+          2.65,
+          -5.755
+        ]
+      },
+      {
+        "tag": "beam",
+        "material": "beam",
+        "triangles": 540,
+        "min_obj": [
+          -35.0,
+          4.9,
+          -6.0
+        ],
+        "max_obj": [
+          35.6,
+          5.5,
+          6.0
+        ]
+      },
+      {
+        "tag": "booth",
+        "material": "conc_d",
+        "triangles": 12,
+        "min_obj": [
+          5.3,
+          -1.3,
+          12.4
+        ],
+        "max_obj": [
+          8.7,
+          1.3,
+          14.8
+        ]
+      },
+      {
+        "tag": "booth",
+        "material": "sign_lt",
+        "triangles": 12,
+        "min_obj": [
+          5.1,
+          2.45,
+          12.2
+        ],
+        "max_obj": [
+          8.9,
+          2.75,
+          15.0
+        ]
+      },
+      {
+        "tag": "car",
+        "material": "car",
+        "triangles": 84,
+        "min_obj": [
+          -18.0,
+          -0.85,
+          -1.45
+        ],
+        "max_obj": [
+          19.1,
+          1.79,
+          1.45
+        ]
+      },
+      {
+        "tag": "car",
+        "material": "car_trim",
+        "triangles": 564,
+        "min_obj": [
+          -18.0,
+          -0.5,
+          -1.48
+        ],
+        "max_obj": [
+          19.2,
+          1.7,
+          1.5
+        ]
+      },
+      {
+        "tag": "car",
+        "material": "steel",
+        "triangles": 648,
+        "min_obj": [
+          -18.0,
+          -1.2463,
+          -1.3
+        ],
+        "max_obj": [
+          18.0,
+          -0.7137,
+          1.3
+        ]
+      },
+      {
+        "tag": "car",
+        "material": "winlt",
+        "triangles": 348,
+        "min_obj": [
+          -17.3,
+          0.3,
+          -1.48
+        ],
+        "max_obj": [
+          18.75,
+          1.25,
+          1.48
+        ]
+      },
+      {
+        "tag": "deck",
+        "material": "grate",
+        "triangles": 24,
+        "min_obj": [
+          -32.0,
+          3.0,
+          -1.3
+        ],
+        "max_obj": [
+          32.0,
+          3.14,
+          1.3
+        ]
+      },
+      {
+        "tag": "deck",
+        "material": "steel",
+        "triangles": 192,
+        "min_obj": [
+          -32.08,
+          -3.3,
+          -1.38
+        ],
+        "max_obj": [
+          30.08,
+          0.9,
+          1.38
+        ]
+      },
+      {
+        "tag": "floor",
+        "material": "concrete",
+        "triangles": 60,
+        "min_obj": [
+          -40.0,
+          -0.4,
+          -12.0
+        ],
+        "max_obj": [
+          40.0,
+          3.4,
+          16.0
+        ]
+      },
+      {
+        "tag": "gate",
+        "material": "conc_d",
+        "triangles": 24,
+        "min_obj": [
+          -13.5,
+          -1.05,
+          12.25
+        ],
+        "max_obj": [
+          13.5,
+          1.05,
+          12.75
+        ]
+      },
+      {
+        "tag": "gate",
+        "material": "sign_lt",
+        "triangles": 144,
+        "min_obj": [
+          -11.175,
+          0.99,
+          11.65
+        ],
+        "max_obj": [
+          11.175,
+          1.11,
+          13.35
+        ]
+      },
+      {
+        "tag": "gate",
+        "material": "steel",
+        "triangles": 144,
+        "min_obj": [
+          -11.175,
+          -0.525,
+          11.65
+        ],
+        "max_obj": [
+          11.175,
+          0.525,
+          13.35
+        ]
+      },
+      {
+        "tag": "glass",
+        "material": "daylight",
+        "triangles": 168,
+        "min_obj": [
+          -40.0,
+          0.6204,
+          -6.0
+        ],
+        "max_obj": [
+          40.0,
+          4.5796,
+          -6.0
+        ]
+      },
+      {
+        "tag": "glasswall",
+        "material": "conc_d",
+        "triangles": 72,
+        "min_obj": [
+          -38.09,
+          -2.75,
+          5.7
+        ],
+        "max_obj": [
+          38.09,
+          2.75,
+          6.3
+        ]
+      },
+      {
+        "tag": "glasswall",
+        "material": "glass",
+        "triangles": 132,
+        "min_obj": [
+          -38.0,
+          0.0,
+          5.7
+        ],
+        "max_obj": [
+          38.0,
+          5.5,
+          6.3
+        ]
+      },
+      {
+        "tag": "graf",
+        "material": "graf_p",
+        "triangles": 24,
+        "min_obj": [
+          16.3,
+          0.6,
+          -5.965
+        ],
+        "max_obj": [
+          27.3,
+          2.8,
+          -5.915
+        ]
+      },
+      {
+        "tag": "graf",
+        "material": "graf_r",
+        "triangles": 24,
+        "min_obj": [
+          4.9,
+          0.65,
+          5.915
+        ],
+        "max_obj": [
+          15.2,
+          2.9,
+          15.925
+        ]
+      },
+      {
+        "tag": "graf",
+        "material": "graf_x",
+        "triangles": 24,
+        "min_obj": [
+          -21.5,
+          0.5,
+          5.915
+        ],
+        "max_obj": [
+          -6.4,
+          2.9,
+          15.925
+        ]
+      },
+      {
+        "tag": "lamp",
+        "material": "lamp",
+        "triangles": 996,
+        "min_obj": [
+          -37.2,
+          2.72,
+          -7.25
+        ],
+        "max_obj": [
+          35.6,
+          5.44,
+          11.7
+        ]
+      },
+      {
+        "tag": "pier",
+        "material": "conc_d",
+        "triangles": 864,
+        "min_obj": [
+          -34.737,
+          -0.21,
+          -5.737
+        ],
+        "max_obj": [
+          34.737,
+          5.29,
+          5.737
+        ]
+      },
+      {
+        "tag": "pier",
+        "material": "concrete",
+        "triangles": 264,
+        "min_obj": [
+          -30.45,
+          -1.95,
+          8.55
+        ],
+        "max_obj": [
+          30.45,
+          1.95,
+          13.45
+        ]
+      },
+      {
+        "tag": "pier",
+        "material": "skirt",
+        "triangles": 432,
+        "min_obj": [
+          -34.5665,
+          -0.45,
+          -5.5665
+        ],
+        "max_obj": [
+          34.5665,
+          0.45,
+          5.5665
+        ]
+      },
+      {
+        "tag": "pier",
+        "material": "tile",
+        "triangles": 432,
+        "min_obj": [
+          -34.55,
+          -2.75,
+          -5.55
+        ],
+        "max_obj": [
+          34.55,
+          2.75,
+          5.55
+        ]
+      },
+      {
+        "tag": "pier",
+        "material": "tile_d",
+        "triangles": 5184,
+        "min_obj": [
+          -34.59,
+          -1.1,
+          -5.59
+        ],
+        "max_obj": [
+          34.59,
+          2.9,
+          5.59
+        ]
+      },
+      {
+        "tag": "platform",
+        "material": "concrete",
+        "triangles": 24,
+        "min_obj": [
+          -38.0,
+          -0.4,
+          -6.0
+        ],
+        "max_obj": [
+          38.0,
+          0.0,
+          6.0
+        ]
+      },
+      {
+        "tag": "platform",
+        "material": "sign_lt",
+        "triangles": 24,
+        "min_obj": [
+          -38.0,
+          0.0,
+          -2.35
+        ],
+        "max_obj": [
+          38.0,
+          0.03,
+          2.35
+        ]
+      },
+      {
+        "tag": "portal",
+        "material": "portal",
+        "triangles": 24,
+        "min_obj": [
+          -45.96,
+          -1.5,
+          -2.0
+        ],
+        "max_obj": [
+          45.96,
+          1.5,
+          2.0
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "bench",
+        "triangles": 132,
+        "min_obj": [
+          -31.0,
+          -0.25,
+          -9.4
+        ],
+        "max_obj": [
+          31.0,
+          0.25,
+          15.7
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "bin",
+        "triangles": 120,
+        "min_obj": [
+          -30.275,
+          -0.475,
+          -5.575
+        ],
+        "max_obj": [
+          30.275,
+          0.475,
+          5.575
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "car_trim",
+        "triangles": 132,
+        "min_obj": [
+          -25.25,
+          0.55,
+          -11.69
+        ],
+        "max_obj": [
+          21.15,
+          3.3,
+          15.78
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "conc_d",
+        "triangles": 60,
+        "min_obj": [
+          -37.5,
+          -1.1,
+          -9.28
+        ],
+        "max_obj": [
+          37.5,
+          1.55,
+          -5.57
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "grate",
+        "triangles": 24,
+        "min_obj": [
+          -16.45,
+          0.2,
+          -8.4
+        ],
+        "max_obj": [
+          16.45,
+          0.8,
+          -8.3
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "sign_lt",
+        "triangles": 60,
+        "min_obj": [
+          -12.2,
+          -1.19,
+          -3.75
+        ],
+        "max_obj": [
+          28.2,
+          0.03,
+          10.65
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "steel",
+        "triangles": 168,
+        "min_obj": [
+          -30.1,
+          -1.5,
+          -5.6
+        ],
+        "max_obj": [
+          30.1,
+          1.5,
+          5.6
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "tile_d",
+        "triangles": 24,
+        "min_obj": [
+          -38.0,
+          -1.3,
+          -10.1
+        ],
+        "max_obj": [
+          38.0,
+          1.3,
+          -8.3
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "vend",
+        "triangles": 48,
+        "min_obj": [
+          -21.525,
+          -0.95,
+          14.85
+        ],
+        "max_obj": [
+          -15.975,
+          0.95,
+          15.55
+        ]
+      },
+      {
+        "tag": "prop",
+        "material": "vend_bd",
+        "triangles": 24,
+        "min_obj": [
+          5.375,
+          -1.0,
+          -11.65
+        ],
+        "max_obj": [
+          6.225,
+          1.0,
+          -8.85
+        ]
+      },
+      {
+        "tag": "rail",
+        "material": "rail",
+        "triangles": 36,
+        "min_obj": [
+          -38.0,
+          -1.2,
+          -0.78
+        ],
+        "max_obj": [
+          38.0,
+          -0.94,
+          1.12
+        ]
+      },
+      {
+        "tag": "rail",
+        "material": "steel",
+        "triangles": 684,
+        "min_obj": [
+          -36.08,
+          -1.34,
+          -1.345
+        ],
+        "max_obj": [
+          36.08,
+          4.05,
+          12.045
+        ]
+      },
+      {
+        "tag": "roof",
+        "material": "canopy",
+        "triangles": 24,
+        "min_obj": [
+          -38.0,
+          2.85,
+          -5.8
+        ],
+        "max_obj": [
+          38.0,
+          3.03,
+          5.8
+        ]
+      },
+      {
+        "tag": "roof",
+        "material": "ceil",
+        "triangles": 24,
+        "min_obj": [
+          -38.0,
+          3.9,
+          -6.0
+        ],
+        "max_obj": [
+          38.0,
+          6.0,
+          16.0
+        ]
+      },
+      {
+        "tag": "roof",
+        "material": "conc_d",
+        "triangles": 48,
+        "min_obj": [
+          -40.0,
+          3.5,
+          -12.0
+        ],
+        "max_obj": [
+          40.0,
+          7.65,
+          4.0
+        ]
+      },
+      {
+        "tag": "shell",
+        "material": "conc_d",
+        "triangles": 24,
+        "min_obj": [
+          -46.0,
+          -1.6,
+          -2.4
+        ],
+        "max_obj": [
+          46.0,
+          1.6,
+          2.4
+        ]
+      },
+      {
+        "tag": "shell",
+        "material": "tile",
+        "triangles": 132,
+        "min_obj": [
+          -38.3,
+          0.0,
+          -6.3
+        ],
+        "max_obj": [
+          38.3,
+          5.5,
+          6.0
+        ]
+      },
+      {
+        "tag": "shell",
+        "material": "tile_d",
+        "triangles": 12,
+        "min_obj": [
+          -38.0,
+          0.0,
+          -6.315
+        ],
+        "max_obj": [
+          38.0,
+          0.9,
+          -5.685
+        ]
+      },
+      {
+        "tag": "sign",
+        "material": "sign_b",
+        "triangles": 120,
+        "min_obj": [
+          -27.3,
+          1.9,
+          -0.08
+        ],
+        "max_obj": [
+          30.0,
+          7.0,
+          13.97
+        ]
+      },
+      {
+        "tag": "sign",
+        "material": "sign_p",
+        "triangles": 12,
+        "min_obj": [
+          1.5,
+          2.65,
+          15.855
+        ],
+        "max_obj": [
+          6.5,
+          3.65,
+          15.905
+        ]
+      },
+      {
+        "tag": "sign",
+        "material": "sign_r",
+        "triangles": 84,
+        "min_obj": [
+          -38.0,
+          1.975,
+          -5.945
+        ],
+        "max_obj": [
+          27.3,
+          7.0,
+          3.74
+        ]
+      },
+      {
+        "tag": "sign",
+        "material": "steel",
+        "triangles": 24,
+        "min_obj": [
+          -20.03,
+          3.65,
+          -0.03
+        ],
+        "max_obj": [
+          8.03,
+          4.15,
+          0.03
+        ]
+      },
+      {
+        "tag": "stair",
+        "material": "concrete",
+        "triangles": 360,
+        "min_obj": [
+          -35.2,
+          -1.2,
+          -3.5
+        ],
+        "max_obj": [
+          35.2,
+          3.4,
+          12.0
+        ]
+      },
+      {
+        "tag": "track",
+        "material": "ballast",
+        "triangles": 12,
+        "min_obj": [
+          -38.0,
+          -1.6,
+          -2.0
+        ],
+        "max_obj": [
+          38.0,
+          -1.2,
+          2.0
+        ]
+      },
+      {
+        "tag": "track",
+        "material": "conc_d",
+        "triangles": 912,
+        "min_obj": [
+          -38.0,
+          -1.22,
+          -2.0
+        ],
+        "max_obj": [
+          38.0,
+          -0.1,
+          2.0
+        ]
+      },
+      {
+        "tag": "vend",
+        "material": "vend",
+        "triangles": 24,
+        "min_obj": [
+          5.33,
+          -0.65,
+          -11.525
+        ],
+        "max_obj": [
+          5.43,
+          0.95,
+          -8.975
+        ]
+      },
+      {
+        "tag": "wall",
+        "material": "tile",
+        "triangles": 252,
+        "min_obj": [
+          -40.3,
+          0.0,
+          -12.3
+        ],
+        "max_obj": [
+          40.3,
+          7.3,
+          16.3
+        ]
+      },
+      {
+        "tag": "wall",
+        "material": "tile_d",
+        "triangles": 180,
+        "min_obj": [
+          -40.315,
+          0.0,
+          -12.315
+        ],
+        "max_obj": [
+          40.315,
+          4.3,
+          16.315
+        ]
+      }
+    ],
+    "structure_refinement": {
+      "bevel_width_m": 0.025,
+      "bevel_segments": 3,
+      "angle_degrees": 35,
+      "tags": [
+        "pier",
+        "beam",
+        "stair",
+        "deck",
+        "glasswall",
+        "gate",
+        "booth"
+      ],
+      "confidence": "authored finish; inward bevel only, no route relocation"
+    },
+    "hero_train": {
+      "car_centres_obj_x": [
+        -9,
+        9
+      ],
+      "car_length_m": 18,
+      "width_m": 2.9,
+      "roof_y_m": 2.2,
+      "base_y_m": -0.85,
+      "confidence": "locked canonical seed",
+      "status": "detail pass pending"
+    }
+  },
+  "material_families": {
+    "families": [
+      {
+        "name": "tile",
+        "color": "#c9c6bb",
+        "smoothness": 0.45,
+        "metallic": 0.02,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "tile",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "tile_d",
+        "color": "#a9a69b",
+        "smoothness": 0.38,
+        "metallic": 0.02,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "tile",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "concrete",
+        "color": "#8f8c84",
+        "smoothness": 0.14,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "conc",
+        "patternScale": 1.7,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "conc_d",
+        "color": "#6f6d66",
+        "smoothness": 0.1,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "conc",
+        "patternScale": 1.7,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "ballast",
+        "color": "#43413c",
+        "smoothness": 0.06,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "rough",
+        "patternScale": 0.5,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "steel",
+        "color": "#8a9198",
+        "smoothness": 0.56,
+        "metallic": 0.72,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "metalpanel",
+        "patternScale": 1.2,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "rail",
+        "color": "#9aa0a6",
+        "smoothness": 0.65,
+        "metallic": 0.85,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "metalpanel",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "grate",
+        "color": "#6f7378",
+        "smoothness": 0.45,
+        "metallic": 0.6,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "grate",
+        "patternScale": 0.3,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "car",
+        "color": "#9b9ea1",
+        "smoothness": 0.58,
+        "metallic": 0.18,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "metalpanel",
+        "patternScale": 1.1,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "car_trim",
+        "color": "#6a6d70",
+        "smoothness": 0.54,
+        "metallic": 0.2,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "metalpanel",
+        "patternScale": 1.1,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "glass",
+        "color": "#9db4bb",
+        "smoothness": 0.86,
+        "metallic": 0.06,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "sign_b",
+        "color": "#20458f",
+        "smoothness": 0.7,
+        "metallic": 0.05,
+        "emission": "#85aaff",
+        "emissionIntensity": 0.85,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "sign_r",
+        "color": "#a01f3c",
+        "smoothness": 0.7,
+        "metallic": 0.05,
+        "emission": "#ff7fa5",
+        "emissionIntensity": 0.85,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "sign_p",
+        "color": "#b02a78",
+        "smoothness": 0.7,
+        "metallic": 0.05,
+        "emission": "#ff88cd",
+        "emissionIntensity": 0.9,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "sign_lt",
+        "color": "#d9d2c2",
+        "smoothness": 0.6,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "ad",
+        "color": "#3a4650",
+        "smoothness": 0.7,
+        "metallic": 0.1,
+        "emission": "#e1ebff",
+        "emissionIntensity": 1.2,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "ad_ub",
+        "color": "#8a1e22",
+        "smoothness": 0.7,
+        "metallic": 0.1,
+        "emission": "#ff787c",
+        "emissionIntensity": 1.5,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "ad_ld",
+        "color": "#33507a",
+        "smoothness": 0.7,
+        "metallic": 0.1,
+        "emission": "#b0cdff",
+        "emissionIntensity": 1.15,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "ad_gf",
+        "color": "#26545a",
+        "smoothness": 0.7,
+        "metallic": 0.1,
+        "emission": "#b1f8ff",
+        "emissionIntensity": 0.8,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "graf_x",
+        "color": "#b5b1a6",
+        "smoothness": 0.38,
+        "metallic": 0.02,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "graf_p",
+        "color": "#b5b1a6",
+        "smoothness": 0.38,
+        "metallic": 0.02,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "graf_r",
+        "color": "#b5b1a6",
+        "smoothness": 0.38,
+        "metallic": 0.02,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "vend",
+        "color": "#c8ccce",
+        "smoothness": 0.6,
+        "metallic": 0.1,
+        "emission": "#cbe7ff",
+        "emissionIntensity": 0.5,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "vend_bd",
+        "color": "#7a2f2a",
+        "smoothness": 0.5,
+        "metallic": 0.05,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "bench",
+        "color": "#8a6a44",
+        "smoothness": 0.26,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "plank",
+        "patternScale": 0.42,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "bin",
+        "color": "#2f5d38",
+        "smoothness": 0.28,
+        "metallic": 0.05,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "beam",
+        "color": "#3a3d40",
+        "smoothness": 0.5,
+        "metallic": 0.7,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "metalpanel",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "canopy",
+        "color": "#7d7a72",
+        "smoothness": 0.15,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "conc",
+        "patternScale": 1.4,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "skirt",
+        "color": "#242219",
+        "smoothness": 0.18,
+        "metallic": 0.05,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "conc",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "ceil",
+        "color": "#3d3b37",
+        "smoothness": 0.1,
+        "metallic": 0.0,
+        "emission": "#000000",
+        "emissionIntensity": 0.0,
+        "pattern": "conc",
+        "patternScale": 1.6,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "winlt",
+        "color": "#ffe6bb",
+        "smoothness": 0.7,
+        "metallic": 0.0,
+        "emission": "#ffe3b5",
+        "emissionIntensity": 2.6,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "portal",
+        "color": "#101319",
+        "smoothness": 0.1,
+        "metallic": 0.0,
+        "emission": "#cbdaff",
+        "emissionIntensity": 1.0,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "lamp",
+        "color": "#fff3d6",
+        "smoothness": 0.7,
+        "metallic": 0.0,
+        "emission": "#fff4d4",
+        "emissionIntensity": 1.6,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      },
+      {
+        "name": "daylight",
+        "color": "#cfe0ff",
+        "smoothness": 0.7,
+        "metallic": 0.0,
+        "emission": "#d5e8ff",
+        "emissionIntensity": 2.1,
+        "pattern": "none",
+        "patternScale": 1.0,
+        "unlit": false,
+        "reflect": 0.0
+      }
+    ],
+    "source_role": "temporary seed palette, not final footage match",
+    "target": "Unity Built-in / legacy UberStrike shaders; no URP/HDRP",
+    "footage_target": "square off-white tile, dark dado, ribbed train metal, readable luminous windows",
+    "excluded": "_gemini_art; all Gemini visual targets"
+  },
+  "lighting": {
+    "lamps": [
+      {
+        "position": {
+          "x": -0.0,
+          "y": 5.1,
+          "z": 2.0
+        },
+        "color": "#ffefcb",
+        "intensity": 2.6,
+        "range": 20.0
+      },
+      {
+        "position": {
+          "x": 22.0,
+          "y": 5.1,
+          "z": 2.0
+        },
+        "color": "#ffefcb",
+        "intensity": 2.3,
+        "range": 17.0
+      },
+      {
+        "position": {
+          "x": -22.0,
+          "y": 5.1,
+          "z": 2.0
+        },
+        "color": "#ffefcb",
+        "intensity": 2.3,
+        "range": 17.0
+      },
+      {
+        "position": {
+          "x": -0.0,
+          "y": 3.6,
+          "z": 10.5
+        },
+        "color": "#fff1d4",
+        "intensity": 2.2,
+        "range": 16.0
+      },
+      {
+        "position": {
+          "x": 22.0,
+          "y": 3.6,
+          "z": 10.5
+        },
+        "color": "#fff1d4",
+        "intensity": 1.9,
+        "range": 14.0
+      },
+      {
+        "position": {
+          "x": -22.0,
+          "y": 3.6,
+          "z": 10.5
+        },
+        "color": "#fff1d4",
+        "intensity": 1.9,
+        "range": 14.0
+      },
+      {
+        "position": {
+          "x": -0.0,
+          "y": 3.2,
+          "z": -7.0
+        },
+        "color": "#f3f8ff",
+        "intensity": 1.9,
+        "range": 13.0
+      },
+      {
+        "position": {
+          "x": -13.0,
+          "y": 3.2,
+          "z": -10.0
+        },
+        "color": "#f3f8ff",
+        "intensity": 1.8,
+        "range": 12.0
+      },
+      {
+        "position": {
+          "x": 9.0,
+          "y": 1.6,
+          "z": 0.0
+        },
+        "color": "#ffdaaa",
+        "intensity": 1.8,
+        "range": 12.0
+      },
+      {
+        "position": {
+          "x": -9.0,
+          "y": 1.6,
+          "z": 0.0
+        },
+        "color": "#ffdaaa",
+        "intensity": 1.8,
+        "range": 12.0
+      },
+      {
+        "position": {
+          "x": 8.0,
+          "y": 2.0,
+          "z": -5.4
+        },
+        "color": "#ff9e95",
+        "intensity": 1.4,
+        "range": 10.0
+      },
+      {
+        "position": {
+          "x": -8.0,
+          "y": 2.0,
+          "z": -5.4
+        },
+        "color": "#ff9e95",
+        "intensity": 1.4,
+        "range": 10.0
+      },
+      {
+        "position": {
+          "x": 40.0,
+          "y": 0.4,
+          "z": 0.0
+        },
+        "color": "#a2c4ff",
+        "intensity": 2.2,
+        "range": 18.0
+      },
+      {
+        "position": {
+          "x": -40.0,
+          "y": 0.4,
+          "z": 0.0
+        },
+        "color": "#a2c4ff",
+        "intensity": 2.2,
+        "range": 18.0
+      },
+      {
+        "position": {
+          "x": 36.0,
+          "y": 3.0,
+          "z": 0.0
+        },
+        "color": "#edf3ff",
+        "intensity": 2.4,
+        "range": 18.0
+      },
+      {
+        "position": {
+          "x": -36.0,
+          "y": 3.0,
+          "z": 0.0
+        },
+        "color": "#edf3ff",
+        "intensity": 2.4,
+        "range": 18.0
+      }
+    ],
+    "sun": {
+      "direction": {
+        "x": 0.35,
+        "y": 0.42,
+        "z": 0.72
+      },
+      "color": "#dae2f9",
+      "intensity": 1.6
+    },
+    "sky": {
+      "zenith": "#353c52",
+      "horizon": "#656c7e",
+      "ground": "#303038"
+    },
+    "fog": {
+      "density": 0.34,
+      "start": 9.0,
+      "end": 64.0,
+      "color": "#454b59"
+    },
+    "povs": [
+      {
+        "index": 1,
+        "eye": {
+          "x": 34.0,
+          "y": 1.65,
+          "z": 4.0
+        },
+        "target": {
+          "x": -34.0,
+          "y": 2.0,
+          "z": 4.0
+        },
+        "fov": 58.0,
+        "caption": "NORTH PLATFORM \u2014 down the hall past the train, glass wall right"
+      },
+      {
+        "index": 2,
+        "eye": {
+          "x": 30.0,
+          "y": 4.65,
+          "z": 0.0
+        },
+        "target": {
+          "x": 6.0,
+          "y": 2.3,
+          "z": 0.0
+        },
+        "fov": 60.0,
+        "caption": "WEST CATWALK \u2014 diving board: it ends over the train roof (SNIPER drop)"
+      },
+      {
+        "index": 3,
+        "eye": {
+          "x": 6.0,
+          "y": -0.55,
+          "z": 0.0
+        },
+        "target": {
+          "x": 34.0,
+          "y": -0.3,
+          "z": 0.0
+        },
+        "fov": 56.0,
+        "caption": "TRACK TRENCH \u2014 the single track, catwalk overhead"
+      },
+      {
+        "index": 4,
+        "eye": {
+          "x": -0.0,
+          "y": 1.65,
+          "z": 7.5
+        },
+        "target": {
+          "x": -0.0,
+          "y": 1.9,
+          "z": 15.5
+        },
+        "fov": 66.0,
+        "caption": "CONCOURSE \u2014 fare gates, info booth, ticket machines"
+      },
+      {
+        "index": 5,
+        "eye": {
+          "x": -0.0,
+          "y": 1.65,
+          "z": -9.2
+        },
+        "target": {
+          "x": -0.0,
+          "y": 1.55,
+          "z": -11.9
+        },
+        "fov": 58.0,
+        "caption": "AD & VENDING ROOM \u2014 heavy-armour CQC (centre of the south bracket)"
+      },
+      {
+        "index": 6,
+        "eye": {
+          "x": 37.0,
+          "y": 4.65,
+          "z": 0.0
+        },
+        "target": {
+          "x": 20.0,
+          "y": 2.2,
+          "z": 6.0
+        },
+        "fov": 66.0,
+        "caption": "WEST SPAWN (mezzanine) \u2014 ramp down + catwalk mouth"
+      },
+      {
+        "index": 7,
+        "eye": {
+          "x": -0.0,
+          "y": 1.65,
+          "z": 4.0
+        },
+        "target": {
+          "x": 34.0,
+          "y": 2.0,
+          "z": 4.0
+        },
+        "fov": 58.0,
+        "caption": "NORTH PLATFORM mid \u2014 glass wall to concourse, train left"
+      },
+      {
+        "index": 8,
+        "eye": {
+          "x": -30.0,
+          "y": 1.65,
+          "z": -7.2
+        },
+        "target": {
+          "x": -6.0,
+          "y": 1.9,
+          "z": -7.0
+        },
+        "fov": 62.0,
+        "caption": "CORRIDOR RING \u2014 the tight tiled flank"
+      }
+    ],
+    "coordinate_convention": {
+      "units": "metres",
+      "source_obj": "right-handed Y-up",
+      "source_forge": "Unity left-handed: X east, Y up, -Z north (mirrored from right-handed master)",
+      "construction": "Blender right-handed Z-up",
+      "obj_to_blender": "[x,-z,y]",
+      "unity_to_blender": "[-x,-z,y]",
+      "export_blender_to_unity": "[-x,z,-y], reverse triangle winding exactly once",
+      "confidence": "high; entire triangle multiset and oriented winding checked"
+    },
+    "bake": true,
+    "status": "seed rig; final bake pending",
+    "fog_warning": "Source density is not directly a Unity exponential fog value."
+  },
+  "map_metadata": {
+    "SceneName": "LevelLowerBay",
+    "MapId": null,
+    "GameModes": [
+      100,
+      101
+    ],
+    "MaxPlayers": null
+  },
+  "validation_rules": {
+    "source": "datasets/uberstrike_scale_and_player.json",
+    "derived_map_metrics": {
+      "note": "All values in Unity units (= meters). Each cites the player metric it comes from. 'min/max' = hard engine limit; 'recommended' = comfortable design value.",
+      "min_ceiling_clearance_standing_u": {
+        "value": 2.0,
+        "recommended": 2.2,
+        "from": "crouch.stand_up_clearance_check.implied_standing_headroom_u (CheckSphere 1.4+0.6). Below 2.0u the player is forced to stay crouched."
+      },
+      "min_crouch_tunnel_height_u": {
+        "value": 1.0,
+        "recommended": 1.1,
+        "from": "crouch.ducked_controller_height_u = 0.9 + skin/margin. A tunnel 1.0-1.1u tall is passable only while crouched (and correctly blocks standing since it is < 2.0u)."
+      },
+      "door_passage_height_u": {
+        "value": 2.0,
+        "recommended": 2.2,
+        "from": "same 2.0u standing clearance. Doorways/arches you can run through standing must be >= 2.0u tall."
+      },
+      "door_passage_width_u": {
+        "value": 1.05,
+        "recommended": 1.4,
+        "from": "player.controller_diameter_u = 1.0 (2 x radius 0.5) + 2 x skin 0.2. Absolute minimum opening ~1.0-1.1u; use >=1.4u so players don't snag."
+      },
+      "min_corridor_width_u": {
+        "value": 1.1,
+        "recommended": 2.0,
+        "from": "player diameter 1.0u. 1.1u = single-file squeeze; ~2.0u lets a player strafe/dodge; 3-4u for main routes where two players cross."
+      },
+      "max_step_up_ledge_u": {
+        "value": 0.415,
+        "recommended": 0.4,
+        "from": "player.step_offset_u = 0.415. Ledges/stairs up to ~0.41u are auto-climbed by walking; anything taller needs a jump. Keep individual stair risers <= 0.4u."
+      },
+      "max_walkable_ramp_angle_deg": {
+        "value": 70,
+        "recommended": 45,
+        "from": "player.slope_limit_deg = 70. Ramps <= 70 deg are walkable; steeper faces block/slide. Use <= 45 deg for comfortable run-up ramps."
+      },
+      "max_jumpable_gap_flat_u": {
+        "value": 4.2,
+        "recommended": 4.0,
+        "from": "jump.run_jump_horizontal_reach_u. Gaps at equal floor height should be <= ~4.0u to be run-jumpable; make intentionally impassable gaps >= ~5u."
+      },
+      "max_jumpable_step_up_u": {
+        "value": 2.25,
+        "recommended": 2.0,
+        "from": "jump.jump_height_u = 2.25. A ledge/platform up to ~2.25u above the floor can be reached with a standing jump (feet clear it); make climbable platforms <= 2.0u of vertical rise, or stagger them."
+      },
+      "crouch_cover_height_u": {
+        "value": 1.0,
+        "recommended": 1.1,
+        "from": "crouched capsule top ~1.0u above floor (crouch.ducked geometry) vs standing head ~1.6u. Cover ~1.0-1.1u tall hides a CROUCHED player but a STANDING player can shoot over it. Classic 'crouch behind, peek by standing' cover."
+      },
+      "chest_high_cover_height_u": {
+        "value": 1.2,
+        "recommended": 1.2,
+        "from": "between crouch head (~1.0u) and standing eye (~1.55u). ~1.1-1.3u cover blocks a standing player's torso while leaving the head exposed to peek/shoot over."
+      },
+      "stand_cover_height_u": {
+        "value": 1.6,
+        "recommended": 2.0,
+        "from": "standing capsule top ~1.6u / eye ~1.55u (player geometry). Cover must be >= ~1.6u to fully conceal a standing player; use 1.8-2.0u walls for reliable full cover."
+      }
+    },
+    "seed_triangles": 15372,
+    "seed_materials": 34,
+    "seed_tags": 23,
+    "tolerance_m": 0.0002,
+    "geometry_budget": {
+      "target_visible_triangles": [
+        75000,
+        195000
+      ],
+      "renderer_target_max": 300
+    },
+    "locked_layout": true,
+    "full_navigation_validation": "pending collision gate"
+  },
+  "preview": {
+    "resolution": [
+      1280,
+      720
+    ],
+    "samples": 24,
+    "cpu_threads": 4
+  },
+  "identity": "single two-car train; glass-side concourse / solid-side corridor; end mezzanines",
+  "status": "seed construction frozen; final clearance and runtime gates pending"
+}
