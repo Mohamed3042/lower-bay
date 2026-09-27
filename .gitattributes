@@ -2,6 +2,8 @@
 *.png binary
 *.blend binary
 *.glb binary
+*.fbx binary
+*.jpg binary
 *.unitypackage binary
 playable/output/*.json linguist-generated=true
 playable/unity/ProjectSettings/* linguist-generated=true

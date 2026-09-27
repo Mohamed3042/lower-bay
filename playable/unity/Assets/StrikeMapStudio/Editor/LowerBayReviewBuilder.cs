@@ -16,8 +16,9 @@ namespace StrikeMapStudio.Editor
     {
         [Serializable] private sealed class Receipt
         {
-            public string status, sourceSha256, scene, unity, error;
+            public string status, sourceSha256, scene, unity, error, visualDirection;
             public int entities, authoredColliders, enabledRenderers, lightmaps, textures;
+            public int native4KTextures;
             public bool baked, playerBuilt;
             public string packageSha256;
         }
@@ -39,18 +40,44 @@ namespace StrikeMapStudio.Editor
             EditorSceneManager.OpenScene(scene);
         }
 
+        [MenuItem("Tools/Lower Bay/Build baked 2026 scene")]
+        public static void Build2026Menu()
+        {
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
+            string previousVersion = Environment.GetEnvironmentVariable("LOWER_BAY_2026");
+            string previousBake = Environment.GetEnvironmentVariable("LOWER_BAY_BAKE");
+            try
+            {
+                Environment.SetEnvironmentVariable("LOWER_BAY_2026", "1");
+                Environment.SetEnvironmentVariable("LOWER_BAY_BAKE", "1");
+                EditorSceneManager.OpenScene(Build(false));
+            }
+            finally
+            {
+                Environment.SetEnvironmentVariable("LOWER_BAY_2026", previousVersion);
+                Environment.SetEnvironmentVariable("LOWER_BAY_BAKE", previousBake);
+            }
+        }
+
         public static void BuildBatch()
         {
             try { Build(true); EditorApplication.Exit(0); }
             catch (Exception ex) { Debug.LogException(ex); EditorApplication.Exit(1); }
         }
 
+        public static void Build2026Batch()
+        {
+            Environment.SetEnvironmentVariable("LOWER_BAY_2026", "1");
+            BuildBatch();
+        }
+
         private static string Build(bool batch)
         {
             string sourcePath = Path.Combine(PlayableRoot, "output/lower-bay.strikemap.json");
-            string evidence = Path.Combine(PlayableRoot, "local/build");
+            bool realism = Environment.GetEnvironmentVariable("LOWER_BAY_2026") == "1";
+            string evidence = Path.Combine(PlayableRoot, realism ? "../reimagine-2026/local/build" : "local/build");
             Directory.CreateDirectory(evidence);
-            var result = new Receipt { status = "FAIL", unity = Application.unityVersion };
+            var result = new Receipt { status = "FAIL", unity = Application.unityVersion, visualDirection = realism ? "2026 realistic station" : "reconstruction blockout" };
             try
             {
                 byte[] bytes = File.ReadAllBytes(sourcePath);
@@ -66,9 +93,11 @@ namespace StrikeMapStudio.Editor
                 result.entities = entities.Length;
                 result.authoredColliders = entities.Count(e => e.GetComponent<Collider>() != null);
                 result.textures = map.assets.Count;
+                if (realism) { LowerBayVisual2026.Apply(root, folder); result.native4KTextures = 24; }
                 CombineVisuals(root, folder);
                 AddLighting(root);
                 ConfigureReview(root, folder, sourcePath);
+                if (realism) LowerBayVisual2026.ConfigureLighting(root);
                 result.enabledRenderers = root.GetComponentsInChildren<Renderer>().Count(r => r.enabled);
                 if (result.enabledRenderers > 300) throw new InvalidOperationException("Renderer budget exceeded: " + result.enabledRenderers);
                 if (result.authoredColliders != map.entities.Count(e => e.collidable)) throw new InvalidOperationException("Collider count changed during visual batching.");
@@ -82,9 +111,10 @@ namespace StrikeMapStudio.Editor
                     {
                         bakedGI = true, realtimeGI = false,
                         lightmapper = LightingSettings.Lightmapper.ProgressiveCPU,
-                        directSampleCount = 16, indirectSampleCount = 32,
-                        environmentSampleCount = 16, lightmapResolution = 4,
-                        lightmapMaxSize = 1024, lightmapPadding = 4
+                        directSampleCount = realism ? 32 : 16, indirectSampleCount = realism ? 64 : 32,
+                        environmentSampleCount = realism ? 32 : 16, lightmapResolution = realism ? 8 : 4,
+                        lightmapMaxSize = realism ? 2048 : 1024, lightmapPadding = 4,
+                        ao = realism, aoMaxDistance = .8f
                     };
                     AssetDatabase.CreateAsset(settings, folder + "/ReviewLighting.lighting");
                     Lightmapping.lightingSettings = settings;
@@ -94,9 +124,10 @@ namespace StrikeMapStudio.Editor
                     if (!result.baked) throw new InvalidOperationException("Light bake returned no atlases.");
                     LightProbes.Tetrahedralize();
                 }
+                if (realism) LowerBayVisual2026.BakeReflections(root);
                 EditorSceneManager.SaveScene(scene);
                 AssetDatabase.SaveAssets();
-                string package = Path.Combine(PlayableRoot, "../export/unitypackage/LowerBay_Playable.unitypackage");
+                string package = Path.Combine(PlayableRoot, realism ? "../reimagine-2026/local/LowerBay2026.unitypackage" : "../export/unitypackage/LowerBay_Playable.unitypackage");
                 var assets = new List<string> { result.scene };
                 assets.AddRange(Directory.GetFiles("Assets/StrikeMapStudio", "*.cs", SearchOption.AllDirectories).Select(p => p.Replace('\\', '/')));
                 assets.AddRange(Directory.GetFiles("Assets/StrikeMapStudio", "*.asmdef", SearchOption.AllDirectories).Select(p => p.Replace('\\', '/')));
@@ -104,10 +135,10 @@ namespace StrikeMapStudio.Editor
                 result.packageSha256 = Hash(File.ReadAllBytes(package));
                 if (batch)
                 {
-                    string binary = Path.Combine(PlayableRoot, "builds/LowerBay/LowerBay.exe");
+                    string binary = Path.Combine(PlayableRoot, realism ? "builds/LowerBay2026/LowerBay2026.exe" : "builds/LowerBay/LowerBay.exe");
                     Directory.CreateDirectory(Path.GetDirectoryName(binary));
                     PlayerSettings.companyName = "Lower Bay reconstruction";
-                    PlayerSettings.productName = "Lower Bay Review";
+                    PlayerSettings.productName = realism ? "Lower Bay 2026" : "Lower Bay Review";
                     PlayerSettings.runInBackground = true;
                     PlayerSettings.defaultIsNativeResolution = false;
                     PlayerSettings.defaultScreenWidth = 1280;
@@ -140,6 +171,7 @@ namespace StrikeMapStudio.Editor
             {
                 var renderer = entity.GetComponent<MeshRenderer>();
                 var filter = entity.GetComponent<MeshFilter>();
+                if (renderer == null || filter == null || !renderer.enabled || renderer.forceRenderingOff) continue;
                 Material original = renderer.sharedMaterial;
                 if (original.renderQueue >= 3000) continue; // Preserve transparent sorting.
                 var train = entity.GetComponentInParent<StrikeMapTrain>();
@@ -254,6 +286,15 @@ namespace StrikeMapStudio.Editor
                 landmarks = ((List<object>)data["landmarks"]).Select(item => { var row = (Dictionary<string, object>)item; return new LowerBayReviewProbe.Viewpoint
                 { id = (string)row["id"], position = Vector(row["position"]), lookAt = Vector(row["lookAt"]) }; }).ToArray()
             };
+            if (Environment.GetEnvironmentVariable("LOWER_BAY_2026") == "1")
+                fixture.landmarks = fixture.landmarks.Concat(new[]
+                {
+                    new LowerBayReviewProbe.Viewpoint { id="station-sign", position=new Vector3(0,2.1f,2.8f), lookAt=new Vector3(0,3.45f,5.8f) },
+                    new LowerBayReviewProbe.Viewpoint { id="bench-and-bin", position=new Vector3(-19.5f,1.45f,12.2f), lookAt=new Vector3(-19.1f,.7f,15.3f) },
+                    new LowerBayReviewProbe.Viewpoint { id="vending-detail", position=new Vector3(-3.8f,1.6f,-9.2f), lookAt=new Vector3(-6.2f,1,-10.8f) },
+                    new LowerBayReviewProbe.Viewpoint { id="ticket-machines", position=new Vector3(19.5f,1.65f,12.7f), lookAt=new Vector3(19.5f,1.15f,15.2f) },
+                    new LowerBayReviewProbe.Viewpoint { id="train-detail", position=new Vector3(-20,1.6f,-3.5f), lookAt=new Vector3(-10,.6f,0) }
+                }).ToArray();
             File.WriteAllText("Assets/LowerBayReview/Resources/LowerBayRoutes.json", JsonUtility.ToJson(fixture));
             AssetDatabase.ImportAsset("Assets/LowerBayReview/Resources/LowerBayRoutes.json");
             probe.routeFixture = AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/LowerBayReview/Resources/LowerBayRoutes.json");

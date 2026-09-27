@@ -1,0 +1,17 @@
+{
+    "status": "PASS",
+    "sourceSha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+    "scene": "Assets/StrikeMapStudio/Maps/lower-bay-reconstruction-v2 8/StrikeMap_lower-bay-reconstruction-v2_8.unity",
+    "unity": "6000.0.56f1",
+    "error": "",
+    "visualDirection": "2026 realistic station",
+    "entities": 930,
+    "authoredColliders": 280,
+    "enabledRenderers": 206,
+    "lightmaps": 1,
+    "textures": 5,
+    "native4KTextures": 24,
+    "baked": true,
+    "playerBuilt": true,
+    "packageSha256": "c7efc100c05d9bfcafd31c6ed0c116d25d317e6b60f7685272a448cd20eb7dbb"
+}

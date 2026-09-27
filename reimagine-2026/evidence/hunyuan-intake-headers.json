@@ -1,0 +1,198 @@
+[
+  {
+    "file": "44b8e503af2bdba29d2f99540ba91a05.glb",
+    "bytes": 45501844,
+    "meshes": 1,
+    "triangles": 500000,
+    "materials": 1,
+    "skins": 0,
+    "animations": 0,
+    "textures": [
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      }
+    ],
+    "bounds": [
+      {
+        "min": [
+          -0.2819730043411255,
+          -0.2826319932937622,
+          -1.066195011138916
+        ],
+        "max": [
+          0.28500300645828247,
+          0.2869200110435486,
+          0
+        ]
+      }
+    ],
+    "generator": "Khronos glTF Blender I/O v4.0.43",
+    "identity": "station-bin",
+    "identityEvidence": "hunyuan-intake/receipt.json and its front/rear previews"
+  },
+  {
+    "file": "7359061a51599b9f4b2a290feff846b9.glb",
+    "bytes": 57379764,
+    "meshes": 1,
+    "triangles": 499262,
+    "materials": 1,
+    "skins": 0,
+    "animations": 0,
+    "textures": [
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      }
+    ],
+    "bounds": [
+      {
+        "min": [
+          -0.2487100064754486,
+          -0.23935100436210632,
+          -1.045320987701416
+        ],
+        "max": [
+          0.2594679892063141,
+          0.1428239941596985,
+          0
+        ]
+      }
+    ],
+    "generator": "Khronos glTF Blender I/O v4.0.43",
+    "identity": "drinks-vending",
+    "identityEvidence": "hunyuan-intake/receipt.json and its front/rear previews"
+  },
+  {
+    "file": "6dab80e603ca593a1e83afec52493a4a.glb",
+    "bytes": 52367492,
+    "meshes": 1,
+    "triangles": 499270,
+    "materials": 1,
+    "skins": 0,
+    "animations": 0,
+    "textures": [
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      }
+    ],
+    "bounds": [
+      {
+        "min": [
+          -0.10142900049686432,
+          -0.5882109999656677,
+          -0.23991599678993225
+        ],
+        "max": [
+          0.10151299834251404,
+          0.598052978515625,
+          0
+        ]
+      }
+    ],
+    "generator": "Khronos glTF Blender I/O v4.0.43",
+    "identity": "subway-car",
+    "identityEvidence": "hunyuan-intake/receipt.json and its front/rear previews"
+  },
+  {
+    "file": "ba47377b1d8544136f0ff4247b0f4b1a.glb",
+    "bytes": 57339008,
+    "meshes": 1,
+    "triangles": 500000,
+    "materials": 1,
+    "skins": 0,
+    "animations": 0,
+    "textures": [
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      },
+      {
+        "size": [
+          4096,
+          4096
+        ],
+        "format": "PNG"
+      }
+    ],
+    "bounds": [
+      {
+        "min": [
+          -0.5436710119247437,
+          -0.16620199382305145,
+          -0.3874390125274658
+        ],
+        "max": [
+          0.5499659776687622,
+          0.18674199283123016,
+          0
+        ]
+      }
+    ],
+    "generator": "Khronos glTF Blender I/O v4.0.43",
+    "identity": "station-bench",
+    "identityEvidence": "hunyuan-intake/receipt.json and its front/rear previews"
+  }
+]

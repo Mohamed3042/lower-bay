@@ -1,0 +1,116 @@
+[
+  {
+    "id": "Tiles008",
+    "source": "https://ambientcg.com/view?id=Tiles008",
+    "download": "https://ambientcg.com/get?file=Tiles008_4K-JPG.zip",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://docs.ambientcg.com/license/",
+    "archiveSha256": "b38c88e939038dbafc38c6693f278fcba85c1ec0bc97d970d9522f443a88e4d5",
+    "maps": [
+      {
+        "role": "Color",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Tiles008/Color.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "f0f578973ed5c815855191b3fa00ccd61003854327bb8e18f5b6b7d994ade980"
+      },
+      {
+        "role": "NormalGL",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Tiles008/NormalGL.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "12446ddb027b512d51682c5eeac0a174fd9e42b04ed9e8c355d28f25e58bbb51"
+      },
+      {
+        "role": "Roughness",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Tiles008/Roughness.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "0c8919d20c28349460e2d1288184e6d3ceae8d8930968fb75183e8284a071416"
+      },
+      {
+        "role": "AmbientOcclusion",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Tiles008/AmbientOcclusion.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "9cd0478bb6b708056e7637f90aca717c4f3e7067b38cfeddd6b32a3428eb12d5"
+      }
+    ]
+  },
+  {
+    "id": "Concrete048",
+    "source": "https://ambientcg.com/view?id=Concrete048",
+    "download": "https://ambientcg.com/get?file=Concrete048_4K-JPG.zip",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://docs.ambientcg.com/license/",
+    "archiveSha256": "cd45ad8638632d9baa8ad9fc591f84501c5caa2ea0a7463815707d8a9cc77aaf",
+    "maps": [
+      {
+        "role": "Color",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete048/Color.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "05eac821112e18ac4796f67bf98387a11bfb6a123353b029167bf56109e2a343"
+      },
+      {
+        "role": "NormalGL",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete048/NormalGL.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "eba59659ad9b9d7f4b544a4e24f46c062dc2e70cdc8d1ea9433cebb8d848dfe2"
+      },
+      {
+        "role": "Roughness",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete048/Roughness.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "661d23c267c6f2ab7db866a569ab39c756a577073ea28b201eea4556ba2fe7a8"
+      },
+      {
+        "role": "AmbientOcclusion",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete048/AmbientOcclusion.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "96a3fa83bda401a2e1d3ce4d035efe4a71a065e85db5a2b78be22b9ea9597074"
+      }
+    ]
+  },
+  {
+    "id": "Concrete033",
+    "source": "https://ambientcg.com/view?id=Concrete033",
+    "download": "https://ambientcg.com/get?file=Concrete033_4K-JPG.zip",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://docs.ambientcg.com/license/",
+    "archiveSha256": "b283f6fea44747cc0ecccca43ddf6e29945a91c194148e26c83a8061cc21ef9f",
+    "maps": [
+      {
+        "role": "Color",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete033/Color.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "db163b46c6dd658db01c848e4513e042ed10e5d107f0a4adaaffd9428aae598e"
+      },
+      {
+        "role": "NormalGL",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete033/NormalGL.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "b12a69c82cbb149b6e70adcb394b0b937ee87162399cdfb8ece5f840ea5cc617"
+      },
+      {
+        "role": "Roughness",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete033/Roughness.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "60fe116c55411995185eaca1bb84255f97ebdc535685d98f38b3dbcb45c25fc5"
+      },
+      {
+        "role": "AmbientOcclusion",
+        "file": "playable/unity/Assets/LowerBay2026/Surfaces/Concrete033/AmbientOcclusion.jpg",
+        "width": 4096,
+        "height": 4096,
+        "sha256": "691d87c2debab70a94fb15bbe6d2e6730a86e6125af17f635694ad1a8d698fda"
+      }
+    ]
+  }
+]

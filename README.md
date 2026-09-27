@@ -3,9 +3,24 @@
 A reconstruction of the unreleased 2013 UberStrike subway map, based on the
 surviving walkthroughs. The original map binary has not been recovered.
 
-## Playable review build
+## Lower Bay 2026
 
-The latest candidate is a self-contained **Unity 6000.0.56f1 walkthrough** with
+The 2026 visual continuation uses the owner's four Hunyuan-converted props: a
+subway car, station bench, vending machine and litter bin. It adds 24 native 4K
+PBR maps, measured FBX LODs, chamfered architecture, steel catwalk grating,
+station lettering, equipment details and baked station lighting.
+
+**[2026 build, asset provenance and evidence](reimagine-2026/README.md)**
+
+![Actual 2026 Unity player at 3840 x 2160](reimagine-2026/evidence/runtime/platform.png)
+
+Build the included `playable/unity` project with `Build-Unity.ps1 -Realism2026 -Bake`.
+Prepared assets are checked in. The larger 2026 package and Windows player are
+generated locally; the linked package below is the earlier blockout baseline.
+
+## Playable reconstruction baseline
+
+The baseline is a self-contained **Unity 6000.0.56f1 walkthrough** with
 connected upper rooms, platforms, concourse, service rooms, moving train, pickup
 markers and a first-person controller. Its editable map, scripts, AI textures,
 Blender source and verification are included.

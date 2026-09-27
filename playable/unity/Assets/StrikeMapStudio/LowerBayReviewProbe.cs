@@ -18,6 +18,8 @@ namespace StrikeMapStudio
         {
             public string status = "FAIL", sourceSha256, unity, graphicsDevice, error;
             public int entities, enabledRenderers, colliders, textures, lightmaps, pickups;
+            public int native4KTextures, captureWidth, captureHeight;
+            public int propInstances, lodLevels, bakedProbeCount, reflectionProbeCount;
             public bool carry, trappedRiderReset, hazardReset, reset, paused, dropCannotWalkBack, upperFloorClosed;
             public RouteResult[] routes;
             public string[] screenshots;
@@ -26,12 +28,15 @@ namespace StrikeMapStudio
         private LowerBayReviewPlayer player;
         private string folder;
         private Receipt receipt = new Receipt();
+        private int captureWidth = 1280, captureHeight = 720;
 
         private IEnumerator Start()
         {
             string[] args = Environment.GetCommandLineArgs();
             int arg = Array.IndexOf(args, "-lowerBayVerify");
             if (arg < 0 || arg + 1 >= args.Length) yield break;
+            if (args.Contains("-lowerBay4K")) { captureWidth = 3840; captureHeight = 2160; }
+            receipt.captureWidth = captureWidth; receipt.captureHeight = captureHeight;
             folder = Path.GetFullPath(args[arg + 1]);
             if (Directory.Exists(folder)) { Debug.LogError("Verification directory already exists."); Application.Quit(2); yield break; }
             Directory.CreateDirectory(folder);
@@ -66,6 +71,16 @@ namespace StrikeMapStudio
             receipt.enabledRenderers = FindObjectsByType<Renderer>(FindObjectsSortMode.None).Count(r => r.enabled);
             receipt.lightmaps = LightmapSettings.lightmaps.Length;
             receipt.textures = Resources.FindObjectsOfTypeAll<Texture2D>().Count(t => t.name.EndsWith("albedo") || t.name == "lower-bay-sign" || t.name == "winter-poster");
+            receipt.native4KTextures = Resources.FindObjectsOfTypeAll<Texture2D>().Count(t => t.width == 4096 && t.height == 4096);
+            if (captureWidth == 3840 && receipt.native4KTextures < 24) throw new InvalidOperationException("The 2026 runtime is missing native 4K textures.");
+            var groups = FindObjectsByType<LODGroup>(FindObjectsSortMode.None);
+            receipt.propInstances = groups.Length;
+            receipt.lodLevels = groups.Sum(g => g.GetLODs().Length);
+            receipt.bakedProbeCount = LightmapSettings.lightProbes != null ? LightmapSettings.lightProbes.count : 0;
+            receipt.reflectionProbeCount = FindObjectsByType<ReflectionProbe>(FindObjectsSortMode.None).Count(p => p.bakedTexture != null);
+            if (captureWidth == 3840 && (receipt.propInstances != 9 || receipt.lodLevels != 18 || receipt.bakedProbeCount < 180 || receipt.reflectionProbeCount != 7
+                || groups.SelectMany(g => g.GetLODs()).SelectMany(l => l.renderers).Any(r => r == null || r.sharedMaterial == null || !r.sharedMaterial.shader.isSupported)))
+                throw new InvalidOperationException("The 2026 prop, LOD or lighting contract failed.");
             using (var hash = SHA256.Create()) receipt.sourceSha256 = BitConverter.ToString(hash.ComputeHash(player.source.bytes)).Replace("-", "").ToLowerInvariant();
             // JsonUtility cannot read nested numeric arrays. Routes are compiled
             // to a simple runtime fixture by the Editor from the source JSON.
@@ -165,15 +180,15 @@ namespace StrikeMapStudio
             return result;
         }
 
-        private static void Capture(Camera camera, string path)
+        private void Capture(Camera camera, string path)
         {
-            var target = new RenderTexture(1280, 720, 24);
-            var texture = new Texture2D(1280, 720, TextureFormat.RGB24, false);
+            var target = new RenderTexture(captureWidth, captureHeight, 24) { antiAliasing = 2 };
+            var texture = new Texture2D(captureWidth, captureHeight, TextureFormat.RGB24, false);
             var previous = RenderTexture.active;
             camera.targetTexture = target;
             camera.Render();
             RenderTexture.active = target;
-            texture.ReadPixels(new Rect(0, 0, 1280, 720), 0, 0);
+            texture.ReadPixels(new Rect(0, 0, captureWidth, captureHeight), 0, 0);
             texture.Apply();
             var colors = texture.GetPixels32();
             var unique = new HashSet<int>();

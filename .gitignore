@@ -37,3 +37,7 @@ playable/builds/
 playable/local/
 *.pyc
 __pycache__/
+
+# Local diagnostics and original owner drops for the 2026 visual continuation.
+reimagine-2026/local/
+reimagine-2026/hunyuan/incoming/

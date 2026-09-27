@@ -1,0 +1,246 @@
+[
+  {
+    "asset": "station-bin",
+    "sourceFile": "44b8e503af2bdba29d2f99540ba91a05.glb",
+    "sourceSha256": "2e1e2d66c5df2953f43018026ce98e37825b9a1771921c5c45a69cecd892dad6",
+    "sourceTriangles": 500000,
+    "dimensionsBlender": [
+      0.51,
+      0.51,
+      0.95
+    ],
+    "pivot": "centre of footprint at floor; metres",
+    "maps": [
+      {
+        "role": "basecolor",
+        "file": "playable/unity/Assets/LowerBay2026/Props/station-bin/basecolor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "cd353563f59c66b48bfb7c4c224d7b65fbcd630ef8f0506ce2feda1a24bb4a87"
+      },
+      {
+        "role": "normal",
+        "file": "playable/unity/Assets/LowerBay2026/Props/station-bin/normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "a45c865e037ae274679c528ab684d9673d49cc0a20ff8cda1e61dc58de078ffe"
+      },
+      {
+        "role": "metalrough",
+        "file": "playable/unity/Assets/LowerBay2026/Props/station-bin/metalrough.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "3ead068488bbe28a52f81df4455ca90cbc72eced8bcb3a7738ece2c320a32365"
+      }
+    ],
+    "lods": [
+      {
+        "level": 0,
+        "triangles": 35000,
+        "sampledSurfaceErrorMaxMetres": 0.0010825102217495441,
+        "sampledSurfaceErrorP95Metres": 0.0004724849422927946,
+        "sampleCount": 3104,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/station-bin/LOD0.fbx",
+        "sha256": "7512a26de0b18d37401e404c70541ac2def705144e9b287df30e251a57c0efd9"
+      },
+      {
+        "level": 1,
+        "triangles": 10000,
+        "sampledSurfaceErrorMaxMetres": 0.003942182753235102,
+        "sampledSurfaceErrorP95Metres": 0.0018117779400199652,
+        "sampleCount": 3104,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/station-bin/LOD1.fbx",
+        "sha256": "33885471239681670333228a756c15fe6c71edfd4eee6ff1c1d2f125e32ce9e7"
+      }
+    ]
+  },
+  {
+    "asset": "drinks-vending",
+    "sourceFile": "7359061a51599b9f4b2a290feff846b9.glb",
+    "sourceSha256": "94a60214aad42466f3101e22b80864191f4145819848d5f85e021e25f6c86e31",
+    "sourceTriangles": 499262,
+    "dimensionsBlender": [
+      0.95,
+      0.8,
+      1.95
+    ],
+    "pivot": "centre of footprint at floor; metres",
+    "maps": [
+      {
+        "role": "basecolor",
+        "file": "playable/unity/Assets/LowerBay2026/Props/drinks-vending/basecolor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "e28a4375141e07b5aaa43b3b75fc2d7b46642ac7b682d9fcab5abe43d357c8e3"
+      },
+      {
+        "role": "normal",
+        "file": "playable/unity/Assets/LowerBay2026/Props/drinks-vending/normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "26c2e5b62e7279563536d30e3cbf41e977420197b8b01f444dcc6fb803a659c3"
+      },
+      {
+        "role": "metalrough",
+        "file": "playable/unity/Assets/LowerBay2026/Props/drinks-vending/metalrough.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "183a34069a87553a1bf8894c997ac87b7b6766e2d287d1854a0380204118afc3"
+      }
+    ],
+    "lods": [
+      {
+        "level": 0,
+        "triangles": 69999,
+        "sampledSurfaceErrorMaxMetres": 0.001008582185022533,
+        "sampledSurfaceErrorP95Metres": 0.00038719846634194255,
+        "sampleCount": 3074,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/drinks-vending/LOD0.fbx",
+        "sha256": "41b9a9c1b33b2d5486ba79ed793f33c81fa3bdbd7018c1131cd2e3b3eb2741c0"
+      },
+      {
+        "level": 1,
+        "triangles": 22000,
+        "sampledSurfaceErrorMaxMetres": 0.0033240802586078644,
+        "sampledSurfaceErrorP95Metres": 0.001563447993248701,
+        "sampleCount": 3074,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/drinks-vending/LOD1.fbx",
+        "sha256": "4cb803eb96ae9189455a9ca2cd4daee9fd9331a7be5a01b0fba31a25ac32b18d"
+      }
+    ]
+  },
+  {
+    "asset": "subway-car",
+    "sourceFile": "6dab80e603ca593a1e83afec52493a4a.glb",
+    "sourceSha256": "53395b66877f20357abc5213aea4ddd709568fbb921cc556c32d1b4cc5c6fb22",
+    "sourceTriangles": 499270,
+    "dimensionsBlender": [
+      17.8,
+      2.9,
+      3.135
+    ],
+    "pivot": "centre of footprint at floor; metres",
+    "maps": [
+      {
+        "role": "basecolor",
+        "file": "playable/unity/Assets/LowerBay2026/Props/subway-car/basecolor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "4ebf1da15616b3622d12ed89965a63a135291d58a3c3031298fa4f1befd89aa9"
+      },
+      {
+        "role": "normal",
+        "file": "playable/unity/Assets/LowerBay2026/Props/subway-car/normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "6396af5a3a0f9849963d5eaf4855de32b971f14eca003c02016052ee842b2411"
+      },
+      {
+        "role": "metalrough",
+        "file": "playable/unity/Assets/LowerBay2026/Props/subway-car/metalrough.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "4fabac7a4bd872bdea87f65e3250859e5305b08cbf47c67eebcb23207d2e665e"
+      }
+    ],
+    "lods": [
+      {
+        "level": 0,
+        "triangles": 140000,
+        "sampledSurfaceErrorMaxMetres": 0.012696603313088417,
+        "sampledSurfaceErrorP95Metres": 0.0027189271058887243,
+        "sampleCount": 3100,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/subway-car/LOD0.fbx",
+        "sha256": "26308f9bf762e4a9825c2ab8b33bbcd7e32b6d6b5136223c1e7cea42becd0625"
+      },
+      {
+        "level": 1,
+        "triangles": 45000,
+        "sampledSurfaceErrorMaxMetres": 0.0550059974193573,
+        "sampledSurfaceErrorP95Metres": 0.011068389751017094,
+        "sampleCount": 3100,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/subway-car/LOD1.fbx",
+        "sha256": "e8546af332bc1b8d9ade3a31d0b8f2abdfa37a41407bd0693be490a178aaf97f"
+      }
+    ]
+  },
+  {
+    "asset": "station-bench",
+    "sourceFile": "ba47377b1d8544136f0ff4247b0f4b1a.glb",
+    "sourceSha256": "85c7da7371f8a544e2c9d517fd101e097f4f25387eafa6e18e3afb14d0b52a7c",
+    "sourceTriangles": 500000,
+    "dimensionsBlender": [
+      2.2,
+      0.71,
+      0.78
+    ],
+    "pivot": "centre of footprint at floor; metres",
+    "maps": [
+      {
+        "role": "basecolor",
+        "file": "playable/unity/Assets/LowerBay2026/Props/station-bench/basecolor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "097ba7e27368955225ca6c57df0de1f6c3b46f513d68802509a1616e2d9b14db"
+      },
+      {
+        "role": "normal",
+        "file": "playable/unity/Assets/LowerBay2026/Props/station-bench/normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "e4f6d4ad46dae0d47785be0d9b00ffc74a664fe2c57b0fb1d90007d31ab3fb9c"
+      },
+      {
+        "role": "metalrough",
+        "file": "playable/unity/Assets/LowerBay2026/Props/station-bench/metalrough.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "2c314d7d89bec01a3f2ca3a4509008cb52fc0896628234ee6855238e07caae06"
+      }
+    ],
+    "lods": [
+      {
+        "level": 0,
+        "triangles": 80000,
+        "sampledSurfaceErrorMaxMetres": 0.0007913492736406624,
+        "sampledSurfaceErrorP95Metres": 0.00036570377415046096,
+        "sampleCount": 3093,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/station-bench/LOD0.fbx",
+        "sha256": "71c210eab69a1bdc0f8c4ef5d8bd6d42ffe7101936cd49bac97371a183ec9d3a"
+      },
+      {
+        "level": 1,
+        "triangles": 28000,
+        "sampledSurfaceErrorMaxMetres": 0.0028623954858630896,
+        "sampledSurfaceErrorP95Metres": 0.0013220675755292177,
+        "sampleCount": 3093,
+        "fbx": "playable/unity/Assets/LowerBay2026/Props/station-bench/LOD1.fbx",
+        "sha256": "34e3786b366f9fc6aa0ae3d41af032d61878f3b41066555dcdeca508733c51df"
+      }
+    ]
+  }
+]

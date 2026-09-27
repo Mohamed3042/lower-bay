@@ -1,5 +1,8 @@
 # Playable Lower Bay review — 2026-09-27
 
+This report certifies the earlier blockout baseline. The subsequent realistic
+2026 scene has separate [assets, native 4K captures and verification](../reimagine-2026/README.md).
+
 **Delivered:** a reproducible, playable reconstruction with a packed Blender file,
 animated GLB, baked Unity package and locally built Windows walkthrough. This is a
 map review candidate, not certification of the lost original map or a complete

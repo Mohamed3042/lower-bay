@@ -1,5 +1,9 @@
 # Lower Bay playable reconstruction
 
+**For the realistic 2026 scene, use the [2026 build guide](../reimagine-2026/README.md)
+and pass `-Realism2026 -Bake` to `Build-Unity.ps1`.** The package and Blender exports
+described below preserve the earlier playable blockout baseline.
+
 This continues the recovered September 22 authored map as a self-contained Unity
 walkthrough and reproducible Blender export. The original `blender/map_master.blend`
 and `LowerBay_v1.unitypackage` remain historical checkpoints. This candidate closes

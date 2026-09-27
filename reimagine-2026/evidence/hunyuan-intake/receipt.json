@@ -1,0 +1,98 @@
+[
+  {
+    "file": "44b8e503af2bdba29d2f99540ba91a05.glb",
+    "sha256": "2e1e2d66c5df2953f43018026ce98e37825b9a1771921c5c45a69cecd892dad6",
+    "meshes": 1,
+    "sourceBounds": {
+      "min": [
+        -0.2819730043411255,
+        -0.2869201898574829,
+        -3.855024388599304e-08
+      ],
+      "max": [
+        0.28500300645828247,
+        0.2826320230960846,
+        1.0661951303482056
+      ]
+    },
+    "sourceTriangles": 500000,
+    "identity": "station-bin",
+    "previews": [
+      "evidence/hunyuan-intake/1-front.png",
+      "evidence/hunyuan-intake/1-rear.png"
+    ],
+    "visualReview": "Confirmed from front and rear Blender renders; owner GLB preserved."
+  },
+  {
+    "file": "7359061a51599b9f4b2a290feff846b9.glb",
+    "sha256": "94a60214aad42466f3101e22b80864191f4145819848d5f85e021e25f6c86e31",
+    "meshes": 1,
+    "sourceBounds": {
+      "min": [
+        -0.2487100064754486,
+        -0.14282414317131042,
+        -1.9189668520880332e-08
+      ],
+      "max": [
+        0.2594679892063141,
+        0.2393510341644287,
+        1.0453211069107056
+      ]
+    },
+    "sourceTriangles": 499262,
+    "identity": "drinks-vending",
+    "previews": [
+      "evidence/hunyuan-intake/2-front.png",
+      "evidence/hunyuan-intake/2-rear.png"
+    ],
+    "visualReview": "Confirmed from front and rear Blender renders; owner GLB preserved."
+  },
+  {
+    "file": "6dab80e603ca593a1e83afec52493a4a.glb",
+    "sha256": "53395b66877f20357abc5213aea4ddd709568fbb921cc556c32d1b4cc5c6fb22",
+    "meshes": 1,
+    "sourceBounds": {
+      "min": [
+        -0.10142900049686432,
+        -0.5980530977249146,
+        -8.035371479309106e-08
+      ],
+      "max": [
+        0.10151299834251404,
+        0.5882110595703125,
+        0.2399161010980606
+      ]
+    },
+    "sourceTriangles": 499270,
+    "identity": "subway-car",
+    "previews": [
+      "evidence/hunyuan-intake/3-front.png",
+      "evidence/hunyuan-intake/3-rear.png"
+    ],
+    "visualReview": "Confirmed from front and rear Blender renders; owner GLB preserved."
+  },
+  {
+    "file": "ba47377b1d8544136f0ff4247b0f4b1a.glb",
+    "sha256": "85c7da7371f8a544e2c9d517fd101e097f4f25387eafa6e18e3afb14d0b52a7c",
+    "meshes": 1,
+    "sourceBounds": {
+      "min": [
+        -0.5436710119247437,
+        -0.18674205243587494,
+        -2.509043994791682e-08
+      ],
+      "max": [
+        0.5499659776687622,
+        0.16620200872421265,
+        0.387439101934433
+      ]
+    },
+    "sourceTriangles": 500000,
+    "identity": "station-bench",
+    "previews": [
+      "evidence/hunyuan-intake/4-front.png",
+      "evidence/hunyuan-intake/4-rear.png"
+    ],
+    "visualReview": "Confirmed from front and rear Blender renders; owner GLB preserved."
+  }
+]

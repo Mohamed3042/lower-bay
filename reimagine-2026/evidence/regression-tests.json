@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "command": "node --test tests/*.test.mjs",
+  "workingDirectory": "playable",
+  "tests": 13,
+  "passed": 13,
+  "failed": 0,
+  "verifiedOn": "2026-09-27",
+  "sourceSha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518"
+}
