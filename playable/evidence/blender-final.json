@@ -1,0 +1,65 @@
+{
+  "status": "VERIFIED",
+  "source_sha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+  "blender": "5.1.2",
+  "entities": 930,
+  "coordinate_error_count": 0,
+  "glb_images": 5,
+  "glb_animations": 1,
+  "glb_animation_interpolation": [
+    "LINEAR"
+  ],
+  "renders": {
+    "overview.png": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 1028125,
+      "sha256": "1e0d1528df21ed7971dc418bdbf4e86429516d6575568fda74390d10cad9755c"
+    },
+    "platform.png": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 1274079,
+      "sha256": "d22da3cdfdbd907f06342d6c0075ac51926e612457ff2377cf7310add85833cd"
+    },
+    "red-upper-view.png": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 1267036,
+      "sha256": "1e9d90f69c24851e65188c14b57e658dbfc25d10b84eac756d5bf8a3f5d1f15a"
+    },
+    "alcove-view.png": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 1340402,
+      "sha256": "f94349f7d6336a3671bef541eed86dd0d061f9602a3c6f46be40d6ea5a6c1c21"
+    },
+    "ramp-view.png": {
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 1268360,
+      "sha256": "bb98269b31506eb3dbd3541b700d0492d5e47f26333191971063b43e94ea3cf6"
+    }
+  },
+  "artifacts": {
+    "arena.blend": {
+      "bytes": 14227916,
+      "sha256": "7f612eea39d35d0a3d39572f46b0f983c6f5327a7a5217ccc095de43340b8390"
+    },
+    "arena.glb": {
+      "bytes": 15184012,
+      "sha256": "7865ac5a43c3cbcfb114f93d25fbb852696b2b60a8fe98897bb47cbcc29f0912"
+    }
+  },
+  "scope": "Artifact structure, dimensions and source linkage. Human/model visual review and game runtime acceptance are separate."
+}

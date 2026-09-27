@@ -1,0 +1,196 @@
+{
+  "valid": true,
+  "schemaValid": true,
+  "errors": [],
+  "warnings": [
+    "Moving train validation covers authored static positions only; temporal collision, hazards and reset behavior require separate runtime tests.",
+    "Geometry sampling is not combat or multiplayer playtesting; crouching and jump-only links are not inferred."
+  ],
+  "metrics": {
+    "entityCount": 930,
+    "spawnCount": 6,
+    "pickupCount": 11,
+    "reachablePercent": 100,
+    "coveragePercent": 58.4682,
+    "clearanceRadius": 0.5,
+    "standingHeight": 2,
+    "stepHeight": 0.4,
+    "walkableLevels": 6,
+    "sampledSupportNodes": 6706,
+    "walkableCells": 5954,
+    "gridCellMetres": 0.5234,
+    "sweepSampleMetres": 0.125,
+    "walkingLinks": 23914,
+    "directedDropLinks": 977,
+    "spatialBuckets": 202,
+    "returnReachablePercent": 100
+  },
+  "routeResults": [
+    {
+      "id": "north-length",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "south-length",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "concourse-length",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "flank-length",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "track-crossing--26",
+      "valid": true,
+      "points": 5,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "track-crossing-26",
+      "valid": true,
+      "points": 5,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "glass-entrance-0",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "glass-entrance-1",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "glass-entrance-2",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "glass-entrance-3",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "glass-entrance-4",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "flank-entrance-0",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "flank-entrance-1",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "fare-gate-passage",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "ticket-machines-access",
+      "valid": true,
+      "points": 3,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "info-booth-access",
+      "valid": true,
+      "points": 5,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "restroom-access",
+      "valid": true,
+      "points": 2,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "red-under-gallery-return",
+      "valid": true,
+      "points": 6,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "service-west-access",
+      "valid": true,
+      "points": 4,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "service-east-access",
+      "valid": true,
+      "points": 4,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "red-upper-return-route",
+      "valid": true,
+      "points": 7,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "blue-upper-return-route",
+      "valid": true,
+      "points": 7,
+      "direction": "both",
+      "errors": []
+    },
+    {
+      "id": "roof-sniper-access",
+      "valid": true,
+      "points": 6,
+      "direction": "forward",
+      "errors": []
+    }
+  ],
+  "diagnostics": {
+    "unreachableSamples": [],
+    "noReturnSamples": []
+  },
+  "scope": "Authored static pose; layered standing support, 0.125m capsule sweep samples and directed geometric drops. No combat, crouch, jump or moving-train timing certification."
+}

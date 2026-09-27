@@ -1,0 +1,125 @@
+{
+  "source_sha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+  "files": [
+    {
+      "path": "playable/output/lower-bay.strikemap.json",
+      "bytes": 18341483,
+      "sha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518"
+    },
+    {
+      "path": "playable/output/lower-bay.plan.json",
+      "bytes": 366338,
+      "sha256": "46e76b467bc6a5af2266cd2c5b0d7b7eb8ec021d2829c43d0ef0024a3a1efe53"
+    },
+    {
+      "path": "export/unitypackage/LowerBay_Playable.unitypackage",
+      "bytes": 35259248,
+      "sha256": "a93eb6058873b94eaa16b8afd0a460f5b46dbbf48931514c74d050c1986435a0"
+    },
+    {
+      "path": "export/playable-blender-final/arena.blend",
+      "bytes": 14227916,
+      "sha256": "7f612eea39d35d0a3d39572f46b0f983c6f5327a7a5217ccc095de43340b8390"
+    },
+    {
+      "path": "export/playable-blender-final/arena.glb",
+      "bytes": 15184012,
+      "sha256": "7865ac5a43c3cbcfb114f93d25fbb852696b2b60a8fe98897bb47cbcc29f0912"
+    },
+    {
+      "path": "preview/playable/alcove-view.png",
+      "bytes": 1196608,
+      "sha256": "3d5954fd22a36ac3b548f8940967c7c7fbcabadc47c42ad02e0362e9c2b7a13d"
+    },
+    {
+      "path": "preview/playable/concourse-view.png",
+      "bytes": 1038430,
+      "sha256": "bba3ac8328a9f1a6168724b42b73128eee598ba94af670d8a30b67ccced68ba0"
+    },
+    {
+      "path": "preview/playable/fanlight.png",
+      "bytes": 1068063,
+      "sha256": "f3e842d2749b7f7ad7daa3376ce8bffec3b4e40f97dfed7db27c311dd8efae96"
+    },
+    {
+      "path": "preview/playable/platform.png",
+      "bytes": 1012787,
+      "sha256": "ef75e6edd9391e88ff7d1fe9b71242610021116c2db81c6de233ecff3f35b287"
+    },
+    {
+      "path": "preview/playable/ramp-view.png",
+      "bytes": 1194616,
+      "sha256": "20fcdd3ceec4d674aeda32625dd4064ed419cc66a8367b606223bc85bc18adde"
+    },
+    {
+      "path": "preview/playable/red-upper-view.png",
+      "bytes": 1207129,
+      "sha256": "1032e3ccc058a9699bc20de0a8f04d2caeff6ea3e90acf15f7e112154ac9839a"
+    },
+    {
+      "path": "preview/playable/service-annex.png",
+      "bytes": 915958,
+      "sha256": "3aac3dad90ca1e98e8946ef5613bb2c94de13a87bd9786acf6877b69de406048"
+    },
+    {
+      "path": "preview/playable/ticket-hall.png",
+      "bytes": 1095152,
+      "sha256": "4d47c522139558221a489f0feccb9e608e85e29105a3d1e0f335ca880c902c88"
+    },
+    {
+      "path": "playable/evidence/blender-final.json",
+      "bytes": 1698,
+      "sha256": "2a3d789bcbcb03742a6aa83421e4073deb04baa863bc152a17e49fcbba99f6de"
+    },
+    {
+      "path": "playable/evidence/catwalk-drop-red.txt",
+      "bytes": 1901,
+      "sha256": "46efce0470ce26d1094fd9fa2f7ac3662d2e1206f057825a378f503f272dcb0b"
+    },
+    {
+      "path": "playable/evidence/package-import.json",
+      "bytes": 517,
+      "sha256": "2d197ef41eecd76a1e502024fb05dbb23a2e4f26343348e54d203b95fa5f6762"
+    },
+    {
+      "path": "playable/evidence/package.json",
+      "bytes": 2373,
+      "sha256": "2eb406430d4895b19d007711c8948ef0cab67413b2def7d69c24cde408004e55"
+    },
+    {
+      "path": "playable/evidence/ramp-roof-red.txt",
+      "bytes": 1159,
+      "sha256": "ebc7050c6849898269a3c7890b8c8bdabe7ebf94550f61f33c0fcc61ac831e45"
+    },
+    {
+      "path": "playable/evidence/routes-final.json",
+      "bytes": 69660,
+      "sha256": "1fe1134d1b1691d04fa5bd7272bf862fcb7fc32dfac913b152b9d60632a7fb2e"
+    },
+    {
+      "path": "playable/evidence/tests-final.txt",
+      "bytes": 1369,
+      "sha256": "0a992f323fb577dfc8f5694919d3557d9c5b7e5c49f14444b924fb9429189047"
+    },
+    {
+      "path": "playable/evidence/unity-build.json",
+      "bytes": 529,
+      "sha256": "60d455aa422559cb6f50c26de494004a6e1c630b10f2c717c2425e9c7aaa178c"
+    },
+    {
+      "path": "playable/evidence/unity-runtime-red.json",
+      "bytes": 15099,
+      "sha256": "081416fd9eb7a9a372825fa6ef37ce7400329210bfdf6e600b07693746e18d2b"
+    },
+    {
+      "path": "playable/evidence/unity-runtime.json",
+      "bytes": 15127,
+      "sha256": "7060911e6fcf4b52437cc33ae3e88a743dd536ae55dd1f3d6b76a15c2ee7a1ec"
+    },
+    {
+      "path": "playable/evidence/upper-shell-red.txt",
+      "bytes": 1846,
+      "sha256": "f4cff6d6536c6c6f38f43b12d058919f194453b33854c8b99be6ed106aa038e3"
+    }
+  ]
+}

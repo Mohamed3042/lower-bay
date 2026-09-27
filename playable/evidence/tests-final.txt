@@ -1,0 +1,21 @@
+✔ train roof cannot be walked back onto either committed-drop catwalk (22.766ms)
+✔ catwalk tips preserve the source drop points and open inner ends (0.799ms)
+✔ phase 2 restores source-sized piers and complete station fixture groups (1.8759ms)
+✔ phase 2 verifies all five glass entrances, two flank entrances and new room entry/return routes (50.0702ms)
+✔ closing the inferred restroom service doorway traps the red under-gallery pocket (282.6723ms)
+✔ complete Lower Bay static scene connects all required actors and permits return from every sampled surface (288.1271ms)
+✔ removing authored support from physically stepable rails reproduces inaccessible track pickups (242.2819ms)
+✔ former ramps buried inside platform slabs fail explicit crossing routes and controller traversal (191.8236ms)
+✔ tunnel walls intruding upstairs reproduce isolated spawn-room corner samples with actionable positions (195.3547ms)
+✔ Lower Bay capsule can cross the trench in both directions at both authored access pairs (11.7625ms)
+✔ upper gallery floor reaches its inner partition on both ends (15.6128ms)
+✔ upper room front has a header above its walkable catwalk entrance (0.5438ms)
+✔ both rising ramp volumes have an overhead roof (0.4331ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1107.4421

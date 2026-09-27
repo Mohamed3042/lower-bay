@@ -1,0 +1,7 @@
+{
+  "name": "StrikeMapStudio.Editor",
+  "rootNamespace": "StrikeMapStudio.Editor",
+  "references": ["StrikeMapStudio.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

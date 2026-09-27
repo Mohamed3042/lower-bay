@@ -1,0 +1,5 @@
+{
+  "name": "StrikeMapStudio.Runtime",
+  "rootNamespace": "StrikeMapStudio",
+  "autoReferenced": true
+}

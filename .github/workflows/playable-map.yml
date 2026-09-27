@@ -1,0 +1,24 @@
+name: Playable map contract
+on:
+  pull_request:
+    paths: ['playable/**', '.github/workflows/playable-map.yml']
+  push:
+    paths: ['playable/**', '.github/workflows/playable-map.yml']
+permissions:
+  contents: read
+jobs:
+  map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Rebuild the map from authored sources
+        working-directory: playable
+        run: npm run build
+      - name: Check reproducible outputs
+        run: git diff --exit-code -- playable/output playable/generated/ASSET-RECEIPT.json
+      - name: Test route, collision and committed-drop regressions
+        working-directory: playable
+        run: npm test

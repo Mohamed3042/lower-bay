@@ -1,0 +1,3463 @@
+{
+  "map_id": "lower-bay-reconstruction-v2",
+  "map_sha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+  "controller": "src/physics.js stepPlayer + moveColliderGroup",
+  "profile": {
+    "radius": 0.5,
+    "height": 2,
+    "eyeHeight": 1.8,
+    "stepHeight": 0.4,
+    "walkSpeed": 5,
+    "runSpeed": 8,
+    "jumpSpeed": 6,
+    "gravity": 18,
+    "maxFrame": 0.1,
+    "maxSlope": 1
+  },
+  "timeStep": 0.016666666666666666,
+  "scope": "Deterministic execution of the browser movement controller; authored static route pose, full-cycle moving train rider/pickup and body-contact behavior. Native Unity player acceptance is separate.",
+  "passed": true,
+  "routes": [
+    {
+      "id": "north-length",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 11.583333333333334,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            3.5
+          ],
+          "start": [
+            -29,
+            0,
+            3.5
+          ],
+          "end": [
+            -0.08333333333305601,
+            0,
+            3.5
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            29,
+            0,
+            3.5
+          ],
+          "start": [
+            -0.08333333333305601,
+            0,
+            3.5
+          ],
+          "end": [
+            28.916666666667222,
+            0,
+            3.5
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "north-length",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 11.583333333333334,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            3.5
+          ],
+          "start": [
+            29,
+            0,
+            3.5
+          ],
+          "end": [
+            0.08333333333305601,
+            0,
+            3.5
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -29,
+            0,
+            3.5
+          ],
+          "start": [
+            0.08333333333305601,
+            0,
+            3.5
+          ],
+          "end": [
+            -28.916666666667222,
+            0,
+            3.5
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "south-length",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 11.583333333333334,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            -3.5
+          ],
+          "start": [
+            -29,
+            0,
+            -3.5
+          ],
+          "end": [
+            -0.08333333333305601,
+            0,
+            -3.5
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            29,
+            0,
+            -3.5
+          ],
+          "start": [
+            -0.08333333333305601,
+            0,
+            -3.5
+          ],
+          "end": [
+            28.916666666667222,
+            0,
+            -3.5
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "south-length",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 11.583333333333334,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            -3.5
+          ],
+          "start": [
+            29,
+            0,
+            -3.5
+          ],
+          "end": [
+            0.08333333333305601,
+            0,
+            -3.5
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -29,
+            0,
+            -3.5
+          ],
+          "start": [
+            0.08333333333305601,
+            0,
+            -3.5
+          ],
+          "end": [
+            -28.916666666667222,
+            0,
+            -3.5
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "concourse-length",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 11.183333333333334,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            10.5
+          ],
+          "start": [
+            -28,
+            0,
+            10.5
+          ],
+          "end": [
+            -0.08333333333308443,
+            0,
+            10.5
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            28,
+            0,
+            10.5
+          ],
+          "start": [
+            -0.08333333333308443,
+            0,
+            10.5
+          ],
+          "end": [
+            27.916666666667165,
+            0,
+            10.5
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "concourse-length",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 11.183333333333334,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            10.5
+          ],
+          "start": [
+            28,
+            0,
+            10.5
+          ],
+          "end": [
+            0.08333333333308443,
+            0,
+            10.5
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -28,
+            0,
+            10.5
+          ],
+          "start": [
+            0.08333333333308443,
+            0,
+            10.5
+          ],
+          "end": [
+            -27.916666666667165,
+            0,
+            10.5
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "flank-length",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 11.983333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            -7.4
+          ],
+          "start": [
+            -30,
+            0,
+            -7.4
+          ],
+          "end": [
+            -0.08333333333302759,
+            0,
+            -7.4
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            30,
+            0,
+            -7.4
+          ],
+          "start": [
+            -0.08333333333302759,
+            0,
+            -7.4
+          ],
+          "end": [
+            29.91666666666728,
+            0,
+            -7.4
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "flank-length",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 11.983333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0,
+            0,
+            -7.4
+          ],
+          "start": [
+            30,
+            0,
+            -7.4
+          ],
+          "end": [
+            0.08333333333302759,
+            0,
+            -7.4
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -30,
+            0,
+            -7.4
+          ],
+          "start": [
+            0.08333333333302759,
+            0,
+            -7.4
+          ],
+          "end": [
+            -29.91666666666728,
+            0,
+            -7.4
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "track-crossing--26",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.35,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -26,
+            0,
+            -2
+          ],
+          "start": [
+            -26,
+            0,
+            -3.4
+          ],
+          "end": [
+            -26,
+            0,
+            -2.0666666666666713
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -26,
+            -1.2,
+            0
+          ],
+          "start": [
+            -26,
+            0,
+            -2.0666666666666713
+          ],
+          "end": [
+            -26,
+            -1.159999999999998,
+            -0.06666666666667007
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -26,
+            0,
+            2
+          ],
+          "start": [
+            -26,
+            -1.159999999999998,
+            -0.06666666666667007
+          ],
+          "end": [
+            -26,
+            0,
+            1.9333333333333311
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -26,
+            0,
+            3.4
+          ],
+          "start": [
+            -26,
+            0,
+            1.9333333333333311
+          ],
+          "end": [
+            -26,
+            0,
+            3.349999999999993
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "track-crossing--26",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.35,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -26,
+            0,
+            2
+          ],
+          "start": [
+            -26,
+            0,
+            3.4
+          ],
+          "end": [
+            -26,
+            0,
+            2.0666666666666713
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -26,
+            -1.2,
+            0
+          ],
+          "start": [
+            -26,
+            0,
+            2.0666666666666713
+          ],
+          "end": [
+            -26,
+            -1.159999999999998,
+            0.06666666666667007
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -26,
+            0,
+            -2
+          ],
+          "start": [
+            -26,
+            -1.159999999999998,
+            0.06666666666667007
+          ],
+          "end": [
+            -26,
+            0,
+            -1.9333333333333311
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -26,
+            0,
+            -3.4
+          ],
+          "start": [
+            -26,
+            0,
+            -1.9333333333333311
+          ],
+          "end": [
+            -26,
+            0,
+            -3.349999999999993
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "track-crossing-26",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.35,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            26,
+            0,
+            -2
+          ],
+          "start": [
+            26,
+            0,
+            -3.4
+          ],
+          "end": [
+            26,
+            0,
+            -2.0666666666666713
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            26,
+            -1.2,
+            0
+          ],
+          "start": [
+            26,
+            0,
+            -2.0666666666666713
+          ],
+          "end": [
+            26,
+            -1.159999999999998,
+            -0.06666666666667007
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            26,
+            0,
+            2
+          ],
+          "start": [
+            26,
+            -1.159999999999998,
+            -0.06666666666667007
+          ],
+          "end": [
+            26,
+            0,
+            1.9333333333333311
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            26,
+            0,
+            3.4
+          ],
+          "start": [
+            26,
+            0,
+            1.9333333333333311
+          ],
+          "end": [
+            26,
+            0,
+            3.349999999999993
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "track-crossing-26",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.35,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            26,
+            0,
+            2
+          ],
+          "start": [
+            26,
+            0,
+            3.4
+          ],
+          "end": [
+            26,
+            0,
+            2.0666666666666713
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            26,
+            -1.2,
+            0
+          ],
+          "start": [
+            26,
+            0,
+            2.0666666666666713
+          ],
+          "end": [
+            26,
+            -1.159999999999998,
+            0.06666666666667007
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            26,
+            0,
+            -2
+          ],
+          "start": [
+            26,
+            -1.159999999999998,
+            0.06666666666667007
+          ],
+          "end": [
+            26,
+            0,
+            -1.9333333333333311
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            26,
+            0,
+            -3.4
+          ],
+          "start": [
+            26,
+            0,
+            -1.9333333333333311
+          ],
+          "end": [
+            26,
+            0,
+            -3.349999999999993
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-0",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -31.6,
+            0.8,
+            6
+          ],
+          "start": [
+            -31.6,
+            0,
+            4
+          ],
+          "end": [
+            -31.6,
+            0.7666666666666722,
+            5.91666666666668
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            3.4,
+            12.5
+          ],
+          "start": [
+            -31.6,
+            0.7666666666666722,
+            5.91666666666668
+          ],
+          "end": [
+            -31.6,
+            3.4,
+            12.416666666666632
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-0",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -31.6,
+            0.8,
+            6
+          ],
+          "start": [
+            -31.6,
+            3.4,
+            12.5
+          ],
+          "end": [
+            -31.6,
+            0.8333333333333535,
+            6.083333333333384
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            0,
+            4
+          ],
+          "start": [
+            -31.6,
+            0.8333333333333535,
+            6.083333333333384
+          ],
+          "end": [
+            -31.6,
+            0.03333333333334778,
+            4.0833333333333695
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-1",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.8833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -12.16,
+            0,
+            8
+          ],
+          "start": [
+            -12.16,
+            0,
+            3.5
+          ],
+          "end": [
+            -12.16,
+            0,
+            7.916666666666693
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-1",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.8833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -12.16,
+            0,
+            3.5
+          ],
+          "start": [
+            -12.16,
+            0,
+            8
+          ],
+          "end": [
+            -12.16,
+            0,
+            3.583333333333307
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-2",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.8833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0.8,
+            0,
+            8
+          ],
+          "start": [
+            0.8,
+            0,
+            3.5
+          ],
+          "end": [
+            0.8,
+            0,
+            7.916666666666693
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-2",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.8833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            0.8,
+            0,
+            3.5
+          ],
+          "start": [
+            0.8,
+            0,
+            8
+          ],
+          "end": [
+            0.8,
+            0,
+            3.583333333333307
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-3",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.8833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            15.2,
+            0,
+            8
+          ],
+          "start": [
+            15.2,
+            0,
+            3.5
+          ],
+          "end": [
+            15.2,
+            0,
+            7.916666666666693
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-3",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.8833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            15.2,
+            0,
+            3.5
+          ],
+          "start": [
+            15.2,
+            0,
+            8
+          ],
+          "end": [
+            15.2,
+            0,
+            3.583333333333307
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-4",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            31.6,
+            0.8,
+            6
+          ],
+          "start": [
+            31.6,
+            0,
+            4
+          ],
+          "end": [
+            31.6,
+            0.7666666666666722,
+            5.91666666666668
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            3.4,
+            12.5
+          ],
+          "start": [
+            31.6,
+            0.7666666666666722,
+            5.91666666666668
+          ],
+          "end": [
+            31.6,
+            3.4,
+            12.416666666666632
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "glass-entrance-4",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            31.6,
+            0.8,
+            6
+          ],
+          "start": [
+            31.6,
+            3.4,
+            12.5
+          ],
+          "end": [
+            31.6,
+            0.8333333333333535,
+            6.083333333333384
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            0,
+            4
+          ],
+          "start": [
+            31.6,
+            0.8333333333333535,
+            6.083333333333384
+          ],
+          "end": [
+            31.6,
+            0.03333333333334778,
+            4.0833333333333695
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "flank-entrance-0",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -27.36,
+            0,
+            -7
+          ],
+          "start": [
+            -27.36,
+            0,
+            -3.5
+          ],
+          "end": [
+            -27.36,
+            0,
+            -6.916666666666686
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "flank-entrance-0",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -27.36,
+            0,
+            -3.5
+          ],
+          "start": [
+            -27.36,
+            0,
+            -7
+          ],
+          "end": [
+            -27.36,
+            0,
+            -3.583333333333314
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "flank-entrance-1",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            31.92,
+            0,
+            -7
+          ],
+          "start": [
+            31.92,
+            0,
+            -3.5
+          ],
+          "end": [
+            31.92,
+            0,
+            -6.916666666666686
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "flank-entrance-1",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            31.92,
+            0,
+            -3.5
+          ],
+          "start": [
+            31.92,
+            0,
+            -7
+          ],
+          "end": [
+            31.92,
+            0,
+            -3.583333333333314
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "fare-gate-passage",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.7333333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            2,
+            0,
+            14.2
+          ],
+          "start": [
+            2,
+            0,
+            10.5
+          ],
+          "end": [
+            2,
+            0,
+            14.166666666666615
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "fare-gate-passage",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.7333333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            2,
+            0,
+            10.5
+          ],
+          "start": [
+            2,
+            0,
+            14.2
+          ],
+          "end": [
+            2,
+            0,
+            10.533333333333385
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "ticket-machines-access",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.8666666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            15,
+            0,
+            14
+          ],
+          "start": [
+            15,
+            0,
+            10.5
+          ],
+          "end": [
+            15,
+            0,
+            13.916666666666618
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            21,
+            0,
+            14
+          ],
+          "start": [
+            15,
+            0,
+            13.916666666666618
+          ],
+          "end": [
+            20.916096083062662,
+            0,
+            13.998834667820311
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "ticket-machines-access",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.8666666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            15,
+            0,
+            14
+          ],
+          "start": [
+            21,
+            0,
+            14
+          ],
+          "end": [
+            15.083333333333206,
+            0,
+            14
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            15,
+            0,
+            10.5
+          ],
+          "start": [
+            15.083333333333206,
+            0,
+            14
+          ],
+          "end": [
+            15.002007175350174,
+            0,
+            10.58430136470755
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "info-booth-access",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 2.25,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -15,
+            0,
+            14.2
+          ],
+          "start": [
+            -15,
+            0,
+            10.5
+          ],
+          "end": [
+            -15,
+            0,
+            14.166666666666615
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -9.8,
+            0,
+            14.2
+          ],
+          "start": [
+            -15,
+            0,
+            14.166666666666615
+          ],
+          "end": [
+            -9.83343948281233,
+            0,
+            14.199785644340945
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -9.8,
+            0,
+            13.9
+          ],
+          "start": [
+            -9.83343948281233,
+            0,
+            14.199785644340945
+          ],
+          "end": [
+            -9.805725202370983,
+            0,
+            13.951326555838197
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -7.6,
+            0,
+            13.9
+          ],
+          "start": [
+            -9.805725202370983,
+            0,
+            13.951326555838197
+          ],
+          "end": [
+            -7.6396448995896025,
+            0,
+            13.900922524777926
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "info-booth-access",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 2.25,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -9.8,
+            0,
+            13.9
+          ],
+          "start": [
+            -7.6,
+            0,
+            13.9
+          ],
+          "end": [
+            -9.766666666666644,
+            0,
+            13.9
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -9.8,
+            0,
+            14.2
+          ],
+          "start": [
+            -9.766666666666644,
+            0,
+            13.9
+          ],
+          "end": [
+            -9.794274548185374,
+            0,
+            14.148470933668408
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -15,
+            0,
+            14.2
+          ],
+          "start": [
+            -9.794274548185374,
+            0,
+            14.148470933668408
+          ],
+          "end": [
+            -14.960688115774698,
+            0,
+            14.199610869856928
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -15,
+            0,
+            10.5
+          ],
+          "start": [
+            -14.960688115774698,
+            0,
+            14.199610869856928
+          ],
+          "end": [
+            -14.999647737087937,
+            0,
+            10.533151188863288
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "restroom-access",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 0.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -27.5,
+            0,
+            14
+          ],
+          "start": [
+            -27.5,
+            0,
+            10.5
+          ],
+          "end": [
+            -27.5,
+            0,
+            13.916666666666618
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "restroom-access",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 0.6833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -27.5,
+            0,
+            10.5
+          ],
+          "start": [
+            -27.5,
+            0,
+            14
+          ],
+          "end": [
+            -27.5,
+            0,
+            10.583333333333382
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "red-under-gallery-return",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 3.3,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -35,
+            0,
+            13.5
+          ],
+          "start": [
+            -36,
+            0,
+            8
+          ],
+          "end": [
+            -35.0161300899001,
+            0,
+            13.411284505549439
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -33,
+            0,
+            14.15
+          ],
+          "start": [
+            -35.0161300899001,
+            0,
+            13.411284505549439
+          ],
+          "end": [
+            -33.05997091940658,
+            0,
+            14.12802649362558
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -29.2,
+            0,
+            14.15
+          ],
+          "start": [
+            -33.05997091940658,
+            0,
+            14.12802649362558
+          ],
+          "end": [
+            -29.226699696812435,
+            0,
+            14.14984800767406
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -27.5,
+            0,
+            14
+          ],
+          "start": [
+            -29.226699696812435,
+            0,
+            14.14984800767406
+          ],
+          "end": [
+            -27.566273860965314,
+            0,
+            14.005751437870089
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -27.5,
+            0,
+            10.5
+          ],
+          "start": [
+            -27.566273860965314,
+            0,
+            14.005751437870089
+          ],
+          "end": [
+            -27.501695625619366,
+            0,
+            10.589695120619055
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "red-under-gallery-return",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 3.316666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -27.5,
+            0,
+            14
+          ],
+          "start": [
+            -27.5,
+            0,
+            10.5
+          ],
+          "end": [
+            -27.5,
+            0,
+            13.916666666666618
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -29.2,
+            0,
+            14.15
+          ],
+          "start": [
+            -27.5,
+            0,
+            13.916666666666618
+          ],
+          "end": [
+            -29.151185966007347,
+            0,
+            14.143300034550027
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -33,
+            0,
+            14.15
+          ],
+          "start": [
+            -29.151185966007347,
+            0,
+            14.143300034550027
+          ],
+          "end": [
+            -32.901180284133844,
+            0,
+            14.149827975922914
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -35,
+            0,
+            13.5
+          ],
+          "start": [
+            -32.901180284133844,
+            0,
+            14.149827975922914
+          ],
+          "end": [
+            -34.970912529474006,
+            0,
+            13.509005943651921
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -36,
+            0,
+            8
+          ],
+          "start": [
+            -34.970912529474006,
+            0,
+            13.509005943651921
+          ],
+          "end": [
+            -35.99615018297327,
+            0,
+            8.02060919551516
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "service-west-access",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.5666666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -33.7,
+            0,
+            -6.7
+          ],
+          "start": [
+            -31,
+            0,
+            -7
+          ],
+          "end": [
+            -33.650356625796206,
+            0,
+            -6.705515930467088
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -36.5,
+            0,
+            -6.7
+          ],
+          "start": [
+            -33.650356625796206,
+            0,
+            -6.705515930467088
+          ],
+          "end": [
+            -36.40035147400785,
+            0,
+            -6.70019288530821
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -36.5,
+            0,
+            -9.2
+          ],
+          "start": [
+            -36.40035147400785,
+            0,
+            -6.70019288530821
+          ],
+          "end": [
+            -36.49660936766303,
+            0,
+            -9.114941774051482
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "service-west-access",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.5833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -36.5,
+            0,
+            -6.7
+          ],
+          "start": [
+            -36.5,
+            0,
+            -9.2
+          ],
+          "end": [
+            -36.5,
+            0,
+            -6.78333333333334
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -33.7,
+            0,
+            -6.7
+          ],
+          "start": [
+            -36.5,
+            0,
+            -6.78333333333334
+          ],
+          "end": [
+            -33.751217126578624,
+            0,
+            -6.701524319243411
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31,
+            0,
+            -7
+          ],
+          "start": [
+            -33.751217126578624,
+            0,
+            -6.701524319243411
+          ],
+          "end": [
+            -31.01725909783957,
+            0,
+            -6.99812758472345
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "service-east-access",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 1.5666666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            33.7,
+            0,
+            -6.7
+          ],
+          "start": [
+            31,
+            0,
+            -7
+          ],
+          "end": [
+            33.650356625796206,
+            0,
+            -6.705515930467088
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            36.5,
+            0,
+            -6.7
+          ],
+          "start": [
+            33.650356625796206,
+            0,
+            -6.705515930467088
+          ],
+          "end": [
+            36.40035147400785,
+            0,
+            -6.70019288530821
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            36.5,
+            0,
+            -9.2
+          ],
+          "start": [
+            36.40035147400785,
+            0,
+            -6.70019288530821
+          ],
+          "end": [
+            36.49660936766303,
+            0,
+            -9.114941774051482
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "service-east-access",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 1.5833333333333333,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            36.5,
+            0,
+            -6.7
+          ],
+          "start": [
+            36.5,
+            0,
+            -9.2
+          ],
+          "end": [
+            36.5,
+            0,
+            -6.78333333333334
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            33.7,
+            0,
+            -6.7
+          ],
+          "start": [
+            36.5,
+            0,
+            -6.78333333333334
+          ],
+          "end": [
+            33.751217126578624,
+            0,
+            -6.701524319243411
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31,
+            0,
+            -7
+          ],
+          "start": [
+            33.751217126578624,
+            0,
+            -6.701524319243411
+          ],
+          "end": [
+            31.01725909783957,
+            0,
+            -6.99812758472345
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "red-upper-return-route",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 6.55,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -37.6,
+            3.4,
+            6
+          ],
+          "start": [
+            -36,
+            3.4,
+            0
+          ],
+          "end": [
+            -37.5889196784554,
+            3.4,
+            5.958448794207737
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -37.6,
+            3.4,
+            14
+          ],
+          "start": [
+            -37.5889196784554,
+            3.4,
+            5.958448794207737
+          ],
+          "end": [
+            -37.5999427368109,
+            3.4,
+            13.95844119996563
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            3.4,
+            14
+          ],
+          "start": [
+            -37.5999427368109,
+            3.4,
+            13.95844119996563
+          ],
+          "end": [
+            -31.683417996571052,
+            3.4,
+            13.999422202512452
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            3.4,
+            12.5
+          ],
+          "start": [
+            -31.683417996571052,
+            3.4,
+            13.999422202512452
+          ],
+          "end": [
+            -31.604725659500872,
+            3.4,
+            12.584942806928758
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            0,
+            4
+          ],
+          "start": [
+            -31.604725659500872,
+            3.4,
+            12.584942806928758
+          ],
+          "end": [
+            -31.60004675824606,
+            0.03397763788016448,
+            4.084944094700411
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -29,
+            0,
+            3.5
+          ],
+          "start": [
+            -31.60004675824606,
+            0.03397763788016448,
+            4.084944094700411
+          ],
+          "end": [
+            -29.03359300547962,
+            0,
+            3.5070527467442987
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "red-upper-return-route",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 6.516666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -31.6,
+            0,
+            4
+          ],
+          "start": [
+            -29,
+            0,
+            3.5
+          ],
+          "end": [
+            -31.536849988033268,
+            0,
+            3.987855766929475
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            3.4,
+            12.5
+          ],
+          "start": [
+            -31.536849988033268,
+            0,
+            3.987855766929475
+          ],
+          "end": [
+            -31.599289951438955,
+            3.4,
+            12.40429082155604
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -31.6,
+            3.4,
+            14
+          ],
+          "start": [
+            -31.599289951438955,
+            3.4,
+            12.40429082155604
+          ],
+          "end": [
+            -31.599957411870037,
+            3.4,
+            13.904290673054904
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -37.6,
+            3.4,
+            14
+          ],
+          "start": [
+            -31.599957411870037,
+            3.4,
+            13.904290673054904
+          ],
+          "end": [
+            -37.515871478741474,
+            3.4,
+            13.998658028834251
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -37.6,
+            3.4,
+            6
+          ],
+          "start": [
+            -37.515871478741474,
+            3.4,
+            13.998658028834251
+          ],
+          "end": [
+            -37.59913302356756,
+            3.4,
+            6.082429215424205
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -36,
+            3.4,
+            0
+          ],
+          "start": [
+            -37.59913302356756,
+            3.4,
+            6.082429215424205
+          ],
+          "end": [
+            -36.009949869822506,
+            3.4,
+            0.037845118577479304
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "blue-upper-return-route",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 6.55,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            37.6,
+            3.4,
+            6
+          ],
+          "start": [
+            36,
+            3.4,
+            0
+          ],
+          "end": [
+            37.5889196784554,
+            3.4,
+            5.958448794207737
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            37.6,
+            3.4,
+            14
+          ],
+          "start": [
+            37.5889196784554,
+            3.4,
+            5.958448794207737
+          ],
+          "end": [
+            37.5999427368109,
+            3.4,
+            13.95844119996563
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            3.4,
+            14
+          ],
+          "start": [
+            37.5999427368109,
+            3.4,
+            13.95844119996563
+          ],
+          "end": [
+            31.683417996571052,
+            3.4,
+            13.999422202512452
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            3.4,
+            12.5
+          ],
+          "start": [
+            31.683417996571052,
+            3.4,
+            13.999422202512452
+          ],
+          "end": [
+            31.604725659500872,
+            3.4,
+            12.584942806928758
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            0,
+            4
+          ],
+          "start": [
+            31.604725659500872,
+            3.4,
+            12.584942806928758
+          ],
+          "end": [
+            31.60004675824606,
+            0.03397763788016448,
+            4.084944094700411
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            29,
+            0,
+            3.5
+          ],
+          "start": [
+            31.60004675824606,
+            0.03397763788016448,
+            4.084944094700411
+          ],
+          "end": [
+            29.03359300547962,
+            0,
+            3.5070527467442987
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "blue-upper-return-route",
+      "direction": "reverse",
+      "passed": true,
+      "simulationSeconds": 6.516666666666667,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            31.6,
+            0,
+            4
+          ],
+          "start": [
+            29,
+            0,
+            3.5
+          ],
+          "end": [
+            31.536849988033268,
+            0,
+            3.987855766929475
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            3.4,
+            12.5
+          ],
+          "start": [
+            31.536849988033268,
+            0,
+            3.987855766929475
+          ],
+          "end": [
+            31.599289951438955,
+            3.4,
+            12.40429082155604
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            31.6,
+            3.4,
+            14
+          ],
+          "start": [
+            31.599289951438955,
+            3.4,
+            12.40429082155604
+          ],
+          "end": [
+            31.599957411870037,
+            3.4,
+            13.904290673054904
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            37.6,
+            3.4,
+            14
+          ],
+          "start": [
+            31.599957411870037,
+            3.4,
+            13.904290673054904
+          ],
+          "end": [
+            37.515871478741474,
+            3.4,
+            13.998658028834251
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            37.6,
+            3.4,
+            6
+          ],
+          "start": [
+            37.515871478741474,
+            3.4,
+            13.998658028834251
+          ],
+          "end": [
+            37.59913302356756,
+            3.4,
+            6.082429215424205
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            36,
+            3.4,
+            0
+          ],
+          "start": [
+            37.59913302356756,
+            3.4,
+            6.082429215424205
+          ],
+          "end": [
+            36.009949869822506,
+            3.4,
+            0.037845118577479304
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "id": "roof-sniper-access",
+      "direction": "forward",
+      "passed": true,
+      "simulationSeconds": 7.35,
+      "jumps": 0,
+      "segments": [
+        {
+          "target": [
+            -32,
+            3.4,
+            0
+          ],
+          "start": [
+            -36,
+            3.4,
+            0
+          ],
+          "end": [
+            -32.083333333333556,
+            3.4,
+            0
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -30,
+            3,
+            0
+          ],
+          "start": [
+            -32.083333333333556,
+            3.4,
+            0
+          ],
+          "end": [
+            -30.083333333333506,
+            3.0166666666667012,
+            0
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -18,
+            3,
+            0
+          ],
+          "start": [
+            -30.083333333333506,
+            3.0166666666667012,
+            0
+          ],
+          "end": [
+            -18.083333333333165,
+            3,
+            0
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            -17,
+            2.2,
+            0
+          ],
+          "start": [
+            -18.083333333333165,
+            3,
+            0
+          ],
+          "end": [
+            -17,
+            2.29875,
+            0
+          ],
+          "passed": true,
+          "intersects": false
+        },
+        {
+          "target": [
+            0,
+            2.2,
+            0
+          ],
+          "start": [
+            -17,
+            2.29875,
+            0
+          ],
+          "end": [
+            -0.08333333333339765,
+            2.2,
+            0
+          ],
+          "passed": true,
+          "intersects": false
+        }
+      ]
+    }
+  ],
+  "dynamics": [
+    {
+      "id": "station-train",
+      "passed": true,
+      "periodSeconds": 32.57142857142857,
+      "carriedFrames": 151,
+      "maximumCarryError": 0,
+      "maximumPickupOffsetError": 0,
+      "disembark": null,
+      "reset": {
+        "seconds": 12.516666666666666,
+        "reset": true,
+        "reason": "trapped",
+        "carried": true,
+        "pushed": false,
+        "position": [
+          17.61666666666666,
+          2.2,
+          0
+        ]
+      },
+      "safeReset": true,
+      "resetPosition": [
+        -36,
+        3.4,
+        -2
+      ],
+      "hazard": {
+        "reset": true,
+        "reason": "hazard",
+        "carried": false,
+        "pushed": false
+      },
+      "snapshots": [
+        {
+          "seconds": 1,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 2,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 3,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 4,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 5,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 6,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 7,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 8,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 9,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 10,
+          "offset": 0,
+          "rider": [
+            0,
+            2.2,
+            0
+          ],
+          "pickup": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 11,
+          "offset": 7,
+          "rider": [
+            7,
+            2.2,
+            0
+          ],
+          "pickup": [
+            7,
+            3,
+            0
+          ]
+        },
+        {
+          "seconds": 12,
+          "offset": 14,
+          "rider": [
+            14,
+            2.2,
+            0
+          ],
+          "pickup": [
+            14,
+            3,
+            0
+          ]
+        }
+      ],
+      "fullCycle": [
+        {
+          "seconds": 0,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 0.2714285714285714,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 0.5428571428571428,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 0.8142857142857143,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 1.0857142857142856,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 1.357142857142857,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 1.6285714285714286,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 1.9,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 2.1714285714285713,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 2.4428571428571426,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 2.714285714285714,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 2.9857142857142858,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 3.257142857142857,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 3.528571428571428,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 3.8,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 4.071428571428571,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 4.3428571428571425,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 4.614285714285714,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 4.885714285714285,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 5.157142857142857,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 5.428571428571428,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 5.7,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 5.9714285714285715,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 6.242857142857143,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 6.514285714285714,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 6.785714285714286,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 7.057142857142856,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 7.328571428571427,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 7.6,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 7.871428571428571,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 8.142857142857142,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 8.414285714285715,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 8.685714285714285,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 8.957142857142857,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 9.228571428571428,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 9.5,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 9.77142857142857,
+          "offset": 0,
+          "pickupX": 0
+        },
+        {
+          "seconds": 10.042857142857143,
+          "offset": 0.30000000000001137,
+          "pickupX": 0.30000000000001137
+        },
+        {
+          "seconds": 10.314285714285713,
+          "offset": 2.200000000000017,
+          "pickupX": 2.200000000000017
+        },
+        {
+          "seconds": 10.585714285714285,
+          "offset": 4.100000000000023,
+          "pickupX": 4.100000000000023
+        },
+        {
+          "seconds": 10.857142857142856,
+          "offset": 5.999999999999979,
+          "pickupX": 5.999999999999979
+        },
+        {
+          "seconds": 11.128571428571428,
+          "offset": 7.899999999999984,
+          "pickupX": 7.899999999999984
+        },
+        {
+          "seconds": 11.4,
+          "offset": 9.79999999999999,
+          "pickupX": 9.79999999999999
+        },
+        {
+          "seconds": 11.67142857142857,
+          "offset": 11.699999999999996,
+          "pickupX": 11.699999999999996
+        },
+        {
+          "seconds": 11.942857142857143,
+          "offset": 13.600000000000001,
+          "pickupX": 13.600000000000001
+        },
+        {
+          "seconds": 12.214285714285714,
+          "offset": 15.500000000000007,
+          "pickupX": 15.500000000000007
+        },
+        {
+          "seconds": 12.485714285714286,
+          "offset": 17.400000000000013,
+          "pickupX": 17.400000000000013
+        },
+        {
+          "seconds": 12.757142857142856,
+          "offset": 19.29999999999997,
+          "pickupX": 19.29999999999997
+        },
+        {
+          "seconds": 13.028571428571428,
+          "offset": 21.199999999999974,
+          "pickupX": 21.199999999999974
+        },
+        {
+          "seconds": 13.3,
+          "offset": 23.09999999999998,
+          "pickupX": 23.09999999999998
+        },
+        {
+          "seconds": 13.571428571428571,
+          "offset": 24.999999999999986,
+          "pickupX": 24.999999999999986
+        },
+        {
+          "seconds": 13.842857142857143,
+          "offset": 26.89999999999999,
+          "pickupX": 26.89999999999999
+        },
+        {
+          "seconds": 14.114285714285712,
+          "offset": 28.799999999999997,
+          "pickupX": 28.799999999999997
+        },
+        {
+          "seconds": 14.385714285714284,
+          "offset": 30.700000000000003,
+          "pickupX": 30.700000000000003
+        },
+        {
+          "seconds": 14.657142857142855,
+          "offset": 32.60000000000001,
+          "pickupX": 32.60000000000001
+        },
+        {
+          "seconds": 14.928571428571427,
+          "offset": 34.500000000000014,
+          "pickupX": 34.500000000000014
+        },
+        {
+          "seconds": 15.2,
+          "offset": 36.40000000000002,
+          "pickupX": 36.40000000000002
+        },
+        {
+          "seconds": 15.47142857142857,
+          "offset": 38.299999999999976,
+          "pickupX": 38.299999999999976
+        },
+        {
+          "seconds": 15.742857142857142,
+          "offset": 40.19999999999998,
+          "pickupX": 40.19999999999998
+        },
+        {
+          "seconds": 16.014285714285712,
+          "offset": 42.09999999999999,
+          "pickupX": 42.09999999999999
+        },
+        {
+          "seconds": 16.285714285714285,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 16.557142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 16.82857142857143,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 17.1,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 17.37142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 17.642857142857142,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 17.914285714285715,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 18.185714285714287,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 18.457142857142856,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 18.728571428571424,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 19,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 19.27142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 19.54285714285714,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 19.814285714285713,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 20.085714285714285,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 20.357142857142854,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 20.628571428571426,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 20.9,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 21.17142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 21.44285714285714,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 21.71428571428571,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 21.985714285714284,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 22.257142857142856,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 22.528571428571425,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 22.8,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 23.07142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 23.34285714285714,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 23.61428571428571,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 23.885714285714286,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 24.157142857142855,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 24.428571428571427,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 24.7,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 24.97142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 25.24285714285714,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 25.514285714285712,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 25.785714285714285,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 26.057142857142857,
+          "offset": 44,
+          "pickupX": 44
+        },
+        {
+          "seconds": 26.328571428571426,
+          "offset": 43.70000000000004,
+          "pickupX": 43.70000000000004
+        },
+        {
+          "seconds": 26.6,
+          "offset": 41.79999999999998,
+          "pickupX": 41.79999999999998
+        },
+        {
+          "seconds": 26.87142857142857,
+          "offset": 39.90000000000003,
+          "pickupX": 39.90000000000003
+        },
+        {
+          "seconds": 27.142857142857142,
+          "offset": 38.00000000000002,
+          "pickupX": 38.00000000000002
+        },
+        {
+          "seconds": 27.41428571428571,
+          "offset": 36.100000000000016,
+          "pickupX": 36.100000000000016
+        },
+        {
+          "seconds": 27.685714285714287,
+          "offset": 34.20000000000001,
+          "pickupX": 34.20000000000001
+        },
+        {
+          "seconds": 27.957142857142856,
+          "offset": 32.300000000000004,
+          "pickupX": 32.300000000000004
+        },
+        {
+          "seconds": 28.228571428571424,
+          "offset": 30.4,
+          "pickupX": 30.4
+        },
+        {
+          "seconds": 28.5,
+          "offset": 28.499999999999993,
+          "pickupX": 28.499999999999993
+        },
+        {
+          "seconds": 28.77142857142857,
+          "offset": 26.599999999999987,
+          "pickupX": 26.599999999999987
+        },
+        {
+          "seconds": 29.04285714285714,
+          "offset": 24.69999999999998,
+          "pickupX": 24.69999999999998
+        },
+        {
+          "seconds": 29.31428571428571,
+          "offset": 22.800000000000026,
+          "pickupX": 22.800000000000026
+        },
+        {
+          "seconds": 29.585714285714285,
+          "offset": 20.89999999999997,
+          "pickupX": 20.89999999999997
+        },
+        {
+          "seconds": 29.857142857142854,
+          "offset": 19.000000000000014,
+          "pickupX": 19.000000000000014
+        },
+        {
+          "seconds": 30.128571428571426,
+          "offset": 17.10000000000001,
+          "pickupX": 17.10000000000001
+        },
+        {
+          "seconds": 30.4,
+          "offset": 15.200000000000003,
+          "pickupX": 15.200000000000003
+        },
+        {
+          "seconds": 30.67142857142857,
+          "offset": 13.299999999999997,
+          "pickupX": 13.299999999999997
+        },
+        {
+          "seconds": 30.94285714285714,
+          "offset": 11.400000000000041,
+          "pickupX": 11.400000000000041
+        },
+        {
+          "seconds": 31.21428571428571,
+          "offset": 9.500000000000036,
+          "pickupX": 9.500000000000036
+        },
+        {
+          "seconds": 31.485714285714284,
+          "offset": 7.60000000000003,
+          "pickupX": 7.60000000000003
+        },
+        {
+          "seconds": 31.757142857142856,
+          "offset": 5.700000000000024,
+          "pickupX": 5.700000000000024
+        },
+        {
+          "seconds": 32.028571428571425,
+          "offset": 3.8000000000000185,
+          "pickupX": 3.8000000000000185
+        },
+        {
+          "seconds": 32.3,
+          "offset": 1.9000000000000128,
+          "pickupX": 1.9000000000000128
+        },
+        {
+          "seconds": 32.57142857142857,
+          "offset": 0,
+          "pickupX": 0
+        }
+      ],
+      "note": "The restored 0.8m committed catwalk lip blocks a carried rider. The controller requests a trapped-player reset to a clear spawn; the packaged Unity proof separately exercises the actual reset. Full-cycle train and pickup offsets are sampled after the rider reset."
+    }
+  ]
+}

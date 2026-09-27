@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.blend binary
+*.glb binary
+*.unitypackage binary
+playable/output/*.json linguist-generated=true
+playable/unity/ProjectSettings/* linguist-generated=true
+playable/unity/**/*.meta linguist-generated=true

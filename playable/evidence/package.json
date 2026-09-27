@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "source_sha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+  "package_sha256": "a93eb6058873b94eaa16b8afd0a460f5b46dbbf48931514c74d050c1986435a0",
+  "package_bytes": 35259248,
+  "asset_count": 412,
+  "textures": {
+    "ivory-tile-albedo.png": "eeae995aa5770ccf9d1bc2bdb49a17d33008b76531b2971b5e0ea27d4fe3781a",
+    "concrete-albedo.png": "4a72fdab84a93d9d361eaa748dc181cb297a9b0813670d298cb03f5f4d8ceb0f",
+    "lower-bay-sign.png": "8a1421d0062884f20dec59592a2a0c3e2319b494bc1ab8cd4aa3fd3b8c5930cd",
+    "winter-poster.png": "706dd5a28feda87078a34834c167857ea941982e49e3a8593c1bebd6df1ac921",
+    "train-steel-albedo.png": "f6225671e1fb8237af3b5fba078089672bb595835ac5bf1cad124651f1cfafd4"
+  },
+  "scripts": {
+    "Assets/StrikeMapStudio/LowerBayReviewPickup.cs": "562cc19ad43b64b63ad7c1b8072db53605251dc1b020f3e6d21306798decc3ae",
+    "Assets/StrikeMapStudio/LowerBayReviewPlayer.cs": "3f341e8afc6a3582318e2bdf981e2d8981f6730dc02cdaf954f60146b90cac74",
+    "Assets/StrikeMapStudio/LowerBayReviewProbe.cs": "9bae76a5b38c252a5c0c825c1b0190d486ac379187b20122d09fa0cc6ec60867",
+    "Assets/StrikeMapStudio/StrikeMapCatalogAdapter.cs": "b4276f624242a5648a61f08b7911fa70b06a505dc71dfc12d2828a7e657a8701",
+    "Assets/StrikeMapStudio/StrikeMapEntity.cs": "f2eb177956c52c108606cd221ce37e87fea7f5c2c9b613c434b3a40fc2974b9a",
+    "Assets/StrikeMapStudio/StrikeMapManifest.cs": "a127be28c3e00713fb0a5ba74d5af701e7519ab634245ae32b34b5404ffec28b",
+    "Assets/StrikeMapStudio/StrikeMapMarker.cs": "a21fedbb25122788d5239d3b36afb6a5d07ff106df1524e95af8baf8cfca078e",
+    "Assets/StrikeMapStudio/StrikeMapTrain.cs": "e3f8884f6b31b4efe48425751a88b8edecb39800bac3b4642c01e93155ef4cdc",
+    "Assets/StrikeMapStudio/Editor/LowerBayReviewBuilder.cs": "18b37e4e78455db281b67fbb9df924d919434c2886087e577a56f75aff81f91f",
+    "Assets/StrikeMapStudio/Editor/StrikeMapImporter.cs": "675770b616dba450d62cf830c6016121f9519bde5323244ccb264e52eaaeba9d",
+    "Assets/StrikeMapStudio/Editor/StrikeMapJson.cs": "cccd637b8d7eabe0147b7e6845c4b941f285e7cefe2895f8f1052536b70ad515",
+    "Assets/StrikeMapStudio/Editor/StrikeMapV2.cs": "69e5de46faa52514977afab82b184ccb734bb7b0f9aadfe9328c8d665d682e9f"
+  },
+  "scope": "Exact Unity package bytes, embedded map, textures, script sources and route fixture; actual runtime acceptance is in unity-runtime.json."
+}

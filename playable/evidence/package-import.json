@@ -1,0 +1,14 @@
+{
+    "status": "PASS",
+    "unity": "6000.0.56f1",
+    "sourceSha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+    "packageSha256": "a93eb6058873b94eaa16b8afd0a460f5b46dbbf48931514c74d050c1986435a0",
+    "scene": "Assets/StrikeMapStudio/Maps/lower-bay-reconstruction-v2 3/StrikeMap_lower-bay-reconstruction-v2_3.unity",
+    "error": "",
+    "missingScripts": 0,
+    "entities": 930,
+    "enabledRenderers": 150,
+    "lightmaps": 1,
+    "sourceMatches": true,
+    "referencesValid": true
+}

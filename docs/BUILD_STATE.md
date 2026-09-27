@@ -1,3 +1,10 @@
+# Current continuation — 2026-09-27
+
+The new playable reconstruction and exact verification boundaries are documented in
+[`PLAYABLE_REVIEW.md`](PLAYABLE_REVIEW.md). The original v1 scene and its checkpoints
+remain unchanged. All dated budgets and pause states below describe the historical
+v1 work; they are not the status of the newly authorized playable continuation.
+
 # Lower Bay build state
 
 Branch: `Lower-Bay`.

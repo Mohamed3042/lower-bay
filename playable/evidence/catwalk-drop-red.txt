@@ -1,0 +1,46 @@
+✖ train roof cannot be walked back onto either committed-drop catwalk (13.9292ms)
+✖ catwalk tips preserve the source drop points and open inner ends (0.1917ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 113.0396
+
+✖ failing tests:
+
+test at tests\catwalk-drop.test.mjs:8:1
+✖ train roof cannot be walked back onto either committed-drop catwalk (13.9292ms)
+  AssertionError [ERR_ASSERTION]: side -1: walking returned to catwalk at {"x":-32.000000000000426,"y":3.4,"z":0,"vy":0,"grounded":true}
+      at TestContext.<anonymous> (file:///[worktree]/playable/tests/catwalk-drop.test.mjs:13:12)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.start (node:internal/test_runner/test:1003:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\catwalk-drop.test.mjs:18:1
+✖ catwalk tips preserve the source drop points and open inner ends (0.1917ms)
+  AssertionError [ERR_ASSERTION]: the old return wedges erase the source gameplay commitment
+      at TestContext.<anonymous> (file:///[worktree]/playable/tests/catwalk-drop.test.mjs:19:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1106:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:788:18)
+      at Test.postRun (node:internal/test_runner/test:1235:19)
+      at Test.run (node:internal/test_runner/test:1163:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

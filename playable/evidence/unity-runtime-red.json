@@ -1,0 +1,527 @@
+{
+    "status": "FAIL",
+    "sourceSha256": "d9329edc494a7e8cfbaa6c8ef3f05cfd4ebb0f4e68696680cb3497534fb7fd8a",
+    "unity": "6000.0.56f1",
+    "graphicsDevice": "NVIDIA GeForce RTX 5070 Ti",
+    "error": "",
+    "entities": 912,
+    "enabledRenderers": 150,
+    "colliders": 270,
+    "textures": 5,
+    "lightmaps": 0,
+    "pickups": 2,
+    "carry": true,
+    "trappedRiderReset": false,
+    "hazardReset": true,
+    "reset": true,
+    "paused": true,
+    "dropCannotWalkBack": true,
+    "routes": [
+        {
+            "id": "north-length",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 28.916667938232423,
+                "y": 0.020000005140900613,
+                "z": 3.5
+            }
+        },
+        {
+            "id": "north-length",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": -28.916667938232423,
+                "y": 0.020000005140900613,
+                "z": 3.5
+            }
+        },
+        {
+            "id": "south-length",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 28.916667938232423,
+                "y": 0.020000005140900613,
+                "z": -3.5
+            }
+        },
+        {
+            "id": "south-length",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": -28.916667938232423,
+                "y": 0.020000005140900613,
+                "z": -3.5
+            }
+        },
+        {
+            "id": "concourse-length",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 27.916667938232423,
+                "y": 0.020000005140900613,
+                "z": 10.5
+            }
+        },
+        {
+            "id": "concourse-length",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": -27.916667938232423,
+                "y": 0.020000005140900613,
+                "z": 10.5
+            }
+        },
+        {
+            "id": "flank-length",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 29.916667938232423,
+                "y": 0.020000005140900613,
+                "z": -7.400000095367432
+            }
+        },
+        {
+            "id": "flank-length",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": -29.916667938232423,
+                "y": 0.020000005140900613,
+                "z": -7.400000095367432
+            }
+        },
+        {
+            "id": "track-crossing--26",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 4,
+            "end": {
+                "x": -26.0,
+                "y": 0.019999980926513673,
+                "z": 3.3333334922790529
+            }
+        },
+        {
+            "id": "track-crossing--26",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 4,
+            "end": {
+                "x": -26.0,
+                "y": 0.019999980926513673,
+                "z": -3.3333334922790529
+            }
+        },
+        {
+            "id": "track-crossing-26",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 4,
+            "end": {
+                "x": 26.0,
+                "y": 0.019999980926513673,
+                "z": 3.3333334922790529
+            }
+        },
+        {
+            "id": "track-crossing-26",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 4,
+            "end": {
+                "x": 26.0,
+                "y": 0.019999980926513673,
+                "z": -3.3333334922790529
+            }
+        },
+        {
+            "id": "glass-entrance-0",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": -31.600000381469728,
+                "y": 3.4108104705810549,
+                "z": 12.40457820892334
+            }
+        },
+        {
+            "id": "glass-entrance-0",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": -31.600000381469728,
+                "y": 0.093292236328125,
+                "z": 4.086939334869385
+            }
+        },
+        {
+            "id": "glass-entrance-1",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": -12.15999984741211,
+                "y": 0.020000005140900613,
+                "z": 7.913269519805908
+            }
+        },
+        {
+            "id": "glass-entrance-1",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": -12.15999984741211,
+                "y": 0.020000005140900613,
+                "z": 3.586730718612671
+            }
+        },
+        {
+            "id": "glass-entrance-2",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 0.800000011920929,
+                "y": 0.020000005140900613,
+                "z": 7.913269519805908
+            }
+        },
+        {
+            "id": "glass-entrance-2",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 0.800000011920929,
+                "y": 0.020000005140900613,
+                "z": 3.586730718612671
+            }
+        },
+        {
+            "id": "glass-entrance-3",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 15.199999809265137,
+                "y": 0.020000005140900613,
+                "z": 7.913269519805908
+            }
+        },
+        {
+            "id": "glass-entrance-3",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 15.199999809265137,
+                "y": 0.020000005140900613,
+                "z": 3.586730718612671
+            }
+        },
+        {
+            "id": "glass-entrance-4",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 31.600000381469728,
+                "y": 3.4108104705810549,
+                "z": 12.40457820892334
+            }
+        },
+        {
+            "id": "glass-entrance-4",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 31.600000381469728,
+                "y": 0.093292236328125,
+                "z": 4.086939334869385
+            }
+        },
+        {
+            "id": "flank-entrance-0",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": -27.360000610351564,
+                "y": 0.020000005140900613,
+                "z": -6.9132466316223148
+            }
+        },
+        {
+            "id": "flank-entrance-0",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": -27.360000610351564,
+                "y": 0.020000005140900613,
+                "z": -3.5867536067962648
+            }
+        },
+        {
+            "id": "flank-entrance-1",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 31.920000076293947,
+                "y": 0.020000005140900613,
+                "z": -6.9132466316223148
+            }
+        },
+        {
+            "id": "flank-entrance-1",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 31.920000076293947,
+                "y": 0.020000005140900613,
+                "z": -3.5867536067962648
+            }
+        },
+        {
+            "id": "fare-gate-passage",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 2.0,
+                "y": 0.020000005140900613,
+                "z": 14.083333015441895
+            }
+        },
+        {
+            "id": "fare-gate-passage",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": 2.0,
+                "y": 0.020000005140900613,
+                "z": 10.616666793823243
+            }
+        },
+        {
+            "id": "ticket-machines-access",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 20.916095733642579,
+                "y": 0.020000005140900613,
+                "z": 13.998834609985352
+            }
+        },
+        {
+            "id": "ticket-machines-access",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 2,
+            "end": {
+                "x": 15.002006530761719,
+                "y": 0.020000005140900613,
+                "z": 10.584300994873047
+            }
+        },
+        {
+            "id": "info-booth-access",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 4,
+            "end": {
+                "x": -7.660024642944336,
+                "y": 0.020000005140900613,
+                "z": 13.901751518249512
+            }
+        },
+        {
+            "id": "info-booth-access",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 4,
+            "end": {
+                "x": -14.99811840057373,
+                "y": 0.020000005140900613,
+                "z": 10.61636734008789
+            }
+        },
+        {
+            "id": "restroom-access",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": -27.5,
+                "y": 0.020000005140900613,
+                "z": 13.93741512298584
+            }
+        },
+        {
+            "id": "restroom-access",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 1,
+            "end": {
+                "x": -27.5,
+                "y": 0.020000005140900613,
+                "z": 10.56258487701416
+            }
+        },
+        {
+            "id": "red-under-gallery-return",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 5,
+            "end": {
+                "x": -27.500835418701173,
+                "y": 0.020000124350190164,
+                "z": 10.56672191619873
+            }
+        },
+        {
+            "id": "red-under-gallery-return",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 5,
+            "end": {
+                "x": -35.9903450012207,
+                "y": 0.020000005140900613,
+                "z": 8.049071311950684
+            }
+        },
+        {
+            "id": "service-west-access",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 3,
+            "end": {
+                "x": -36.49749755859375,
+                "y": 0.020000005140900613,
+                "z": -9.134499549865723
+            }
+        },
+        {
+            "id": "service-west-access",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 3,
+            "end": {
+                "x": -31.099679946899415,
+                "y": 0.020000005140900613,
+                "z": -6.989171981811523
+            }
+        },
+        {
+            "id": "service-east-access",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 3,
+            "end": {
+                "x": 36.497493743896487,
+                "y": 0.020000005140900613,
+                "z": -9.134499549865723
+            }
+        },
+        {
+            "id": "service-east-access",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 3,
+            "end": {
+                "x": 31.099679946899415,
+                "y": 0.020000005140900613,
+                "z": -6.989171981811523
+            }
+        },
+        {
+            "id": "red-upper-return-route",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 6,
+            "end": {
+                "x": -29.085599899291993,
+                "y": 0.019999980926513673,
+                "z": 3.518428325653076
+            }
+        },
+        {
+            "id": "red-upper-return-route",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 6,
+            "end": {
+                "x": -36.00994873046875,
+                "y": 3.4200000762939455,
+                "z": 0.037844061851501468
+            }
+        },
+        {
+            "id": "blue-upper-return-route",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 6,
+            "end": {
+                "x": 29.085599899291993,
+                "y": 0.019999980926513673,
+                "z": 3.518428087234497
+            }
+        },
+        {
+            "id": "blue-upper-return-route",
+            "direction": "reverse",
+            "passed": true,
+            "completedSegments": 6,
+            "end": {
+                "x": 36.00994873046875,
+                "y": 3.4200000762939455,
+                "z": 0.037844061851501468
+            }
+        },
+        {
+            "id": "roof-sniper-access",
+            "direction": "forward",
+            "passed": true,
+            "completedSegments": 5,
+            "end": {
+                "x": -0.08333316445350647,
+                "y": 2.219721794128418,
+                "z": 0.0
+            }
+        }
+    ],
+    "screenshots": [
+        "platform.png",
+        "concourse-view.png",
+        "red-upper-view.png",
+        "ramp-view.png",
+        "alcove-view.png",
+        "ticket-hall.png",
+        "service-annex.png",
+        "fanlight.png"
+    ],
+    "scope": "Packaged standalone map walkthrough: actual Unity CharacterController routes, moving train carry/crush reset, pickup triggers, GPU frames. No original-game combat, bots or multiplayer acceptance."
+}

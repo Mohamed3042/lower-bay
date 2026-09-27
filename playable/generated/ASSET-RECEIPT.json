@@ -1,0 +1,32 @@
+[
+  {
+    "file": "ivory-tile-albedo.png",
+    "bytes": 2563082,
+    "sha256": "eeae995aa5770ccf9d1bc2bdb49a17d33008b76531b2971b5e0ea27d4fe3781a",
+    "consumer": "Entity material.texture, browser preview, Blender scene and Unity importer"
+  },
+  {
+    "file": "concrete-albedo.png",
+    "bytes": 3174647,
+    "sha256": "4a72fdab84a93d9d361eaa748dc181cb297a9b0813670d298cb03f5f4d8ceb0f",
+    "consumer": "Entity material.texture, browser preview, Blender scene and Unity importer"
+  },
+  {
+    "file": "lower-bay-sign.png",
+    "bytes": 2359928,
+    "sha256": "8a1421d0062884f20dec59592a2a0c3e2319b494bc1ab8cd4aa3fd3b8c5930cd",
+    "consumer": "Entity material.texture, browser preview, Blender scene and Unity importer"
+  },
+  {
+    "file": "winter-poster.png",
+    "bytes": 2786108,
+    "sha256": "706dd5a28feda87078a34834c167857ea941982e49e3a8593c1bebd6df1ac921",
+    "consumer": "Entity material.texture, browser preview, Blender scene and Unity importer"
+  },
+  {
+    "file": "train-steel-albedo.png",
+    "bytes": 2696733,
+    "sha256": "f6225671e1fb8237af3b5fba078089672bb595835ac5bf1cad124651f1cfafd4",
+    "consumer": "Entity material.texture, browser preview, Blender scene and Unity importer"
+  }
+]

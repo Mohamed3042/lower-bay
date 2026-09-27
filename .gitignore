@@ -20,3 +20,20 @@ Thumbs.db
 # Heavy intermediate data dumps (not part of the handoff)
 export/preview/*.json
 local_copy_backups/
+
+# Reproducible playable project caches and local binaries.
+playable/unity/Library/
+playable/unity/Logs/
+playable/unity/UserSettings/
+playable/unity/Temp/
+playable/unity/obj/
+playable/unity/Assets/StrikeMapStudio/Maps/
+playable/unity/Assets/StrikeMapStudio/Maps.meta
+playable/unity/Assets/LowerBayBaseline.unity*
+playable/unity/Assets/LowerBayReview/
+playable/unity/Assets/LowerBayReview.meta
+playable/unity/Packages/packages-lock.json
+playable/builds/
+playable/local/
+*.pyc
+__pycache__/

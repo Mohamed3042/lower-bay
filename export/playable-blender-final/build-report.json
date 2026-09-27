@@ -1,0 +1,96 @@
+{
+  "status": "BUILT",
+  "map_id": "lower-bay-reconstruction-v2",
+  "source_map": "../../playable/output/lower-bay.strikemap.json",
+  "source_sha256": "ea785e3fe2a3017365ae63308da9219a1acf377fe95344d93452fece66cec518",
+  "blender": "5.1.2",
+  "entities": 930,
+  "materials": 121,
+  "embedded_textures": [
+    "textures/concrete-albedo.png",
+    "textures/ivory-tile-albedo.png",
+    "textures/train-steel-albedo.png",
+    "textures/lower-bay-sign.png",
+    "textures/winter-poster.png"
+  ],
+  "fixtures": 32,
+  "bounds_map_at_time_zero": {
+    "min": [
+      -66.41250000000001,
+      -1.4999999999999998,
+      -12.362499999999999
+    ],
+    "max": [
+      66.41250000000001,
+      7.6000000000000005,
+      16.3125
+    ]
+  },
+  "coordinate_error_count": 0,
+  "coordinates": "map [x,y,z] -> Blender [x,-z,y]; GLB is numeric map [x,y,z]; native Unity JSON importer owns engine handedness",
+  "dynamics": [
+    {
+      "id": "station-train",
+      "offset_at_zero": 0
+    }
+  ],
+  "dynamic_actors": [
+    {
+      "id": "roof-sniper",
+      "parent": "station-train",
+      "position_map_at_time_zero": [
+        0.0,
+        3.0,
+        -0.0
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "view": "overview",
+      "path": "overview.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1028125,
+      "roof_cutaway": true
+    },
+    {
+      "view": "platform",
+      "path": "platform.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1274079,
+      "roof_cutaway": false
+    },
+    {
+      "view": "red-upper-view",
+      "path": "red-upper-view.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1267036,
+      "roof_cutaway": false
+    },
+    {
+      "view": "alcove-view",
+      "path": "alcove-view.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1340402,
+      "roof_cutaway": false
+    },
+    {
+      "view": "ramp-view",
+      "path": "ramp-view.png",
+      "width": 1280,
+      "height": 720,
+      "bytes": 1268360,
+      "roof_cutaway": false
+    }
+  ],
+  "outputs": {
+    "arena.blend": 14227916,
+    "arena.glb": 15184012
+  },
+  "elapsed_seconds": 153.36,
+  "scope": "Blender construction, render and export; game runtime acceptance remains separate."
+}
